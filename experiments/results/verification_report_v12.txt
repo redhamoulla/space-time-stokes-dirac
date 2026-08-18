@@ -1,0 +1,196 @@
+RECTANGULAR 2012 SPATIAL DATA
+stokes                   = 3.967695e-13
+interconnection_skew     = 3.083063e-13
+output_input_duality     = 7.662846e-14
+feedthrough_skew         = 0.000000e+00
+
+RECTANGULAR-TO-SQUARE DIRAC RECONSTRUCTION
+rectangular_stokes_block         = 5.611249e-13
+recovered_interconnection        = 1.097746e-14
+recovered_input_map              = 7.347475e-16
+recovered_output_map             = 3.255470e-15
+recovered_feedthrough            = 1.110223e-16
+recovered_j_skew                 = 3.077713e-13
+recovered_port_duality           = 7.460606e-14
+recovered_n_skew                 = 1.570092e-16
+left_endpoint_min_singular       = 4.536962e-01
+right_endpoint_min_singular      = 4.536962e-01
+reconstruction_condition         = 1.416378e+01
+
+VOLUME-TO-CAP REDUCTION
+trace_right_inverse      = 1.288849e-14
+volume_form_skew         = 4.766466e-14
+pullback_recovery        = 5.727039e-15
+trace_rank               = 1.600000e+01
+cap_dimension            = 1.600000e+01
+boundary_gauge_dimension = 1.200000e+02
+
+RAW TRACE-GENERATED CELL REALIZATION
+raw_system_residual              = 6.801976e-15
+condensed_map_relative_error     = 1.922669e-16
+section_independence             = 1.047507e-14
+gauge_fixing_map_change          = 1.172956e-16
+alternative_system_residual      = 6.726364e-15
+gauge_multiplier_norm            = 7.754488e-16
+rectangular_generator_recovery   = 1.097746e-14
+raw_system_condition             = 1.531448e+02
+
+CAYLEY CHART ON THE ENERGY-ORTHOGONAL GROUP
+gauge_roundtrip_relative_error       = 6.066881e-13
+map_roundtrip_relative_error         = 1.933973e-16
+recovered_gauge_skew_defect          = 8.415563e-14
+energy_orthogonality_defect          = 2.339540e-15
+exact_flow_reconstruction            = 2.993972e-16
+exact_gauge_skew_defect              = 4.201621e-14
+
+CAYLEY EVALUATION NEAR THE EXCLUDED IDENTITY
+h=1.0e-02: naive_gauge_err=2.359e-10, scaled=1.062, stable_map_err=1.433e-16, stable_skew=0.000e+00
+h=1.0e-04: naive_gauge_err=2.596e-04, scaled=1.169, stable_map_err=1.469e-16, stable_skew=0.000e+00
+h=1.0e-06: naive_gauge_err=2.622e+02, scaled=1.181, stable_map_err=1.545e-16, stable_skew=0.000e+00
+h=1.0e-08: naive_gauge_err=1.311e+08, scaled=0.591, stable_map_err=1.110e-16, stable_skew=0.000e+00
+
+ACTIVE P_s -> P_{s-1} GAUSS CELL CONDENSATION
+s=1, interior=16: stage_res=4.733e-16, Pade=1.771e-16, gauge=1.883e-14, skew=3.698e-14, energy=2.251e-15, cond=1.608
+s=2, interior=32: stage_res=9.869e-16, Pade=2.593e-16, gauge=2.898e-14, skew=5.734e-14, energy=2.580e-15, cond=2.976
+s=3, interior=48: stage_res=1.490e-15, Pade=2.448e-16, gauge=2.313e-14, skew=4.151e-14, energy=2.530e-15, cond=3.660
+s=4, interior=64: stage_res=1.995e-15, Pade=1.348e-15, gauge=4.753e-14, skew=5.754e-14, energy=2.693e-15, cond=3.805
+
+OPEN CELL POWER
+midpoint              : dH=+2.679943177465e-02, h y.u=+2.679943177465e-02, res=5.134781e-16
+mixed_order_2         : dH=+2.674013136710e-02, h y.u=+2.674013136710e-02, res=6.314393e-16
+gauss2_mixed_order_4  : dH=+2.747653684845e-02, h y.u=+2.747653684845e-02, res=2.706169e-16
+
+FOURTH-ORDER MIXED DEFORMATION OF GAUSS-2
+h=0.10000: energy=2.556e-15, comm=7.365e-05, comm_G2=7.721e-17, sympl=3.561e-05, flow_err=8.950e-03, local_order=nan
+h=0.05000: energy=1.505e-15, comm=2.595e-06, comm_G2=6.918e-17, sympl=1.202e-06, flow_err=3.362e-04, local_order=4.734
+h=0.02500: energy=8.248e-16, comm=8.345e-08, comm_G2=6.617e-17, sympl=3.822e-08, flow_err=1.117e-05, local_order=4.912
+h=0.01250: energy=4.622e-16, comm=2.626e-09, comm_G2=6.388e-17, sympl=1.199e-09, flow_err=3.548e-07, local_order=4.976
+
+GAUSS-s MIXED HIERARCHY: GLOBAL CONVERGENCE
+s=1, n= 4, h=0.125000: error=6.398e-01, global_order=nan, energy=2.596e-15, comm=1.078e-02
+s=1, n= 8, h=0.062500: error=2.870e-01, global_order=1.157, energy=1.684e-15, comm=1.816e-03
+s=1, n=16, h=0.031250: error=8.393e-02, global_order=1.774, energy=9.462e-16, comm=2.527e-04
+s=1, n=32, h=0.015625: error=2.179e-02, global_order=1.946, energy=5.571e-16, comm=3.256e-05
+s=2, n= 4, h=0.125000: error=9.816e-02, global_order=nan, energy=3.098e-15, comm=2.047e-04
+s=2, n= 8, h=0.062500: error=8.058e-03, global_order=3.607, energy=1.810e-15, comm=7.747e-06
+s=2, n=16, h=0.031250: error=5.368e-04, global_order=3.908, energy=9.993e-16, comm=2.533e-07
+s=2, n=32, h=0.015625: error=3.407e-05, global_order=3.978, energy=5.397e-16, comm=8.005e-09
+s=3, n= 4, h=0.125000: error=4.462e-03, global_order=nan, energy=3.173e-15, comm=3.249e-06
+s=3, n= 8, h=0.062500: error=8.240e-05, global_order=5.759, energy=1.839e-15, comm=3.033e-08
+s=3, n=16, h=0.031250: error=1.340e-06, global_order=5.942, energy=9.677e-16, comm=2.474e-10
+s=3, n=32, h=0.015625: error=2.115e-08, global_order=5.986, energy=5.270e-16, comm=1.954e-12
+
+UNIQUE ORDER-RAISING GAUGE
+s=1, n= 4: error=9.950e-02, global_order=nan, energy=3.159e-15
+s=1, n= 8: error=8.184e-03, global_order=3.604, energy=1.832e-15
+s=1, n=16: error=5.454e-04, global_order=3.908, energy=9.910e-16
+s=1, n=32: error=3.462e-05, global_order=3.978, energy=5.349e-16
+s=1, n=64: error=2.172e-06, global_order=3.994, energy=3.459e-16
+s=2, n= 4: error=1.335e-02, global_order=nan, energy=3.267e-15
+s=2, n= 8: error=2.689e-04, global_order=5.633, energy=1.845e-15
+s=2, n=16: error=4.466e-06, global_order=5.912, energy=1.011e-15
+s=2, n=32: error=7.084e-08, global_order=5.978, energy=5.342e-16
+s=2, n=64: error=1.111e-09, global_order=5.995, energy=3.697e-16
+s=3, n= 4: error=1.027e-03, global_order=nan, energy=3.132e-15
+s=3, n= 8: error=4.985e-06, global_order=7.686, energy=1.891e-15
+s=3, n=16: error=2.053e-08, global_order=7.924, energy=1.009e-15
+s=3, n=32: error=8.123e-11, global_order=7.981, energy=6.123e-16
+s=3, n=64: error=3.189e-13, global_order=7.993, energy=4.143e-16
+s=1 raised map vs Gauss-2 = 2.416e-16
+
+DIRECT LOCAL COEFFICIENT d_s
+s=1, h=0.100: pred=-1.388888888889e-03, est=-1.381127641455e-03, component_rel=5.588e-03, full_rel=9.993e-02
+s=1, h=0.050: pred=-1.388888888889e-03, est=-1.386946717860e-03, component_rel=1.398e-03, full_rel=4.999e-02
+s=1, h=0.025: pred=-1.388888888889e-03, est=-1.388403229889e-03, component_rel=3.497e-04, full_rel=2.500e-02
+s=2, h=0.100: pred=-3.306878306878e-05, est=-3.288438750151e-05, component_rel=5.576e-03, full_rel=9.993e-02
+s=2, h=0.050: pred=-3.306878306878e-05, est=-3.302263947057e-05, component_rel=1.395e-03, full_rel=4.999e-02
+s=2, h=0.025: pred=-3.306878306878e-05, est=-3.305724437344e-05, component_rel=3.489e-04, full_rel=2.500e-02
+s=3, h=0.100: pred=-4.409171075838e-07, est=-4.384925527004e-07, component_rel=5.499e-03, full_rel=9.993e-02
+s=3, h=0.050: pred=-4.409171075838e-07, est=-4.403104074922e-07, component_rel=1.376e-03, full_rel=4.999e-02
+s=3, h=0.025: pred=-4.409171075838e-07, est=-4.407653974558e-07, component_rel=3.441e-04, full_rel=2.500e-02
+
+DECIMAL s=3 NONCOMMUTATION AT FINE STEPS
+h=0.050000: comm=4.044e-11, exponent=nan, leading_rel=8.436e-02
+h=0.025000: comm=7.901e-14, exponent=8.99967, leading_rel=4.223e-02
+h=0.012500: comm=1.543e-16, exponent=8.99992, leading_rel=2.112e-02
+h=0.006250: comm=3.014e-19, exponent=8.99998, leading_rel=1.056e-02
+
+REDUCED RATIONAL HIERARCHY
+c3_coordinate_denominator                  = 1.110223024625e-16
+pi31_at_coordinate_pole_error              = 4.440892098501e-16
+continued_map_at_coordinate_pole_error     = 1.776356839400e-16
+left_half_plane_pole                       = -1.012751490652e+01
+left_pole_denominator_residual             = 1.776356839400e-14
+left_pole_numerator_magnitude              = 1.012751490652e+01
+imaginary_axis_unit_modulus_defect         = 4.440892098501e-16
+
+EXACT COEFFICIENT-SIGN EVIDENCE
+tested_coefficients                        = 1.560000000000e+02
+sign_failures                              = 0.000000000000e+00
+alpha_3_2_relative_error                   = 0.000000000000e+00
+alpha_4_3_relative_error                   = 0.000000000000e+00
+
+MINIMAL ALTERNATING INTERIOR SCHUR GENERATION
+full_generator_skew_defect                 = 0.000000000000e+00
+effective_gauge_error                      = 8.019118236300e-16
+eliminated_response_error                  = 1.831026719409e-15
+target_change_rank                         = 4.000000000000e+00
+interior_dimension                         = 4.000000000000e+00
+
+POSITIVE STIELTJES INTERIOR GENERATION
+gauss3_stieltjes_realization_error         = 1.387778780781e-17
+gauss3_coordinate_generation_error         = 8.881784197001e-16
+gauss3_weight                              = 8.333333333333e-02
+gauss3_spectral_point                      = 1.666666666667e-02
+corrected_21_shifted_value_at_u61          = -1.388888888889e-03
+corrected_21_zero_at_u60                   = 0.000000000000e+00
+
+TWO-TERM HIGH-ORDER NONCOMMUTING HIERARCHY
+s=1, n= 4: error=9.816e-02, global_order=nan, energy=3.111e-15, comm=2.047e-04
+s=1, n= 8: error=8.058e-03, global_order=3.607, energy=1.814e-15, comm=7.747e-06
+s=1, n=16: error=5.368e-04, global_order=3.908, energy=9.958e-16, comm=2.533e-07
+s=1, n=32: error=3.407e-05, global_order=3.978, energy=5.398e-16, comm=8.005e-09
+s=1, n=64: error=2.137e-06, global_order=3.994, energy=3.555e-16, comm=2.508e-10
+s=2, n= 4: error=1.333e-02, global_order=nan, energy=3.150e-15, comm=3.245e-06
+s=2, n= 8: error=2.685e-04, global_order=5.633, energy=1.803e-15, comm=3.032e-08
+s=2, n=16: error=4.458e-06, global_order=5.912, energy=9.702e-16, comm=2.474e-10
+s=2, n=32: error=7.071e-08, global_order=5.978, energy=5.673e-16, comm=1.954e-12
+s=2, n=64: error=1.109e-09, global_order=5.995, energy=3.910e-16, comm=1.531e-14
+s=3, n= 4: error=1.026e-03, global_order=nan, energy=3.061e-15, comm=5.080e-08
+s=3, n= 8: error=4.983e-06, global_order=7.686, energy=1.820e-15, comm=1.185e-10
+s=3, n=16: error=2.052e-08, global_order=7.924, energy=9.846e-16, comm=2.416e-13
+s=3, n=32: error=8.120e-11, global_order=7.981, energy=5.732e-16, comm=4.827e-16
+s=3, n=64: error=3.188e-13, global_order=7.993, energy=4.190e-16, comm=5.933e-17
+
+SECOND CENTRAL CORRECTOR
+s=1, n= 4: error=1.335e-02, global_order=nan, energy=3.167e-15
+s=1, n= 8: error=2.689e-04, global_order=5.633, energy=1.870e-15
+s=1, n=16: error=4.466e-06, global_order=5.912, energy=1.012e-15
+s=1, n=32: error=7.084e-08, global_order=5.978, energy=5.335e-16
+s=1, n=64: error=1.111e-09, global_order=5.995, energy=3.697e-16
+s=2, n= 4: error=1.841e-03, global_order=nan, energy=3.168e-15
+s=2, n= 8: error=9.249e-06, global_order=7.637, energy=1.829e-15
+s=2, n=16: error=3.838e-08, global_order=7.913, energy=9.904e-16
+s=2, n=32: error=1.522e-10, global_order=7.978, energy=5.820e-16
+s=2, n=64: error=5.972e-13, global_order=7.994, energy=5.478e-16
+
+ONE-PARAMETER DISPERSION DESIGN
+selected_alpha_at_h=1/80 = 5.736010432047e+01
+h=0.05000: Gauss=3.605e-04, selected=1.143e-04, reduction=68.28%, cond_G=1.202, cond_sel=1.202
+h=0.10000: Gauss=4.864e-03, selected=1.875e-03, reduction=61.45%, cond_G=1.448, cond_sel=1.443
+h=0.15000: Gauss=1.845e-02, selected=9.589e-03, reduction=48.03%, cond_G=1.861, cond_sel=1.941
+
+INTRINSIC GAUGE NORMALIZATION
+original_intrinsic_norm          = 2.432419919888e+00
+transformed_intrinsic_norm       = 2.432419919888e+00
+relative_norm_difference         = 0.000000000000e+00
+
+TWO GLUED CELLS WITH DISSIPATION
+linear_solve_residual    = +5.058979816140e-16
+interface_power          = +3.330669073875e-16
+energy_increment         = +2.759217233278e-02
+external_energy          = +3.291769514208e-02
+dissipated_energy        = +5.325522809300e-03
+balance_residual         = +1.776356839400e-15
+
+ALL 28 ASSERTION GROUPS PASSED

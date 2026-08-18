@@ -1,0 +1,29 @@
+name: Validation
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  numerical-verification:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Run the 28 assertion groups
+        run: python experiments/verify_transmission_line_v12.py
+
+  manuscript-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile the manuscript
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: manuscript/moulla_2026_space_time_stokes_dirac.tex
+

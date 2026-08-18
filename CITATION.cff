@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper below."
+title: "Space-Time Stokes-Dirac Discretization"
+type: software
+version: "12"
+date-released: 2026-08-18
+repository-code: "https://github.com/redhamoulla/space-time-stokes-dirac"
+authors:
+  - family-names: Moulla
+    given-names: Redha
+    email: redha.moulla@axia-conseil.com
+preferred-citation:
+  type: article
+  title: "Space-Time Stokes-Dirac Discretization: Affine Pairing Gauges, Constitutive Cayley Coordinates, and Active Interior Reduction"
+  authors:
+    - family-names: Moulla
+      given-names: Redha
+  year: 2026
+
