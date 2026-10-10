@@ -22,6 +22,14 @@ The paper develops a finite-dimensional theory of the freedom left by a discrete
 
 The distinction between algebraic generation, passive realization, and selection by independently prescribed field dynamics is maintained throughout.
 
+## Nonlinear and dissipative extension
+
+The [active-stage PH extension](manuscript/active-stage-ph-extension.md) develops the temporal gauges while retaining the interior efforts needed for nonlinear constitutive laws and dissipation. It is one continuous research document containing the assumptions, proofs, numerical evidence, limitations and references.
+
+Its common-stage gauge recovers exactly the version-12 mixed cap map for quadratic conservative systems. The extension proves a port power law for nonlinear PH systems, identifies the temporal dissipation variance lost by a single-effort compression, and retains the base temporal order under a stated gauge scaling. The projected-gradient integrator at zero gauge is attributed to existing work; no general novelty or PDE convergence claim is inferred from the numerical tests.
+
+The implementation, independent algebra checks and transmission-line experiments are in `experiments/ph_gauges.py`, `experiments/verify_stage_geometry.py` and `experiments/validate_ph_extension.py`. The original version-12 manuscript and verifier remain the reference for the conservative cap construction.
+
 ## Repository layout
 
 ```text
@@ -29,9 +37,14 @@ The distinction between algebraic generation, passive realization, and selection
 ├── manuscript/
 │   ├── moulla_2026_space_time_stokes_dirac.tex
 │   ├── moulla_2026_space_time_stokes_dirac.pdf
+│   ├── active-stage-ph-extension.md
 │   └── README.md
 ├── experiments/
 │   ├── verify_transmission_line_v12.py
+│   ├── ph_gauges.py
+│   ├── verify_stage_geometry.py
+│   ├── validate_ph_extension.py
+│   ├── figures/
 │   ├── README.md
 │   └── results/
 │       └── verification_report_v12.txt
@@ -70,6 +83,20 @@ ALL 28 ASSERTION GROUPS PASSED
 
 The archived reference output is available in [`experiments/results`](experiments/results/verification_report_v12.txt). See [the reproducibility notes](docs/reproducibility.md) for the scope of each check.
 
+To run the original checks and the extension together:
+
+```bash
+make verify
+```
+
+To run only the extension:
+
+```bash
+make verify-extension
+```
+
+The extension writes its numerical evidence to `experiments/results/` and its figures to `experiments/figures/`. Reference-solution errors, power residuals and expected counterexamples are reported separately.
+
 ## Build the manuscript
 
 A standard TeX Live installation with `latexmk` is sufficient:
@@ -87,4 +114,5 @@ Citation metadata are provided in [`CITATION.cff`](CITATION.cff). GitHub can exp
 ## License
 
 Copyright © 2026 Redha Moulla. All rights reserved. No reuse license has been granted yet; see [`LICENSE`](LICENSE).
+
 

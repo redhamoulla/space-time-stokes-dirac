@@ -1,7 +1,14 @@
-.PHONY: verify paper clean
+.PHONY: verify verify-original verify-extension paper clean
 
-verify:
+verify: verify-original verify-extension
+
+verify-original:
 	python experiments/verify_transmission_line_v12.py
+
+verify-extension:
+	python experiments/ph_gauges.py
+	python experiments/verify_stage_geometry.py
+	python experiments/validate_ph_extension.py
 
 paper:
 	mkdir -p build
@@ -10,4 +17,5 @@ paper:
 
 clean:
 	latexmk -C -outdir=build manuscript/moulla_2026_space_time_stokes_dirac.tex
+
 
