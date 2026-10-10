@@ -1,0 +1,108 @@
+{
+  "all_passed": true,
+  "check_count": 14,
+  "checks": [
+    {
+      "check": "nonlinear_common_gauge_reversal",
+      "value": 1.0796169701996884e-15,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "check": "quartic_energy_exactness",
+      "value": 2.6645352591003757e-15,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "check": "power_certificate_closure",
+      "value": 1.7784334000560637e-18,
+      "tolerance": 2e-13,
+      "passed": true
+    },
+    {
+      "check": "analytic_and_numerical_newton_endpoints",
+      "value": 5.551115123125783e-17,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "check": "analytic_and_numerical_newton_stages",
+      "value": 5.244261588236206e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "nonalternating_gauge_rejected",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nonorthogonal_covariance_endpoint",
+      "value": 1.2412670766236366e-16,
+      "tolerance": 3e-12,
+      "passed": true
+    },
+    {
+      "check": "nonorthogonal_covariance_stage_flow",
+      "value": 5.324442579404919e-16,
+      "tolerance": 3e-11,
+      "passed": true
+    },
+    {
+      "check": "nonorthogonal_covariance_stage_effort",
+      "value": 2.2887833992611187e-16,
+      "tolerance": 3e-11,
+      "passed": true
+    },
+    {
+      "check": "nonorthogonal_covariance_port_output",
+      "value": 4.996003610813204e-16,
+      "tolerance": 3e-11,
+      "passed": true
+    },
+    {
+      "check": "nonorthogonal_covariance_power",
+      "value": 3.469446951953614e-18,
+      "tolerance": 3e-12,
+      "passed": true
+    },
+    {
+      "check": "v12_mixed_cap_bridge_s1",
+      "value": 4.0245584642661925e-16,
+      "tolerance": 4e-12,
+      "passed": true
+    },
+    {
+      "check": "v12_mixed_cap_bridge_s2",
+      "value": 3.95516952522712e-16,
+      "tolerance": 4e-12,
+      "passed": true
+    },
+    {
+      "check": "v12_mixed_cap_bridge_s3",
+      "value": 2.636779683484747e-16,
+      "tolerance": 4e-12,
+      "passed": true
+    }
+  ],
+  "cap_bridge": [
+    {
+      "stages": 1,
+      "step": 0.3,
+      "map_error": 4.0245584642661925e-16
+    },
+    {
+      "stages": 2,
+      "step": 0.3,
+      "map_error": 3.95516952522712e-16
+    },
+    {
+      "stages": 3,
+      "step": 0.3,
+      "map_error": 2.636779683484747e-16
+    }
+  ],
+  "noncommuting_theta_generator_norm": 3.2325391518058
+}

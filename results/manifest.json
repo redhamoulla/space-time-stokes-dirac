@@ -1,0 +1,24 @@
+{
+  "environment": {
+    "python": "3.9.13 (main, Aug 25 2022, 18:29:29) \n[Clang 12.0.0 ]",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "platform": "macOS-26.6.2-x86_64-i386-64bit",
+    "float": "float64"
+  },
+  "command": "make verify-extension",
+  "original_report": "verification_report_v12.txt is the archived version-12 report",
+  "sha256": {
+    "experiments/ph_gauges.py": "3a442693c990163b6f824c32deff8c00df03f702ebebefe44c35c6099b5e6afa",
+    "experiments/verify_stage_geometry.py": "103786874a38e7bef113c4d7cde69ab9bd06fe72df2caa0417132fb4b13fee64",
+    "experiments/validate_ph_extension.py": "8e8e464229e466ef4e81b18a65b7eaeaeda7eacc4e2bb0d2b43c3f0d62ee8288",
+    "experiments/verify_transmission_line_v12.py": "8d7703717f3beafed934ff545660dbaf526a92eb83adf937f45a75d1810241c7",
+    "results/figures/ph_extension_open_damped.svg": "1707d499f7a0e829e9c9783d7caffbabf3700badd6eb4f07b095a2c04404dbab",
+    "results/figures/ph_extension_order.svg": "e304fb05ca20ec776b4f4c9e40787956564eee301d39f2a3c34ca4217169a7e7",
+    "results/ph_extension_validation.json": "6cfe817bfa11afa4dce3267f7b04f7e6cf338b9a22ff1e6bdf852ffd8f329247",
+    "results/ph_gauges_selfcheck.json": "a8e8da842ace134e8042f3482870368888365c049652f51153624a683a2e0ee1",
+    "results/stage_geometry_validation.json": "e286e86e344049354c0be6df589a78a06c7978a3b83cbdb67ae357f5a9c280ee",
+    "results/tables/ph_extension_validation.csv": "d595b4d782773f07c3ef2b2697e7afd0dfed9e1743aeaa5d851d93cf3cfffc3d",
+    "results/verification_report_v12.txt": "f6c0e65e37d814e434b7bc82375c76cc1556c68ca6ebaaa7de87de43b51abc0a"
+  }
+}
