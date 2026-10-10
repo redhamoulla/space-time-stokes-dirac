@@ -433,7 +433,7 @@ homogeneous direction, it fits into the short exact sequence
 
 ```math
 
- 0\longrightarrow \operatorname{Bil}(E,F/I;\mathbb{R})
+ 0\longrightarrow \mathop{\mathrm{Bil}}\nolimits(E,F/I;\mathbb{R})
  \longrightarrow\mathcal H
  \longrightarrow\Lambda^2(E/K)^*
  \longrightarrow0.
@@ -543,8 +543,8 @@ For <i>α</i> ∈ Ω<sup><i>k</i></sup>(<i>Z</i>) and
 
  \int_Z \,\mathrm{d}\alpha\wedge\beta
  +(-1)^k\int_Z\alpha\wedge\,\mathrm{d}\beta
- =\int_{\partial Z}\operatorname{tr}\alpha\wedge
-                   \operatorname{tr}\beta.
+ =\int_{\partial Z}\mathop{\mathrm{tr}}\nolimits\alpha\wedge
+                   \mathop{\mathrm{tr}}\nolimits\beta.
 ```
 
 The right-hand side splits according to
@@ -842,7 +842,7 @@ freedom is instead exactly
 
 ```math
 
- \boxed{\quad \operatorname{Bil}(U_q,V_q;\mathbb R)
+ \boxed{\quad \mathop{\mathrm{Bil}}\nolimits(U_q,V_q;\mathbb R)
        \simeq U_q^*\otimes V_q^*.\quad}
 ```
 
@@ -1015,7 +1015,7 @@ Consequently
 
 ```math
 
- r_\mathrm{st}:=\operatorname{rank}D_\mathrm{st}
+ r_\mathrm{st}:=\mathop{\mathrm{rank}}\nolimitsD_\mathrm{st}
  =n_tn_x-k_tk_x.
 ```
 
@@ -1146,7 +1146,7 @@ Accordingly,
  \simeq
  \bigoplus_{a\in\{t,x,tx\}}\Lambda^2Q_a^*
  \;\oplus\!
- \bigoplus_{a<b}Q_a^*\otimes Q_b^*.
+ \bigoplus_{a\lt b}Q_a^*\otimes Q_b^*.
 ```
 
 The summands contain pure temporal, pure spatial, mixed, and cross-sector
@@ -1254,8 +1254,8 @@ where
 Put
 
 ```math
-W_h=\operatorname{im}L_h,\qquad
- K_{\partial,h}=\ker L_h,\qquad r_h=\operatorname{rank}L_h.
+W_h=\mathop{\mathrm{im}}\nolimitsL_h,\qquad
+ K_{\partial,h}=\ker L_h,\qquad r_h=\mathop{\mathrm{rank}}\nolimitsL_h.
 ```
 
 Then
@@ -1265,7 +1265,7 @@ Then
 
 ```math
 
- \operatorname{im}\mathcal R_{L_h}
+ \mathop{\mathrm{im}}\nolimits\mathcal R_{L_h}
  =
  \left\{\eta\in\Lambda^2Q_\partial^*:
  \iota_k\eta=0\ \text{for every }k\in K_{\partial,h}\right\}
@@ -1308,7 +1308,7 @@ Consequently,
 
 ```math
 \begin{aligned}
-\dim\operatorname{im}\mathcal R_{L_h}
+\dim\mathop{\mathrm{im}}\nolimits\mathcal R_{L_h}
  &=\frac{r_h(r_h-1)}2,\\
  \dim\ker\mathcal R_{L_h}
  &=\binom{\dim Q_\mathrm{st}}2-\binom{r_h}2.
@@ -1400,7 +1400,7 @@ canonical mixed family has dimension
 
 ```math
 
- \dim\operatorname{im}(\mathcal R_{L_h}\circ\pi_{tx}^*)
+ \dim\mathop{\mathrm{im}}\nolimits(\mathcal R_{L_h}\circ\pi_{tx}^*)
  =\binom{r_{tx,h}}2.
 ```
 
@@ -1419,7 +1419,7 @@ pullback is nonzero if and only if
 
 ```math
 
- \operatorname{rank}(\pi_{tx}L_h)\ge2.
+ \mathop{\mathrm{rank}}\nolimits(\pi_{tx}L_h)\ge2.
 ```
 
 A prescribed nonzero mixed form may nevertheless belong to the kernel.
@@ -2125,7 +2125,7 @@ Under the hypotheses of [Theorem 5.3](#v12-thm-gauge-cayley-chart), the bijectio
 [Equation (69)](#v12-eq-gauge-cayley-bijection) restricts to
 
 ```math
-\mathcal{L}\cap\operatorname{dom}\Phi_h
+\mathcal{L}\cap\mathop{\mathrm{dom}}\nolimits\Phi_h
  \longleftrightarrow
  \left\{M\in O(Q)\cap Sp(\Omega):M-I\text{ invertible}\right\}.
 ```
@@ -2204,7 +2204,7 @@ then
 
 ```math
 
- \mathcal{L}=\operatorname{span}\{\Omega,\Omega A^2,\ldots,\Omega A^{2m-2}\},
+ \mathcal{L}=\mathop{\mathrm{span}}\nolimits\{\Omega,\Omega A^2,\ldots,\Omega A^{2m-2}\},
  \qquad \dim\mathcal{L}=m.
 ```
 
@@ -2259,7 +2259,7 @@ $`J_2=\left[\begin{smallmatrix}0&1\\-1&0\end{smallmatrix}\right]`$, and
 <i>ω</i><sub>1</sub> ≠ <i>ω</i><sub>2</sub>&gt;0. Then
 
 ```math
-\mathcal{L}=\left\{\operatorname{diag}(\sigma_1J_2,\sigma_2J_2):
+\mathcal{L}=\left\{\mathop{\mathrm{diag}}\nolimits(\sigma_1J_2,\sigma_2J_2):
  \sigma_1,\sigma_2\in\mathbb{R}\right\}.
 ```
 
@@ -2287,7 +2287,7 @@ If <i>K</i> has <i>N</i> distinct eigenvalues, then the state dimension is
 
 ```math
 \dim\mathcal{L}=N,\qquad
- \mathcal{L}=\operatorname{span}\{\Omega,\Omega A^2,\ldots,\Omega A^{2N-2}\}.
+ \mathcal{L}=\mathop{\mathrm{span}}\nolimits\{\Omega,\Omega A^2,\ldots,\Omega A^{2N-2}\}.
 ```
 
 If eigenvalues are repeated, the locus can be larger and its dimension is
@@ -2328,7 +2328,7 @@ For a fixed pair <i>x</i><sub>0</sub> ≠ <i>x</i><sub>1</sub>, if <i>g</i><sub>
 then every compatible covector is
 
 ```math
-g_0+r,\qquad r\in\operatorname{Ann}(\Delta x)
+g_0+r,\qquad r\in\mathop{\mathrm{Ann}}\nolimits(\Delta x)
  =\{r\in V^*:r[\Delta x]=0\}.
 ```
 
@@ -2354,7 +2354,7 @@ The average vector field (AVF) discrete gradient is
 
 ```math
 
- \bar\nabla_{\operatorname{AVF}}H(x_0,x_1)
+ \bar\nabla_{\mathop{\mathrm{AVF}}\nolimits}H(x_0,x_1)
  =\int_0^1\,\mathrm{d} H(x_0+\tau\Delta x)\,\,\mathrm{d}\tau.
 ```
 
@@ -2621,7 +2621,7 @@ polynomials ℓ<sub><i>j</i></sub>, and set
 
  a_{ij}=\int_0^{c_i}\ell_j(\tau)\,\,\mathrm{d}\tau,\qquad
  b_j=\int_0^1\ell_j(\tau)\,\,\mathrm{d}\tau,\qquad
- B=\operatorname{diag}(b).
+ B=\mathop{\mathrm{diag}}\nolimits(b).
 ```
 
 Local diagonal stage pairing is <i>P</i>=<i>B</i>. The compatibility equations then
@@ -3254,7 +3254,7 @@ Consider the first-order wave system on a spatial nodal grid.  Let
 ```math
 
  W_xD_x+D_x^\top W_x=B_x,
- \qquad B_x=\operatorname{diag}(-1,0,\ldots,0,1).
+ \qquad B_x=\mathop{\mathrm{diag}}\nolimits(-1,0,\ldots,0,1).
 ```
 
 For <i>x</i>=(<i>q</i>,<i>p</i>), set
@@ -3264,7 +3264,7 @@ For <i>x</i>=(<i>q</i>,<i>p</i>), set
 
 ```math
 
- Q_h=\operatorname{diag}(W_x,W_x),\qquad
+ Q_h=\mathop{\mathrm{diag}}\nolimits(W_x,W_x),\qquad
  \mathcal J_h=
  \begin{bmatrix}
  0&D_xW_x^{-1}\\ D_xW_x^{-1}&0
@@ -3642,7 +3642,7 @@ column-rank matrix <i>U</i> ∈ ℝ<sup><i>n</i> × 2<i>q</i></sup> such that
 ```math
 \Delta=U\mathbb J_qU^\top,
  \qquad
- \mathbb J_q=\operatorname{diag}\!\left(
+ \mathbb J_q=\mathop{\mathrm{diag}}\nolimits\!\left(
  \begin{bmatrix}0&1\\-1&0\end{bmatrix},\ldots,
  \begin{bmatrix}0&1\\-1&0\end{bmatrix}\right).
 ```
@@ -3663,7 +3663,7 @@ every such elimination satisfies
 ```math
 \Delta=BK^{-1}B^\top,
  \qquad
- \operatorname{rank}\Delta\le\dim W.
+ \mathop{\mathrm{rank}}\nolimits\Delta\le\dim W.
 ```
 
 Thus no smaller interior space can generate a rank-2<i>q</i> change.
@@ -3693,7 +3693,7 @@ The rectangular maps entering [Theorem 9.2](#v12-thm-rectangular-stokes-dirac) a
 
 ```math
 
- \mathcal M_N^*=\operatorname{diag}(M_N^\top,M_N^\top),\qquad
+ \mathcal M_N^*=\mathop{\mathrm{diag}}\nolimits(M_N^\top,M_N^\top),\qquad
  \mathcal K_N=
  \begin{bmatrix}0&-D_N\\-D_N&0\end{bmatrix},
 ```
@@ -4411,7 +4411,7 @@ polynomial factors.  It has the following properties.
   |R_{s,r}(i\xi)|=1,
   \qquad
   \arg R_{s,r}(i\xi)
-  =2\operatorname{atan2}\!\left(
+  =2\mathop{\mathrm{atan2}}\nolimits\!\left(
     \Im\Pi_{s,r}(i\xi),\Re\Pi_{s,r}(i\xi)
    \right)\pmod{2\pi}.
 ```
@@ -4427,7 +4427,7 @@ polynomial factors.  It has the following properties.
 ```math
 
   \arg R_{s,r}(i\xi)
-  =2\operatorname{atan2}\!\left(\xi,2C_{s,r}(i\xi)\right)
+  =2\mathop{\mathrm{atan2}}\nolimits\!\left(\xi,2C_{s,r}(i\xi)\right)
   \quad\pmod{2\pi}.
 ```
 
@@ -4646,7 +4646,7 @@ There exist <i>a</i><sub><i>s</i></sub> ≥ 0, positive numbers
 <i>w</i><sub><i>s</i>,<i>k</i></sub>,<i>λ</i><sub><i>s</i>,<i>k</i></sub>&gt;0, 1 ≤ <i>k</i> ≤ <i>q</i><sub><i>s</i></sub>, and hence
 
 ```math
-L_s=\operatorname{diag}(\lambda_{s,1},\ldots,\lambda_{s,q_s})\succ0,
+L_s=\mathop{\mathrm{diag}}\nolimits(\lambda_{s,1},\ldots,\lambda_{s,q_s})\succ0,
  \qquad
  b_s=(\sqrt{w_{s,1}},\ldots,\sqrt{w_{s,q_s}})^\top,
 ```
@@ -5281,7 +5281,7 @@ on the following fully specified four-dimensional Hamiltonian test:
  \begin{bmatrix}
  0&1&0&0\\-1&0&0&0\\0&0&0&1\\0&0&-1&0
  \end{bmatrix},\qquad
- Q=\operatorname{diag}(1,2,3,5),\qquad
+ Q=\mathop{\mathrm{diag}}\nolimits(1,2,3,5),\qquad
  A=\mathcal JQ,
  \qquad
  \Xi=
@@ -5446,8 +5446,8 @@ We verify the identities in double precision on the two-mode system of
 [Example 6.6](#v12-ex-two-modes), with
 
 ```math
-Q=\operatorname{diag}(I_2,2I_2),\qquad
- S_{\mathrm{in}}=\operatorname{diag}(0.3J_2,-0.2J_2),\qquad
+Q=\mathop{\mathrm{diag}}\nolimits(I_2,2I_2),\qquad
+ S_{\mathrm{in}}=\mathop{\mathrm{diag}}\nolimits(0.3J_2,-0.2J_2),\qquad
  S_{\mathrm{out}}=
  \begin{bmatrix}0&I_2\\-I_2&0\end{bmatrix}.
 ```
@@ -6101,8 +6101,8 @@ For constant <i>R</i>, the stage mean $`\bar E=\sum_i b_iE_i`$ satisfies
 The discarded variance has matrix
 
 ```math
-V=(\operatorname{diag}(b)-bb^\top)\otimes R,
-\qquad \operatorname{rank}V=(s-1)\operatorname{rank}R.
+V=(\mathop{\mathrm{diag}}\nolimits(b)-bb^\top)\otimes R,
+\qquad \mathop{\mathrm{rank}}\nolimitsV=(s-1)\mathop{\mathrm{rank}}\nolimitsR.
 ```
 
 **Proof.** Expand the right-hand side and use $`\sum_i b_i=1`$. The temporal matrix is congruent to $`I-\sqrt b\,\sqrt b^\top`$, a rank-(<i>s</i>−1) orthogonal projector. The rank formula follows from the Kronecker product. ∎
@@ -6136,8 +6136,8 @@ f=Z_{\rm eff}g,\qquad Z_{\rm eff}=T^{-1}Z.
 ### Proposition T6 — Dissipative congruence
 
 ```math
-\operatorname{sym}Z_{\rm eff}
-=T^{-1}\operatorname{sym}Z\,T^{-\top}
+\mathop{\mathrm{sym}}\nolimitsZ_{\rm eff}
+=T^{-1}\mathop{\mathrm{sym}}\nolimitsZ\,T^{-\top}
 =-T^{-1}
 \begin{bmatrix}\mathcal R&0\\0&0\end{bmatrix}
 T^{-\top}\preceq0.
