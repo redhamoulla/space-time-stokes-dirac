@@ -524,7 +524,7 @@ def selfcheck():
               "cap_bridge": cap_results,
               "noncommuting_theta_generator_norm": float(np.linalg.norm(
                   theta@generator-generator@theta))}
-    destination = Path(__file__).resolve().parent / "results" / "ph_gauges_selfcheck.json"
+    destination = Path(__file__).resolve().parents[1] / "results" / "ph_gauges_selfcheck.json"
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(json.dumps(report, indent=2, allow_nan=False) + "\n", encoding="utf-8")
     print("PH gauge engine: {} checks passed; results/{}".format(len(records), destination.name))

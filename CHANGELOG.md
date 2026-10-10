@@ -1,5 +1,13 @@
 # Changelog
 
+## Unified GitHub manuscript — 2026-10-10
+
+- The complete version-12 theory and the active-stage extension are presented in one English `docs/manuscript.md`, with a linked table of contents, proofs, equations, numerical evidence and references.
+- A concise README, a scientific overview and vector SVG figures follow the presentation of the companion spatial-discretization and wavelet-clustering repositories.
+- Numerical evidence is grouped in `results/`, with CSV tables, SVG figures and a source/result hash manifest; reproduction commands write to these paths.
+- The original LaTeX source is retained under `archive/version-12/`. The PDF and superseded split documentation are removed from the current tree and remain available in Git history.
+- CI validates the executable experiments without requiring a PDF build.
+
 ## Active-stage PH extension — 2026-10-10
 
 - A single research document extends the gauge framework to active temporal efforts, nonlinear Hamiltonians and dissipative/open PH systems.

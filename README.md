@@ -1,118 +1,68 @@
-# Space-Time Stokes-Dirac Discretization
+# Space-Time Stokes–Dirac Discretization
 
 [![Validation](https://github.com/redhamoulla/space-time-stokes-dirac/actions/workflows/validate.yml/badge.svg)](https://github.com/redhamoulla/space-time-stokes-dirac/actions/workflows/validate.yml)
 
-This repository contains the manuscript and reproducibility package for:
+**Geometric discretization of port-Hamiltonian systems in space and time.**  
+Redha Moulla · 2026
 
-> **Space-Time Stokes-Dirac Discretization: Affine Pairing Gauges, Constitutive Cayley Coordinates, and Active Interior Reduction**  
-> Redha Moulla, AXIA, France (2026)
+This research repository connects the 2012 geometric spatial discretization to a temporal construction based on Stokes–Dirac pairing gauges and active polynomial stages. The construction covers conservative quadratic systems and extends to nonlinear systems with boundary inputs and dissipation.
 
-The paper develops a finite-dimensional theory of the freedom left by a discrete Stokes identity and follows that freedom through space-time reduction, constitutive closure, symplecticity, order conditions, and interior realization.
+**[Read the manuscript →](docs/manuscript.md)** — one continuous article with the theory, proofs, simulations, limitations and references, rendered directly on GitHub.
 
-## Main results
+![Spatial Stokes discretization, active temporal stages and port-Hamiltonian closure produce a discrete balance of stored energy, boundary work and dissipation.](docs/assets/overview.svg)
 
-- Compatible pairings for a possibly nonsurjective differential form an affine family over an alternating quotient space.
-- Temporal, spatial, and genuinely mixed gauges are separated on the discrete cylinder.
-- Cap gauges become shifted Cayley coordinates for quadratic Hamiltonian systems, with an explicit symplectic locus and defect identity.
-- Active polynomial time cells generate Gauss-Legendre/Padé cap maps by interior elimination.
-- A rectangular Stokes theorem reconstructs an open Dirac representation for the 2012 transmission-line discretization.
-- Mixed cylinder gauges yield reversible, exactly power-preserving deformations and a recursive higher-order hierarchy.
-- Every rank-`2q` alternating cap deformation has a minimal `2q`-dimensional auxiliary Schur generator.
-- Gauss coordinates admit finite positive Padé-Stieltjes/Jacobi realizations; the corrected hierarchy has an explicit positivity obstruction.
+## What the construction preserves
 
-The distinction between algebraic generation, passive realization, and selection by independently prescribed field dynamics is maintained throughout.
+The active temporal efforts satisfy the discrete power balance
 
-## Nonlinear and dissipative extension
-
-The [active-stage PH extension](manuscript/active-stage-ph-extension.md) develops the temporal gauges while retaining the interior efforts needed for nonlinear constitutive laws and dissipation. It is one continuous research document containing the assumptions, proofs, numerical evidence, limitations and references.
-
-Its common-stage gauge recovers exactly the version-12 mixed cap map for quadratic conservative systems. The extension proves a port power law for nonlinear PH systems, identifies the temporal dissipation variance lost by a single-effort compression, and retains the base temporal order under a stated gauge scaling. The projected-gradient integrator at zero gauge is attributed to existing work; no general novelty or PDE convergence claim is inferred from the numerical tests.
-
-The implementation, independent algebra checks and transmission-line experiments are in `experiments/ph_gauges.py`, `experiments/verify_stage_geometry.py` and `experiments/validate_ph_extension.py`. The original version-12 manuscript and verifier remain the reference for the conservative cap construction.
-
-## Repository layout
-
-```text
-.
-├── manuscript/
-│   ├── moulla_2026_space_time_stokes_dirac.tex
-│   ├── moulla_2026_space_time_stokes_dirac.pdf
-│   ├── active-stage-ph-extension.md
-│   └── README.md
-├── experiments/
-│   ├── verify_transmission_line_v12.py
-│   ├── ph_gauges.py
-│   ├── verify_stage_geometry.py
-│   ├── validate_ph_extension.py
-│   ├── figures/
-│   ├── README.md
-│   └── results/
-│       └── verification_report_v12.txt
-├── docs/
-│   ├── reproducibility.md
-│   └── version-12-summary.md
-├── .github/workflows/validate.yml
-├── CITATION.cff
-├── CHANGELOG.md
-├── Makefile
-└── requirements.txt
+```math
+H(x_{n+1})-H(x_n)=h\sum_{i=1}^{s}b_i\left(u_i^{\mathsf T}y_i-e_i^{\mathsf T}R_i e_i\right).
 ```
 
-## Read the paper
+This identity is exact under the stated discrete chain rule and constitutive assumptions; quadrature and nonlinear-solver errors are measured explicitly in the implementation.
 
-- [Compiled manuscript](manuscript/moulla_2026_space_time_stokes_dirac.pdf)
-- [LaTeX source](manuscript/moulla_2026_space_time_stokes_dirac.tex)
+- **Spatial structure.** A rectangular Stokes identity reconstructs the open Dirac representation, including its boundary ports.
+- **Temporal freedom.** Alternating pairing gauges generate energy-compatible schemes; a common-stage gauge recovers the original mixed cap construction exactly in the quadratic conservative case.
+- **Nonlinear dynamics and dissipation.** Retaining active temporal efforts preserves the dissipation variance that a single-effort compression loses. Under the stated scaling and regularity assumptions, the gauge retains the base method’s temporal order.
 
-## Reproduce the numerical checks
+The zero-gauge projected-gradient integrator builds on existing methods. The manuscript distinguishes those foundations from the gauge construction and states the scope of each result.
 
-Python 3.10 or later is recommended.
+## Repository guide
+
+| Location | Contents |
+| --- | --- |
+| [docs/manuscript.md](docs/manuscript.md) | Complete article, including the original theory and its active-stage extension |
+| [experiments/](experiments/) | Reusable temporal solver, algebra checks and transmission-line simulations |
+| [results/](results/) | Recorded validation reports, JSON results, CSV tables and SVG figures |
+| [archive/version-12/manuscript.tex](archive/version-12/manuscript.tex) | Original version-12 LaTeX source, retained for provenance |
+| [CITATION.cff](CITATION.cff) | Citation metadata |
+
+## Reproduce the results
+
+Use Python 3.10 or later. From the repository root:
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-python experiments/verify_transmission_line_v12.py
-```
-
-A successful run ends with:
-
-```text
-ALL 28 ASSERTION GROUPS PASSED
-```
-
-The archived reference output is available in [`experiments/results`](experiments/results/verification_report_v12.txt). See [the reproducibility notes](docs/reproducibility.md) for the scope of each check.
-
-To run the original checks and the extension together:
-
-```bash
 make verify
 ```
 
-To run only the extension:
+The full run executes the **28 original assertion groups**, **14 temporal-engine checks**, **18 independent geometry checks**, and the nonlinear transmission-line simulation assertions. To run only the active-stage extension:
 
 ```bash
 make verify-extension
 ```
 
-The extension writes its numerical evidence to `experiments/results/` and its figures to `experiments/figures/`. Reference-solution errors, power residuals and expected counterexamples are reported separately.
+| Script | Validation |
+| --- | --- |
+| [verify_transmission_line_v12.py](experiments/verify_transmission_line_v12.py) | Original Stokes, Dirac, cap-map and order identities |
+| [ph_gauges.py](experiments/ph_gauges.py) | Temporal engine, coordinate covariance, reversibility and exact cap bridge |
+| [verify_stage_geometry.py](experiments/verify_stage_geometry.py) | Port elimination, dissipation variance, order obstruction and gauge scaling |
+| [validate_ph_extension.py](experiments/validate_ph_extension.py) | Nonlinear closed, forced and dissipative transmission lines; convergence and counterexamples |
 
-## Build the manuscript
+The scripts regenerate their evidence in `results/`, with tables in `results/tables/` and figures in `results/figures/`. The recorded experiments support fourth-order temporal convergence on the tested forced dissipative problem. They also exhibit why energy conservation alone does not establish trajectory accuracy. A general simultaneous space–time PDE convergence theorem remains open.
 
-A standard TeX Live installation with `latexmk` is sufficient:
+## Citation and license
 
-```bash
-make paper
-```
-
-The generated PDF is written to `build/`.
-
-## Citation
-
-Citation metadata are provided in [`CITATION.cff`](CITATION.cff). GitHub can export them directly in BibTeX or plain-text form through the repository's **Cite this repository** menu.
-
-## License
-
-Copyright © 2026 Redha Moulla. All rights reserved. No reuse license has been granted yet; see [`LICENSE`](LICENSE).
-
-
+Use [CITATION.cff](CITATION.cff) or GitHub’s **Cite this repository** menu. Copyright © 2026 Redha Moulla. All rights reserved; see [LICENSE](LICENSE).

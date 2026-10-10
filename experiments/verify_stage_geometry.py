@@ -190,7 +190,7 @@ def main():
     result["passed"] = sum(result["checks"].values())
     result["total"] = len(checks)
     result["all_passed"] = all(result["checks"].values())
-    destination = ROOT/"results"/"stage_geometry_validation.json"
+    destination = ROOT.parent/"results"/"stage_geometry_validation.json"
     destination.parent.mkdir(exist_ok=True)
     destination.write_text(json.dumps(result, indent=2, allow_nan=False)+"\n")
     assert result["all_passed"], result["checks"]

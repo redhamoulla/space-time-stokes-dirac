@@ -3,7 +3,7 @@
 
 Uses the unmodified 2012 mixed spatial construction in the v12 verifier,
 expressed in orthonormal Legendre coordinates. Run from any directory.
-Outputs are placed in experiments/results and experiments/figures.
+Outputs are placed in results/, results/tables/ and results/figures/.
 """
 from __future__ import annotations
 
@@ -14,6 +14,7 @@ for _variable in ("OPENBLAS_NUM_THREADS", "OMP_NUM_THREADS", "MKL_NUM_THREADS",
 os.environ.setdefault("MPLCONFIGDIR", "/tmp/ph-extension-mpl")
 
 import csv
+import hashlib
 import json
 import platform
 import sys
@@ -29,8 +30,9 @@ from verify_transmission_line_v12 import shifted_legendre_line, structural_resid
 from ph_gauges import PHModel, scheme, common_gauge
 
 HERE = Path(__file__).resolve().parent
-RESULTS = HERE / "results"
-FIGURES = HERE / "figures"
+RESULTS = HERE.parent / "results"
+FIGURES = RESULTS / "figures"
+TABLES = RESULTS / "tables"
 
 
 def quartic_line(N=6, alpha=2.0, damping=0.0, forcing=None):
@@ -277,7 +279,8 @@ def make_figures(order,plotdata):
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
     plt.rcParams.update({"font.family":"DejaVu Sans","font.size":10,
-                         "axes.spines.top":False,"axes.spines.right":False})
+                         "axes.spines.top":False,"axes.spines.right":False,
+                         "svg.fonttype":"none","svg.hashsalt":"space-time-stokes-dirac"})
     FIGURES.mkdir(exist_ok=True)
     fig,ax=plt.subplots(figsize=(6.5,4))
     for name in dict.fromkeys(r["name"] for r in order["rows"]):
@@ -285,7 +288,7 @@ def make_figures(order,plotdata):
         ax.loglog([r["h"] for r in rows],[r["final_L2_error"] for r in rows],"o-",label=name)
     ax.set(xlabel="Time step",ylabel="L2 error against tight DOP853",title="Nonlinear quartic wave: temporal order")
     ax.legend();ax.grid(alpha=.25);fig.tight_layout()
-    fig.savefig(FIGURES/"ph_extension_order.png",dpi=170);plt.close(fig)
+    fig.savefig(FIGURES/"ph_extension_order.svg",metadata={"Date":None});plt.close(fig)
     ts,xx,en,work,diss,reference=plotdata
     fig,axes=plt.subplots(1,3,figsize=(12,3.7))
     axes[0].plot(ts,en,label="Stored energy");axes[0].plot(ts,work,label="Input work");axes[0].plot(ts,diss,label="Dissipation")
@@ -295,11 +298,30 @@ def make_figures(order,plotdata):
     axes[2].plot(ts,xx[:,0],label="Gauged PG4");axes[2].plot(ts,reference[:,0],"--",label="DOP853")
     axes[2].set(xlabel="Time",ylabel="Integral of q",title="Independent trajectory check");axes[2].legend()
     for ax in axes:ax.grid(alpha=.25)
-    fig.tight_layout();fig.savefig(FIGURES/"ph_extension_open_damped.png",dpi=170);plt.close(fig)
+    fig.tight_layout();fig.savefig(FIGURES/"ph_extension_open_damped.svg",metadata={"Date":None});plt.close(fig)
+
+
+def write_manifest(environment):
+    """Record the exact source and evidence files for this validation run."""
+    root = HERE.parent
+    sources = [HERE/name for name in (
+        "ph_gauges.py", "verify_stage_geometry.py", "validate_ph_extension.py",
+        "verify_transmission_line_v12.py")]
+    evidence = sorted(path for path in RESULTS.rglob("*")
+                      if path.is_file() and path.name != "manifest.json")
+    hashes = {str(path.relative_to(root)): hashlib.sha256(path.read_bytes()).hexdigest()
+              for path in sources + evidence}
+    manifest = {"environment": environment,
+                "command": "make verify-extension",
+                "original_report": "verification_report_v12.txt is the archived version-12 report",
+                "sha256": hashes}
+    (RESULTS/"manifest.json").write_text(
+        json.dumps(manifest, indent=2, allow_nan=False) + "\n", encoding="utf-8")
 
 
 def execute():
     RESULTS.mkdir(exist_ok=True)
+    TABLES.mkdir(exist_ok=True)
     data={"environment":{"python":sys.version,"numpy":np.__version__,"scipy":scipy.__version__,
                          "platform":platform.platform(),"float":"float64"},
           "scope":"Nonlinear finite-dimensional PH systems obtained from the 2012 spatial reduction. Temporal order is at fixed N; this is not a simultaneous PDE convergence theorem.",
@@ -317,9 +339,10 @@ def execute():
     (RESULTS/"ph_extension_validation.json").write_text(json.dumps(data,indent=2,allow_nan=False),encoding="utf-8")
     rows=data["nonlinear_temporal_order"]["rows"]+data["open_dissipative"]["forced_rows"]
     fields=sorted(set().union(*(row.keys() for row in rows)))
-    with (RESULTS/"ph_extension_validation.csv").open("w",newline="",encoding="utf-8") as stream:
+    with (TABLES/"ph_extension_validation.csv").open("w",newline="",encoding="utf-8") as stream:
         writer=csv.DictWriter(stream,fieldnames=fields);writer.writeheader();writer.writerows(rows)
     make_figures(data["nonlinear_temporal_order"],plotdata)
+    write_manifest(data["environment"])
     print(json.dumps({"all_assertions_passed":True,
           "final_orders":[r for r in data["nonlinear_temporal_order"]["rows"] if r["h"]==.00625],
           "forced":data["open_dissipative"]["forced_rows"],
