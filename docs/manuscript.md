@@ -63,31 +63,31 @@ space-time PDE convergence are distinguished throughout.
 
 We classify compatible pairings on a finite-dimensional discrete
 space–time cylinder.  For a possibly nonsurjective differential
-$`D:E\to F`$, compatibility exists precisely when the boundary form
-annihilates $`\ker D`$, and the active freedom is
-$`\Lambda^2(E/\ker D)^*`$.  On a temporal–spatial complex this separates
+<i>D</i>:<i>E</i> → <i>F</i>, compatibility exists precisely when the boundary form
+annihilates ker <i>D</i>, and the active freedom is
+Λ<sup>2</sup>(<i>E</i>/ker <i>D</i>)<sup>∗</sup>.  On a temporal–spatial complex this separates
 temporal, spatial, and intrinsic mixed gauges.  A regular interior solve
 then yields an exact sequence for their visible and invisible cap
 reductions.
 
 For nonsingular quadratic Hamiltonian systems, cap gauges are shifted
-Cayley coordinates on the no-$`+1`$ part of the energy-orthogonal group;
+Cayley coordinates on the no-+1 part of the energy-orthogonal group;
 we determine their exact symplectic locus and defect.  An active polynomial
-cell $`\mathcal P_s\to\mathcal P_{s-1}`$ generates the Gauss–$`s`$ cap
+cell 𝒫<sub><i>s</i></sub> → 𝒫<sub><i>s</i>−1</sub> generates the Gauss–<i>s</i> cap
 map by elimination.  On the 2012 polynomial transmission line, mixed
 cylinder lifts preserve cap–mantle power, dissipation, and interface
 cancellation.  Every alternating cap gauge also admits a minimal
 auxiliary-mode Schur generation whose interior dimension equals its rank;
 this algebraic realization is distinguished from selection by an
 independently prescribed field cell.  For each fixed semidiscrete generator, a unique central
-coefficient raises operator convergence from $`2s`$ to $`2s+2`$; a
-recursive rational hierarchy gives order at least $`2s+2r`$, exact when
+coefficient raises operator convergence from 2<i>s</i> to 2<i>s</i>+2; a
+recursive rational hierarchy gives order at least 2<i>s</i>+2<i>r</i>, exact when
 the next coefficient is nonzero, while
 noncentral additions retain the attained order and leave the scalar
 functional calculus.  Its reduced polynomial form separates removable
 Cayley-chart resonances from true poles and shows unit amplification on
-oscillatory modes but not general $`A`$-stability.  The exact coordinate is
-a Stieltjes function in $`z^2`$, and $`C_s`$ is its diagonal or
+oscillatory modes but not general <i>A</i>-stability.  The exact coordinate is
+a Stieltjes function in <i>z</i><sup>2</sup>, and <i>C</i><sub><i>s</i></sub> is its diagonal or
 near-diagonal Padé approximant.  These Gauss coordinates have positive
 Jacobi-chain realizations, whereas the corrected hierarchy need not: the
 first nontrivial member already violates Stieltjes positivity.  Executable tests verify the reductions, power
@@ -169,16 +169,16 @@ and mixed nonseparable pairings become sectors of one object.
 This paper answers that question at eight levels.
 
 1. For an arbitrary, possibly nonsurjective, differential
-     $`D:E\to F`$, the active compatible pairings form an affine space over
-     $`\Lambda^2(E/\ker D)^*`$.  Applied to the genuine total complex through
+     <i>D</i>:<i>E</i> → <i>F</i>, the active compatible pairings form an affine space over
+     Λ<sup>2</sup>(<i>E</i>/ker <i>D</i>)<sup>∗</sup>.  Applied to the genuine total complex through
      a degree-respecting symmetric double, this gives a bilinear gauge between
      complementary active quotients.  Applied instead to the stacked
      one-bidegree cylinder map, it gives temporal, spatial, and mixed sectors.
 
 1. Once a Dirac relation, constitutive closure, boundary causality,
      and regular interior solve have fixed a reconstruction
-     $`L_h:Q_\partial\to Q_\mathrm{st}`$, the exact volume-to-cap reduction is
-     $`\omega\mapsto L_h^*\omega`$.  We classify its image and kernel and
+     <i>L</i><sub><i>h</i></sub>:<i>Q</i><sub>∂</sub> → <i>Q</i><sub>st</sub>, the exact volume-to-cap reduction is
+     <i>ω</i> ↦ <i>L</i><sub><i>h</i></sub><sup>∗</sup><i>ω</i>.  We classify its image and kernel and
      derive an intrinsic rank criterion for the visibility of mixed gauges.
      For trace-generated forms, a raw weak cell containing the same volume
      matrix is assembled and exactly realizes the prescribed cap gauge.  We
@@ -186,18 +186,18 @@ This paper answers that question at eight levels.
      the gauge by independent interior dynamics.
 
 1. For a single time step and a quadratic Hamiltonian, the family
-     $`\Lambda^2V^*`$ gives constitutively shifted Cayley coordinates on the
-     no-$`+1`$ cell of $`O(Q)`$.  Exact power holds on the whole chart; its symplectic
+     Λ<sup>2</sup><i>V</i><sup>∗</sup> gives constitutively shifted Cayley coordinates on the
+     no-+1 cell of <i>O</i>(<i>Q</i>).  Exact power holds on the whole chart; its symplectic
      intersection and factorized defect are computed explicitly, and the
      exact-flow gauge is obtained in closed form.
 
-1. For an $`s`$-stage Runge–Kutta reconstruction with invertible
+1. For an <i>s</i>-stage Runge–Kutta reconstruction with invertible
      stage matrix, all compatible bilinear stage pairings are classified.
      Local diagonal pairing reduces compatibility to the Cooper condition,
      and a short spanning argument proves directly that symplectic
      collocation is precisely Gauss collocation.  Conversely, starting from
      the polynomial temporal cell
-     $`\mathcal P_s\to\mathcal P_{s-1}`$, we retain the Gauss stages as
+     𝒫<sub><i>s</i></sub> → 𝒫<sub><i>s</i>−1</sub>, we retain the Gauss stages as
      active interior variables and prove that their elimination produces the
      diagonal Padé cap map and its induced two-point gauge.
 
@@ -216,11 +216,11 @@ This paper answers that question at eight levels.
 
 1. On that rectangular transmission-line reduction, a two-form on
      spatial derivatives of temporal increments gives an explicit mixed
-     cylinder gauge.  For every $`s`$, its cap reduction gives a
-     reversible, energy-preserving deformation of Gauss–$`s`$.  In the
+     cylinder gauge.  For every <i>s</i>, its cap reduction gives a
+     reversible, energy-preserving deformation of Gauss–<i>s</i>.  In the
      fixed one-term ansatz, one central coefficient and only one raises the
-     order from $`2s`$ to exactly $`2s+2`$; every other fixed coefficient has
-     exactly order $`2s`$.  Adding the next odd-power gauge term preserves
+     order from 2<i>s</i> to exactly 2<i>s</i>+2; every other fixed coefficient has
+     exactly order 2<i>s</i>.  Adding the next odd-power gauge term preserves
      that higher order while permitting noncommutation, and a recursive
      central hierarchy yields successive two-order lower bounds, exact under
      an explicit non-annulation condition.  A commutator
@@ -232,7 +232,7 @@ This paper answers that question at eight levels.
      Schur generator with interior dimension equal to its rank.  For the
      central scalar coordinates, Stieltjes–Padé theory gives a stronger
      positive Jacobi-chain realization of every Gauss member.  The corrected
-     $`(s,r)=(2,1)`$ coordinate fails this positivity test, separating
+     (<i>s</i>,<i>r</i>)=(2,1) coordinate fails this positivity test, separating
      unrestricted algebraic generation from passive interior generation.
 
 The last level exposes the following structural chain without identifying
@@ -272,7 +272,7 @@ construction, the
 positive Jacobi realization and its obstruction, the symplectic-locus and defect formulas, the exact
 one-term order dichotomy, its multi-term correction hierarchy, tensor
 rigidity derived from the global Stokes equations, and the mixed
-Gauss–$`s`$ family with its scalar-functional-calculus obstruction.  The
+Gauss–<i>s</i> family with its scalar-functional-calculus obstruction.  The
 trace-generated theorem is deliberately described as exact realization;
 only the higher-degree stage cell derives its cap gauge from an
 independent interior solve.  We do not call an
@@ -290,11 +290,11 @@ flowchart TD
     M --> B["Noncentral directions: noncommuting, same power"]
 ```
 
-The volume gauge is $`\omega\in\Lambda^2Q_{\mathrm{st}}^*`$ and the cap pullback is $`S_h=L_h^*\omega`$.
+The volume gauge is <i>ω</i> ∈ Λ<sup>2</sup><i>Q</i><sub>st</sub><sup>∗</sup> and the cap pullback is <i>S</i><sub><i>h</i></sub>=<i>L</i><sub><i>h</i></sub><sup>∗</sup><i>ω</i>.
 
 **Figure 1.** Architecture of the construction.  Compatibility is classified
 in the volume, transported to the caps, and closed through a Cayley chart.
-Only after the constitutive generator $`A_N=\mathcal J_NQ_N`$ is fixed
+Only after the constitutive generator <i>A</i><sub><i>N</i></sub>=𝒥<sub><i>N</i></sub><i>Q</i><sub><i>N</i></sub> is fixed
 does the cap space split operationally into a central accuracy hierarchy
 and noncentral design directions; both retain the same contracted power
 identity.
@@ -302,9 +302,9 @@ identity.
 **Order convention.**
 
 Every order statement below concerns matrix/operator convergence to
-$`e^{hA_N}`$ as $`h\to0`$ for a *fixed finite-dimensional linear
-semidiscrete generator* $`A_N`$, with constants allowed to depend on
-$`N`$.  It is neither a universal Runge–Kutta order statement for
+<i>e</i><sup><i>hA</i><sub><i>N</i></sub></sup> as <i>h</i> → 0 for a *fixed finite-dimensional linear
+semidiscrete generator* <i>A</i><sub><i>N</i></sub>, with constants allowed to depend on
+<i>N</i>.  It is neither a universal Runge–Kutta order statement for
 nonlinear vector fields nor a simultaneous space–time convergence
 theorem.  The nonlinear section establishes the chain rule and energy
 identity, not the linear hierarchy's order.
@@ -313,8 +313,8 @@ identity, not the linear hierarchy's order.
 
 <a name="v12-def-matrix-order"></a>
 
-For fixed $`A_N`$, a one-step family $`M_h`$ has *local matrix defect
-of order $`p+1`$* if
+For fixed <i>A</i><sub><i>N</i></sub>, a one-step family <i>M</i><sub><i>h</i></sub> has *local matrix defect
+of order <i>p</i>+1* if
 
 <a name="v12-eq-local-matrix-order"></a>
 **Equation (2).**
@@ -324,8 +324,8 @@ of order $`p+1`$* if
  \left\lVert M_h-e^{hA_N}\right\rVert=O(h^{p+1})\qquad(h\to0)
 ```
 
-in any matrix norm.  It has *global operator order $`p`$* on bounded
-time intervals if, for each fixed $`T>0`$ and $`n=T/h\in\mathbb N`$,
+in any matrix norm.  It has *global operator order <i>p</i>* on bounded
+time intervals if, for each fixed <i>T</i>&gt;0 and <i>n</i>=<i>T</i>/<i>h</i> ∈ ℕ,
 
 <a name="v12-eq-global-operator-order"></a>
 **Equation (3).**
@@ -345,7 +345,7 @@ M_h^n-e^{TA_N}
 ```
 
 gives [Equation (3)](#v12-eq-global-operator-order).  Thus the one-power shift used
-below is an explicit fixed-$`A_N`$ matrix estimate.
+below is an explicit fixed-<i>A</i><sub><i>N</i></sub> matrix estimate.
 
 **Terminology for ``exact.”**
 
@@ -354,16 +354,16 @@ The adjective is always qualified by its object.  *Exact power* or
 *exact elimination* means equality of two finite-dimensional Schur
 reductions; *exact order* means that the displayed leading error
 coefficient is nonzero; and *exact-flow gauge* refers specifically to
-the Cayley coordinate of $`e^{hA_N}`$.  None of these phrases asserts a
+the Cayley coordinate of <i>e</i><sup><i>hA</i><sub><i>N</i></sub></sup>.  None of these phrases asserts a
 simultaneous continuum limit unless such a limit is stated separately.
 
 **Notation.**
 
-All spaces are finite-dimensional and real. A vector space $`V`$ and its
-dual $`V^*`$ are distinguished until coordinates are chosen. In
+All spaces are finite-dimensional and real. A vector space <i>V</i> and its
+dual <i>V</i><sup>∗</sup> are distinguished until coordinates are chosen. In
 coordinates, covectors are represented by columns and paired by transpose.
-For an invertible skew matrix $`J`$, we write $`\Omega=J^{-1}`$.
-The state dimension is $`n`$; in symplectic statements $`n=2m`$.
+For an invertible skew matrix <i>J</i>, we write Ω=<i>J</i><sup>−1</sup>.
+The state dimension is <i>n</i>; in symplectic statements <i>n</i>=2<i>m</i>.
 
 <a name="v12-section-2"></a>
 
@@ -374,9 +374,9 @@ and the temporal discrete chain rule.
 
 **Definition 2.1. Discrete Stokes data.**
 
-Let $`E,F`$ be vector spaces, let $`D:E\to F`$ be linear, and let
-$`b:E\times E\to\mathbb{R}`$ be a symmetric bilinear boundary form. A bilinear
-map $`M:E\times F\to\mathbb{R}`$ is *Stokes compatible* if
+Let <i>E</i>,<i>F</i> be vector spaces, let <i>D</i>:<i>E</i> → <i>F</i> be linear, and let
+<i>b</i>:<i>E</i> × <i>E</i> → ℝ be a symmetric bilinear boundary form. A bilinear
+map <i>M</i>:<i>E</i> × <i>F</i> → ℝ is *Stokes compatible* if
 
 <a name="v12-eq-stokes-compatibility"></a>
 **Equation (4).**
@@ -391,8 +391,8 @@ map $`M:E\times F\to\mathbb{R}`$ is *Stokes compatible* if
 
 <a name="v12-thm-affine-stokes"></a>
 
-Let $`K=\ker D`$, $`I=\operatorname{im}D`$, and
-$`r=\operatorname{rank}D`$. A compatible pairing exists if and only if
+Let <i>K</i>=ker <i>D</i>, <i>I</i>=im<i>D</i>, and
+<i>r</i>=rank<i>D</i>. A compatible pairing exists if and only if
 
 <a name="v12-eq-kernel-obstruction"></a>
 **Equation (5).**
@@ -402,7 +402,7 @@ $`r=\operatorname{rank}D`$. A compatible pairing exists if and only if
  b(k,\ell)=0\qquad(k,\ell\in K).
 ```
 
-On the active flow space $`I`$, if $`M_0`$ is one compatible pairing,
+On the active flow space <i>I</i>, if <i>M</i><sub>0</sub> is one compatible pairing,
 all compatible restrictions are
 
 <a name="v12-eq-abstract-gauge"></a>
@@ -424,8 +424,8 @@ Consequently the active solution set is an affine space of dimension
  \frac{r(r-1)}2.
 ```
 
-If pairings are required on all of $`E\times F`$, their values transverse
-to $`I`$ are unconstrained.  If $`\mathcal H`$ denotes the full
+If pairings are required on all of <i>E</i> × <i>F</i>, their values transverse
+to <i>I</i> are unconstrained.  If ℋ denotes the full
 homogeneous direction, it fits into the short exact sequence
 
 <a name="v12-eq-full-affine-direction"></a>
@@ -439,39 +439,39 @@ homogeneous direction, it fits into the short exact sequence
  \longrightarrow0.
 ```
 
-Every choice of a complement of $`I`$ in $`F`$ splits this sequence, but
+Every choice of a complement of <i>I</i> in <i>F</i> splits this sequence, but
 the splitting is not canonical.  The full direction has dimension
-$`r(r-1)/2+\dim(E)(\dim(F)-r)`$.
+<i>r</i>(<i>r</i>−1)/2+dim (<i>E</i>)(dim (<i>F</i>)−<i>r</i>).
 
-*Proof.* Necessity follows from [Equation (4)](#v12-eq-stokes-compatibility) with $`z,w\in K`$.
+*Proof.* Necessity follows from [Equation (4)](#v12-eq-stokes-compatibility) with <i>z</i>,<i>w</i> ∈ <i>K</i>.
 Assume [Equation (5)](#v12-eq-kernel-obstruction). Choose a section
-$`R:I\to E`$ of $`D:E\to I`$, and write $`z=k_z+RDz`$. Define, for
-$`g\in I`$,
+<i>R</i>:<i>I</i> → <i>E</i> of <i>D</i>:<i>E</i> → <i>I</i>, and write <i>z</i>=<i>k</i><sub><i>z</i></sub>+<i>RDz</i>. Define, for
+<i>g</i> ∈ <i>I</i>,
 
 ```math
 M_0(z,g)=\tfrac12 b(RDz,Rg)+b(k_z,Rg).
 ```
 
 Substitution and [Equation (5)](#v12-eq-kernel-obstruction) verify compatibility on
-$`I`$.  Choosing a complement of $`I`$ in $`F`$ and extending arbitrarily
-produces a pairing on all of $`E\times F`$.
+<i>I</i>.  Choosing a complement of <i>I</i> in <i>F</i> and extending arbitrarily
+produces a pairing on all of <i>E</i> × <i>F</i>.
 
-If $`M`$ and $`M_0`$ are compatible, their difference $`N=M-M_0`$ obeys
+If <i>M</i> and <i>M</i><sub>0</sub> are compatible, their difference <i>N</i>=<i>M</i>−<i>M</i><sub>0</sub> obeys
 
 ```math
 N(z,Dw)+N(w,Dz)=0.
 ```
 
-Taking $`w\in K`$ gives $`N(w,Dz)=0`$ for every $`z`$, hence $`N`$ factors
-through $`E/K`$ in its first argument.  The induced bijection
+Taking <i>w</i> ∈ <i>K</i> gives <i>N</i>(<i>w</i>,<i>Dz</i>)=0 for every <i>z</i>, hence <i>N</i> factors
+through <i>E</i>/<i>K</i> in its first argument.  The induced bijection
 $`\bar D:E/K\to I`$ identifies the two active arguments, so the induced
 bilinear form is alternating. Conversely,
 every alternating form in [Equation (6)](#v12-eq-abstract-gauge) cancels from the
 symmetric identity.  This proves the active classification.  Finally,
-compatibility evaluates the second argument only on $`I`$.  Restriction to
-$`I`$ maps $`\mathcal H`$ onto $`\Lambda^2(E/K)^*`$, and its kernel
-consists precisely of bilinear forms vanishing on $`I`$, equivalently
-forms on $`E\times(F/I)`$.  This proves the exact sequence and the
+compatibility evaluates the second argument only on <i>I</i>.  Restriction to
+<i>I</i> maps ℋ onto Λ<sup>2</sup>(<i>E</i>/<i>K</i>)<sup>∗</sup>, and its kernel
+consists precisely of bilinear forms vanishing on <i>I</i>, equivalently
+forms on <i>E</i> × (<i>F</i>/<i>I</i>).  This proves the exact sequence and the
 dimension formula.
 
 ∎
@@ -479,7 +479,7 @@ dimension formula.
 **Remark 2.3.**
 
 The Stokes-visible active gauge is intrinsically an alternating two-form on
-the quotient $`E/\ker D`$, not a skew matrix until a basis and an
+the quotient <i>E</i>/ker <i>D</i>, not a skew matrix until a basis and an
 identification with its dual are selected.  The kernel term in
 [Equation (8)](#v12-eq-full-affine-direction) is invisible to Stokes compatibility and
 should not be counted as an active gauge.  This distinction becomes
@@ -490,8 +490,8 @@ integrability.
 
 <a name="v12-cor-2012-dimension"></a>
 
-For $`E=\mathcal{P}_N`$, $`F=\mathcal{P}_{N-1}`$, and
-$`D=\,\mathrm{d}/\,\mathrm{d} z`$, the derivative is onto, $`\dim F=N`$, and the active
+For <i>E</i>=𝒫<sub><i>N</i></sub>, <i>F</i>=𝒫<sub><i>N</i>−1</sub>, and
+<i>D</i>= d/ d<i>z</i>, the derivative is onto, dim <i>F</i>=<i>N</i>, and the active
 compatible family has dimension
 
 ```math
@@ -507,7 +507,7 @@ orthogonality.
 
 ## 3. Stokes' theorem on the space–time cylinder
 
-Let $`\Omega`$ be an oriented $`d`$-dimensional manifold with boundary
+Let Ω be an oriented <i>d</i>-dimensional manifold with boundary
 and let
 
 ```math
@@ -533,8 +533,8 @@ the lateral mantle.
 
 <a name="v12-prop-continuous-cylinder"></a>
 
-For $`\alpha\in\Omega^k(Z)`$ and
-$`\beta\in\Omega^{d-k}(Z)`$,
+For <i>α</i> ∈ Ω<sup><i>k</i></sup>(<i>Z</i>) and
+<i>β</i> ∈ Ω<sup><i>d</i>−<i>k</i></sup>(<i>Z</i>),
 
 <a name="v12-eq-continuous-stokes-cylinder"></a>
 **Equation (10).**
@@ -552,7 +552,7 @@ The right-hand side splits according to
 lateral boundary term.
 
 *Proof.* The graded Leibniz rule gives
-$`\,\mathrm{d}(\alpha\wedge\beta) =\,\mathrm{d}\alpha\wedge\beta+(-1)^k\alpha\wedge\,\mathrm{d}\beta`$.
+ d(<i>α</i> ∧ <i>β</i>)= d<i>α</i> ∧ <i>β</i>+(−1)<sup><i>k</i></sup><i>α</i> ∧  d<i>β</i>.
 Apply Stokes' theorem and use the product orientation of
 [Equation (9)](#v12-eq-cylinder-boundary).
 
@@ -570,7 +570,7 @@ Suppose that a distributed port-Hamiltonian system satisfies
  \qquad \mathcal R\succeq0,
 ```
 
-and that the Green identity for $`\mathcal J`$ is
+and that the Green identity for 𝒥 is
 
 ```math
 \left\langle e,\mathcal J e\right\rangle_{\Omega}
@@ -617,15 +617,15 @@ port-Hamiltonian specialization of the cap–mantle split in
 
 <a name="v12-def-graded-stokes"></a>
 
-A finite cochain complex $`(C^\bullet,d)`$ of formal dimension $`m`$ is
+A finite cochain complex (<i>C</i><sup>•</sup>,<i>d</i>) of formal dimension <i>m</i> is
 equipped with a graded Stokes pairing if it has bilinear maps
 
 ```math
 I_k:C^k\times C^{m-k}\to\mathbb{R}
 ```
 
-and boundary maps $`B_k`$ such that, for
-$`a\in C^k`$ and $`b\in C^{m-k-1}`$,
+and boundary maps <i>B</i><sub><i>k</i></sub> such that, for
+<i>a</i> ∈ <i>C</i><sup><i>k</i></sup> and <i>b</i> ∈ <i>C</i><sup><i>m</i>−<i>k</i>−1</sup>,
 
 <a name="v12-eq-graded-discrete-stokes"></a>
 **Equation (12).**
@@ -639,7 +639,7 @@ The boundary maps include the appropriate discrete traces.  This is the
 cochain form of integration by parts; no metric or constitutive operator
 is included in the definition.
 
-Let $`(C_t^\bullet,d_t)`$ and $`(C_x^\bullet,d_x)`$ be finite cochain
+Let (<i>C</i><sub><i>t</i></sub><sup>•</sup>,<i>d</i><sub><i>t</i></sub>) and (<i>C</i><sub><i>x</i></sub><sup>•</sup>,<i>d</i><sub><i>x</i></sub>) be finite cochain
 complexes.  Their total complex is
 
 <a name="v12-eq-total-complex"></a>
@@ -650,7 +650,7 @@ complexes.  Their total complex is
  C_\mathrm{st}^q=\bigoplus_{r+s=q}C_t^r\otimes C_x^s,
 ```
 
-with, on a homogeneous temporal cochain $`a\in C_t^r`$,
+with, on a homogeneous temporal cochain <i>a</i> ∈ <i>C</i><sub><i>t</i></sub><sup><i>r</i></sup>,
 
 <a name="v12-eq-total-differential"></a>
 **Equation (14).**
@@ -671,14 +671,14 @@ In matrices this is
  D_\mathrm{st}=D_t\otimes I+\Gamma_t\otimes D_x,
 ```
 
-where $`\Gamma_t`$ acts by $`(-1)^r`$ on temporal degree $`r`$.
+where Γ<sub><i>t</i></sub> acts by (−1)<sup><i>r</i></sup> on temporal degree <i>r</i>.
 
 **Proposition 4.2. Complex property and signed product Stokes formula.**
 
 <a name="v12-prop-total-complex"></a>
 
-The total differential satisfies $`d_\mathrm{st}^2=0`$.
-Assume that the factor complexes have formal dimensions $`m_t,m_x`$ and
+The total differential satisfies <i>d</i><sub>st</sub><sup>2</sup>=0.
+Assume that the factor complexes have formal dimensions <i>m</i><sub><i>t</i></sub>,<i>m</i><sub><i>x</i></sub> and
 carry the pairings of [Definition 4.1](#v12-def-graded-stokes).  For homogeneous simple
 tensors of complementary bidegrees, define
 
@@ -692,8 +692,8 @@ tensors of complementary bidegrees, define
  I_t(a_t,c_t)I_x(a_x,c_x).
 ```
 
-Let $`|a_t|=r`$, $`|a_x|=s`$.  A homogeneous element of total degree
-$`m_t+m_x-r-s-1`$ has the two complementary components
+Let &#124;<i>a</i><sub><i>t</i></sub>&#124;=<i>r</i>, &#124;<i>a</i><sub><i>x</i></sub>&#124;=<i>s</i>.  A homogeneous element of total degree
+<i>m</i><sub><i>t</i></sub>+<i>m</i><sub><i>x</i></sub>−<i>r</i>−<i>s</i>−1 has the two complementary components
 
 ```math
 b^{(t)}=c_t\otimes c_x,\qquad
@@ -738,7 +738,7 @@ d_\mathrm{st}^2(a\otimes b)
 \end{aligned}
 ```
 
-For $`b^{(t)}`$, only the two temporal derivatives can pair factorwise.
+For <i>b</i><sup>(<i>t</i>)</sup>, only the two temporal derivatives can pair factorwise.
 Using [Equation (16)](#v12-eq-signed-tensor-pairing), their sum is
 
 ```math
@@ -748,7 +748,7 @@ Using [Equation (16)](#v12-eq-signed-tensor-pairing), their sum is
 ```
 
 which is the first term of [Equation (17)](#v12-eq-signed-product-boundary).  For
-$`b^{(x)}`$, the sign $`(-1)^r`$ in the spatial part of
+<i>b</i><sup>(<i>x</i>)</sup>, the sign (−1)<sup><i>r</i></sup> in the spatial part of
 [Equation (14)](#v12-eq-total-differential) combines with the interchange sign in
 [Equation (16)](#v12-eq-signed-tensor-pairing).  The result is
 
@@ -764,8 +764,8 @@ interior derivatives cancel.
 ∎
 
 The affine freedom of the genuine total complex can now be stated without
-replacing it by a directional gradient.  Let $`m`$ be its formal dimension
-and fix $`q\in\{0,\ldots,m-1\}`$.  Set
+replacing it by a directional gradient.  Let <i>m</i> be its formal dimension
+and fix <i>q</i> ∈ {0,…,<i>m</i>−1}.  Set
 
 <a name="v12-eq-graded-double-spaces"></a>
 **Equation (18).**
@@ -786,7 +786,7 @@ and define
  \mathbb D_q(a,b)=(d_\mathrm{st}a,d_\mathrm{st}b).
 ```
 
-For $`z=(a,b)`$ and $`\widehat z=(\widehat a,\widehat b)`$, introduce the
+For <i>z</i>=(<i>a</i>,<i>b</i>) and $`\widehat z=(\widehat a,\widehat b)`$, introduce the
 symmetric doubled boundary form
 
 <a name="v12-eq-graded-double-boundary"></a>
@@ -821,7 +821,7 @@ The pairing
  =I_{q+1}(f,b)+(-1)^qI_q(a,g)
 ```
 
-is compatible with $`\mathbb D_q`$ and $`\mathbf b_q`$.  Without a degree
+is compatible with 𝔻<sub><i>q</i></sub> and <b>b</b><sub><i>q</i></sub>.  Without a degree
 restriction, the active compatible family is affine over
 
 <a name="v12-eq-graded-unrestricted-gauge"></a>
@@ -833,8 +833,8 @@ restriction, the active compatible family is affine over
 ```
 
 If the pairing is required to preserve complementary degree—so that it
-pairs $`C_\mathrm{st}^q`$ only with $`dC_\mathrm{st}^{m-q-1}`$, and
-$`C_\mathrm{st}^{m-q-1}`$ only with $`dC_\mathrm{st}^{q}`$—its homogeneous
+pairs <i>C</i><sub>st</sub><sup><i>q</i></sup> only with <i>dC</i><sub>st</sub><sup><i>m</i>−<i>q</i>−1</sup>, and
+<i>C</i><sub>st</sub><sup><i>m</i>−<i>q</i>−1</sup> only with <i>dC</i><sub>st</sub><sup><i>q</i></sup>—its homogeneous
 freedom is instead exactly
 
 <a name="v12-eq-graded-active-gauge"></a>
@@ -849,7 +849,7 @@ freedom is instead exactly
 Thus cancellations between different bidegrees are incorporated through
 the actual kernels of the total differential.
 
-*Proof.* For $`z=(a,b)`$ and $`\widehat z=(\widehat a,\widehat b)`$, the left-hand
+*Proof.* For <i>z</i>=(<i>a</i>,<i>b</i>) and $`\widehat z=(\widehat a,\widehat b)`$, the left-hand
 side of the symmetric compatibility identity is
 
 ```math
@@ -863,7 +863,7 @@ side of the symmetric compatibility identity is
 ```
 
 which is [Equation (20)](#v12-eq-graded-double-boundary).  Since
-$`\ker\mathbb D_q=\ker d_\mathrm{st}^q\oplus \ker d_\mathrm{st}^{m-q-1}`$, [Theorem 2.2](#v12-thm-affine-stokes) gives
+ker 𝔻<sub><i>q</i></sub>=ker <i>d</i><sub>st</sub><sup><i>q</i></sup> ⊕ ker <i>d</i><sub>st</sub><sup><i>m</i>−<i>q</i>−1</sup>, [Theorem 2.2](#v12-thm-affine-stokes) gives
 [Equation (22)](#v12-eq-graded-unrestricted-gauge).
 
 For the degree-preserving subfamily, let a homogeneous correction have
@@ -876,9 +876,9 @@ N_1(u,\widehat v)+N_2(v,\widehat u)
  +N_1(\widehat u,v)+N_2(\widehat v,u)=0.
 ```
 
-Taking $`\widehat u=0`$ and $`v=0`$ gives
+Taking $`\widehat u=0`$ and <i>v</i>=0 gives
 $`N_2(\widehat v,u)=-N_1(u,\widehat v)`$.  Hence one arbitrary bilinear
-form $`\eta\in\operatorname{Bil}(U_q,V_q;\mathbb R)`$ determines both
+form <i>η</i> ∈ Bil(<i>U</i><sub><i>q</i></sub>,<i>V</i><sub><i>q</i></sub>;ℝ) determines both
 components through
 
 <a name="v12-eq-graded-homogeneous-correction"></a>
@@ -901,9 +901,9 @@ and every degree-preserving correction is obtained in this way.
 Take two copies of the complex
 $`0\to\mathbb R\xrightarrow{1}\mathbb R\to0`$.  At total degree one,
 the total differential is, up to orientation,
-$`d_\mathrm{st}(a,b)=b-a`$; its kernel is the diagonal even though both
+<i>d</i><sub>st</sub>(<i>a</i>,<i>b</i>)=<i>b</i>−<i>a</i>; its kernel is the diagonal even though both
 factor differentials have zero kernel.  Therefore the formula
-$`\ker D_\mathrm{st}=K_t\otimes K_x`$ below is not a formula for an arbitrary
+ker <i>D</i><sub>st</sub>=<i>K</i><sub><i>t</i></sub> ⊗ <i>K</i><sub><i>x</i></sub> below is not a formula for an arbitrary
 total-complex differential.  It belongs to the stacked one-bidegree map,
 where the two directional derivatives are retained as separate output
 components.
@@ -911,8 +911,8 @@ components.
 The preceding theorem treats the genuine graded total complex.  The
 finite tensor cells used later employ a related but distinct stacked map.
 Let
-$`(E_a,F_a,D_a,b_a,M_a)`$, $`a\in\{t,x\}`$, be compatible Stokes data,
-and let $`G_a:E_a\times E_a\to\mathbb{R}`$ be symmetric interior pairings.  Put
+(<i>E</i><sub><i>a</i></sub>,<i>F</i><sub><i>a</i></sub>,<i>D</i><sub><i>a</i></sub>,<i>b</i><sub><i>a</i></sub>,<i>M</i><sub><i>a</i></sub>), <i>a</i> ∈ {<i>t</i>,<i>x</i>}, be compatible Stokes data,
+and let <i>G</i><sub><i>a</i></sub>:<i>E</i><sub><i>a</i></sub> × <i>E</i><sub><i>a</i></sub> → ℝ be symmetric interior pairings.  Put
 
 <a name="v12-eq-est"></a>
 
@@ -929,7 +929,7 @@ E_\mathrm{st}&=E_t\otimes E_x,\\
 \end{aligned}
 ```
 
-where the sign $`\Gamma_t`$ is inserted in the second component when the
+where the sign Γ<sub><i>t</i></sub> is inserted in the second component when the
 chosen bidegree requires it.  Unlike [Equation (14)](#v12-eq-total-differential), the two
 directional images in [Equation (27)](#v12-eq-dst-gradient) are not added.
 
@@ -937,7 +937,7 @@ directional images in [Equation (27)](#v12-eq-dst-gradient) are not added.
 
 <a name="v12-thm-product-representative"></a>
 
-There is a compatible product representative $`M_\mathrm{st}^0`$ defined on
+There is a compatible product representative <i>M</i><sub>st</sub><sup>0</sup> defined on
 simple tensors by
 
 <a name="v12-eq-product-representative"></a>
@@ -968,8 +968,8 @@ and extended bilinearly.  Its boundary form is
 The first summand is supported on the temporal caps and the second on the
 spatial mantle.
 
-*Proof.* It suffices to test pure tensors $`z=z_t\otimes z_x`$ and
-$`w=w_t\otimes w_x`$.  Substitution of [Equation (27)](#v12-eq-dst-gradient) into
+*Proof.* It suffices to test pure tensors <i>z</i>=<i>z</i><sub><i>t</i></sub> ⊗ <i>z</i><sub><i>x</i></sub> and
+<i>w</i>=<i>w</i><sub><i>t</i></sub> ⊗ <i>w</i><sub><i>x</i></sub>.  Substitution of [Equation (27)](#v12-eq-dst-gradient) into
 [Equation (28)](#v12-eq-product-representative) gives
 
 ```math
@@ -982,8 +982,8 @@ $`w=w_t\otimes w_x`$.  Substitution of [Equation (27)](#v12-eq-dst-gradient) int
 ```
 
 Factor compatibility turns this expression into
-$`b_t(z_t,w_t)G_x(z_x,w_x)+G_t(z_t,w_t)b_x(z_x,w_x)`$.
-Pure tensors span $`E_\mathrm{st}`$, proving the result.  In the graded
+<i>b</i><sub><i>t</i></sub>(<i>z</i><sub><i>t</i></sub>,<i>w</i><sub><i>t</i></sub>)<i>G</i><sub><i>x</i></sub>(<i>z</i><sub><i>x</i></sub>,<i>w</i><sub><i>x</i></sub>)+<i>G</i><sub><i>t</i></sub>(<i>z</i><sub><i>t</i></sub>,<i>w</i><sub><i>t</i></sub>)<i>b</i><sub><i>x</i></sub>(<i>z</i><sub><i>x</i></sub>,<i>w</i><sub><i>x</i></sub>).
+Pure tensors span <i>E</i><sub>st</sub>, proving the result.  In the graded
 version the Koszul sign in [Equation (14)](#v12-eq-total-differential) produces the
 oriented sign in the mantle term.
 
@@ -991,8 +991,8 @@ oriented sign in the mantle term.
 
 ### 4.2. Classification and sector decomposition
 
-Write $`K_a=\ker D_a`$, $`n_a=\dim E_a`$, and
-$`k_a=\dim K_a`$ for $`a\in\{t,x\}`$.
+Write <i>K</i><sub><i>a</i></sub>=ker <i>D</i><sub><i>a</i></sub>, <i>n</i><sub><i>a</i></sub>=dim <i>E</i><sub><i>a</i></sub>, and
+<i>k</i><sub><i>a</i></sub>=dim <i>K</i><sub><i>a</i></sub> for <i>a</i> ∈ {<i>t</i>,<i>x</i>}.
 
 **Theorem 4.6. Full active gauge of the stacked cylinder cell.**
 
@@ -1056,12 +1056,12 @@ Its dimension is
  =\frac{r_\mathrm{st}(r_\mathrm{st}-1)}2.
 ```
 
-*Proof.* The kernel of $`D_t\otimes I`$ is $`K_t\otimes E_x`$, while the kernel
-of $`I\otimes D_x`$ is $`E_t\otimes K_x`$.  Their intersection is
-$`K_t\otimes K_x`$, proving [Equation (30)](#v12-eq-space-time-kernel); rank–nullity
+*Proof.* The kernel of <i>D</i><sub><i>t</i></sub> ⊗ <i>I</i> is <i>K</i><sub><i>t</i></sub> ⊗ <i>E</i><sub><i>x</i></sub>, while the kernel
+of <i>I</i> ⊗ <i>D</i><sub><i>x</i></sub> is <i>E</i><sub><i>t</i></sub> ⊗ <i>K</i><sub><i>x</i></sub>.  Their intersection is
+<i>K</i><sub><i>t</i></sub> ⊗ <i>K</i><sub><i>x</i></sub>, proving [Equation (30)](#v12-eq-space-time-kernel); rank–nullity
 gives [Equation (31)](#v12-eq-space-time-rank).  The product representative in
 [Theorem 4.5](#v12-thm-product-representative) proves existence, and
-[Theorem 2.2](#v12-thm-affine-stokes) applied to $`D_\mathrm{st}`$ gives
+[Theorem 2.2](#v12-thm-affine-stokes) applied to <i>D</i><sub>st</sub> gives
 [Equation (32)](#v12-eq-space-time-affine-family)–[Equation (34)](#v12-eq-space-time-gauge-dimension).
 
 ∎
@@ -1094,16 +1094,16 @@ There is a canonical short exact sequence
 
 The subspace on the left contains the pure temporal and pure spatial
 directions.  The quotient on the right is the canonical mixed sector.
-A choice of complements of $`K_t`$ and $`K_x`$ supplies a natural
+A choice of complements of <i>K</i><sub><i>t</i></sub> and <i>K</i><sub><i>x</i></sub> supplies a natural
 factorized splitting of this filtration.  General linear sections of
-$`\pi_{tx}`$ need not arise from such a pair of complements.
+<i>π</i><sub><i>tx</i></sub> need not arise from such a pair of complements.
 
 *Proof.* The tensor product of the quotient maps
 $`E_t\to\overline E_t`$ and $`E_x\to\overline E_x`$ vanishes on
-$`K_t\otimes K_x`$, hence induces $`\pi_{tx}`$.  Its kernel is the image
-of $`E_t\otimes K_x+K_t\otimes E_x`$ modulo
-$`K_t\otimes K_x`$.  Quotienting the intersection
-$`(E_t\otimes K_x)\cap(K_t\otimes E_x)=K_t\otimes K_x`$
+<i>K</i><sub><i>t</i></sub> ⊗ <i>K</i><sub><i>x</i></sub>, hence induces <i>π</i><sub><i>tx</i></sub>.  Its kernel is the image
+of <i>E</i><sub><i>t</i></sub> ⊗ <i>K</i><sub><i>x</i></sub>+<i>K</i><sub><i>t</i></sub> ⊗ <i>E</i><sub><i>x</i></sub> modulo
+<i>K</i><sub><i>t</i></sub> ⊗ <i>K</i><sub><i>x</i></sub>.  Quotienting the intersection
+(<i>E</i><sub><i>t</i></sub> ⊗ <i>K</i><sub><i>x</i></sub>) ∩ (<i>K</i><sub><i>t</i></sub> ⊗ <i>E</i><sub><i>x</i></sub>)=<i>K</i><sub><i>t</i></sub> ⊗ <i>K</i><sub><i>x</i></sub>
 identifies this kernel with the direct sum on the left of
 [Equation (35)](#v12-eq-canonical-sector-sequence).  Surjectivity follows from that of
 the two factor quotient maps.
@@ -1114,8 +1114,8 @@ the two factor quotient maps.
 
 <a name="v12-cor-gauge-sectors"></a>
 
-Choose complements $`E_t=K_t\oplus U_t`$ and
-$`E_x=K_x\oplus U_x`$.  Then
+Choose complements <i>E</i><sub><i>t</i></sub>=<i>K</i><sub><i>t</i></sub> ⊕ <i>U</i><sub><i>t</i></sub> and
+<i>E</i><sub><i>x</i></sub>=<i>K</i><sub><i>x</i></sub> ⊕ <i>U</i><sub><i>x</i></sub>.  Then
 
 <a name="v12-eq-quotient-sector-split"></a>
 **Equation (36).**
@@ -1150,14 +1150,14 @@ Accordingly,
 ```
 
 The summands contain pure temporal, pure spatial, mixed, and cross-sector
-gauges.  The total space $`\mathcal G_\mathrm{st}`$, the pure subspace, and
+gauges.  The total space 𝒢<sub>st</sub>, the pure subspace, and
 the mixed quotient in [Equation (35)](#v12-eq-canonical-sector-sequence) are intrinsic;
 only the displayed direct-sum splitting depends on the chosen complements.
 
 *Proof.* Expanding
-$`(K_t\oplus U_t)\otimes(K_x\oplus U_x)`$ and quotienting by
-$`K_t\otimes K_x`$ gives [Equation (36)](#v12-eq-quotient-sector-split).  For a direct
-sum $`Q=Q_1\oplus Q_2\oplus Q_3`$, the standard exterior-square identity
+(<i>K</i><sub><i>t</i></sub> ⊕ <i>U</i><sub><i>t</i></sub>) ⊗ (<i>K</i><sub><i>x</i></sub> ⊕ <i>U</i><sub><i>x</i></sub>) and quotienting by
+<i>K</i><sub><i>t</i></sub> ⊗ <i>K</i><sub><i>x</i></sub> gives [Equation (36)](#v12-eq-quotient-sector-split).  For a direct
+sum <i>Q</i>=<i>Q</i><sub>1</sub> ⊕ <i>Q</i><sub>2</sub> ⊕ <i>Q</i><sub>3</sub>, the standard exterior-square identity
 is
 $`\Lambda^2Q^*=\bigoplus_i\Lambda^2Q_i^* \oplus\bigoplus_{i<j}Q_i^*\otimes Q_j^*`$, which proves [Equation (37)](#v12-eq-wedge-sector-split).
 
@@ -1167,7 +1167,7 @@ $`\Lambda^2Q^*=\bigoplus_i\Lambda^2Q_i^* \oplus\bigoplus_{i<j}Q_i^*\otimes Q_j^*
 
 <a name="v12-prop-boundary-reductions"></a>
 
-For nonzero $`k_t\in K_t`$ and $`k_x\in K_x`$, the maps
+For nonzero <i>k</i><sub><i>t</i></sub> ∈ <i>K</i><sub><i>t</i></sub> and <i>k</i><sub><i>x</i></sub> ∈ <i>K</i><sub><i>x</i></sub>, the maps
 
 ```math
 \begin{aligned}
@@ -1178,20 +1178,20 @@ For nonzero $`k_t\in K_t`$ and $`k_x\in K_x`$, the maps
 \end{aligned}
 ```
 
-are injective.  Pullback by $`\iota_t`$ and $`\iota_x`$ sends a
+are injective.  Pullback by <i>ι</i><sub><i>t</i></sub> and <i>ι</i><sub><i>x</i></sub> sends a
 space–time gauge to its pure temporal and pure spatial restrictions.  In
 particular, the time-constant pullback contains the polynomial spatial
 gauges of [[20]](#v12-ref-moulla2012).  A cap-to-cap temporal method on the full
 spatial state space is obtained only after eliminating the interior
 spatial flows; it generally receives contributions from
-$`Q_t\oplus Q_{tx}`$.  The next sections classify that reduced boundary
-gauge.  A gauge supported entirely on $`Q_{tx}`$ can be nonzero while both
+<i>Q</i><sub><i>t</i></sub> ⊕ <i>Q</i><sub><i>tx</i></sub>.  The next sections classify that reduced boundary
+gauge.  A gauge supported entirely on <i>Q</i><sub><i>tx</i></sub> can be nonzero while both
 pure-axis restrictions vanish.
 
-*Proof.* If $`z_t\otimes k_x\in K_t\otimes K_x`$ and $`k_x\ne0`$, then
-$`z_t\in K_t`$; hence $`\iota_t`$ is injective.  The spatial statement is
+*Proof.* If <i>z</i><sub><i>t</i></sub> ⊗ <i>k</i><sub><i>x</i></sub> ∈ <i>K</i><sub><i>t</i></sub> ⊗ <i>K</i><sub><i>x</i></sub> and <i>k</i><sub><i>x</i></sub> ≠ 0, then
+<i>z</i><sub><i>t</i></sub> ∈ <i>K</i><sub><i>t</i></sub>; hence <i>ι</i><sub><i>t</i></sub> is injective.  The spatial statement is
 identical.  Alternating forms pull back functorially.  Finally a form
-supported on $`Q_{tx}`$ vanishes on the images of both pure embeddings.
+supported on <i>Q</i><sub><i>tx</i></sub> vanishes on the images of both pure embeddings.
 
 ∎
 
@@ -1210,7 +1210,7 @@ Let
 Q_\mathrm{st}=E_\mathrm{st}/K_\mathrm{st}
 ```
 
-be the active volume space and let $`Q_\partial`$ be the chosen active cap
+be the active volume space and let <i>Q</i><sub>∂</sub> be the chosen active cap
 space.  After fixing the four ingredients above, call the reduction
 *regular* if the interior equations determine a linear reconstruction
 
@@ -1222,15 +1222,15 @@ space.  After fixing the four ingredients above, call the reduction
  L_h:Q_\partial\longrightarrow Q_\mathrm{st}.
 ```
 
-The notation permits $`L_h`$ to depend on the selected constitutive law
-and on $`h`$, but it is held fixed while the following affine gauge
+The notation permits <i>L</i><sub><i>h</i></sub> to depend on the selected constitutive law
+and on <i>h</i>, but it is held fixed while the following affine gauge
 reduction is classified.
 
 **Theorem 4.10. Exact visibility sequence for volume-to-cap gauges.**
 
 <a name="v12-thm-volume-cap-reduction"></a>
 
-For a regular reconstruction $`L_h`$, the homogeneous volume-to-cap reduction is
+For a regular reconstruction <i>L</i><sub><i>h</i></sub>, the homogeneous volume-to-cap reduction is
 the pullback map
 
 <a name="v12-eq-volume-cap-pullback"></a>
@@ -1285,7 +1285,7 @@ and
  \omega|_{W_h\times W_h}=0\right\}.
 ```
 
-Equivalently, restriction to $`W_h`$ gives the short exact sequence
+Equivalently, restriction to <i>W</i><sub><i>h</i></sub> gives the short exact sequence
 
 <a name="v12-eq-volume-cap-exact-sequence"></a>
 **Equation (42).**
@@ -1316,32 +1316,32 @@ Consequently,
 \end{aligned}
 ```
 
-If $`L_h`$ is injective, every cap gauge has a volume extension.  If
-$`L_h`$ is surjective, no nonzero volume gauge is invisible on all cap
-data.  In particular, an isomorphism $`L_h`$ induces an isomorphism of
+If <i>L</i><sub><i>h</i></sub> is injective, every cap gauge has a volume extension.  If
+<i>L</i><sub><i>h</i></sub> is surjective, no nonzero volume gauge is invisible on all cap
+data.  In particular, an isomorphism <i>L</i><sub><i>h</i></sub> induces an isomorphism of
 gauge spaces.
 
-*Proof.* If $`k\in K_{\partial,h}`$, then
-$`(L_h^*\omega)(k,\xi)=\omega(0,L_h\xi)=0`$, proving the inclusion from
+*Proof.* If <i>k</i> ∈ <i>K</i><sub>∂,<i>h</i></sub>, then
+(<i>L</i><sub><i>h</i></sub><sup>∗</sup><i>ω</i>)(<i>k</i>,<i>ξ</i>)=<i>ω</i>(0,<i>L</i><sub><i>h</i></sub><i>ξ</i>)=0, proving the inclusion from
 left to right in [Equation (40)](#v12-eq-volume-cap-image).  Conversely, every
-$`\eta`$ satisfying the annihilation condition descends uniquely to an
-alternating form on $`Q_\partial/K_{\partial,h}`$.  The induced map
+<i>η</i> satisfying the annihilation condition descends uniquely to an
+alternating form on <i>Q</i><sub>∂</sub>/<i>K</i><sub>∂,<i>h</i></sub>.  The induced map
 
 ```math
 \overline L_h:Q_\partial/K_{\partial,h}\longrightarrow W_h
 ```
 
-is an isomorphism.  Transport $`\eta`$ to $`W_h`$ by this isomorphism and
-extend the resulting alternating form from $`W_h`$ to $`Q_\mathrm{st}`$
-using any linear complement of $`W_h`$.  Its pullback is $`\eta`$, so
+is an isomorphism.  Transport <i>η</i> to <i>W</i><sub><i>h</i></sub> by this isomorphism and
+extend the resulting alternating form from <i>W</i><sub><i>h</i></sub> to <i>Q</i><sub>st</sub>
+using any linear complement of <i>W</i><sub><i>h</i></sub>.  Its pullback is <i>η</i>, so
 [Equation (40)](#v12-eq-volume-cap-image) and surjectivity in
 [Equation (42)](#v12-eq-volume-cap-exact-sequence) follow.
 
-The pullback vanishes exactly when $`\omega`$ vanishes on every pair of
-vectors in $`W_h`$, which is [Equation (41)](#v12-eq-volume-cap-kernel).  Since
-$`\dim W_h=r_h`$, the two dimension formulas follow.  Injectivity of
-$`L_h`$ means $`K_{\partial,h}=0`$, while surjectivity means
-$`W_h=Q_\mathrm{st}`$; the final claims are immediate.
+The pullback vanishes exactly when <i>ω</i> vanishes on every pair of
+vectors in <i>W</i><sub><i>h</i></sub>, which is [Equation (41)](#v12-eq-volume-cap-kernel).  Since
+dim <i>W</i><sub><i>h</i></sub>=<i>r</i><sub><i>h</i></sub>, the two dimension formulas follow.  Injectivity of
+<i>L</i><sub><i>h</i></sub> means <i>K</i><sub>∂,<i>h</i></sub>=0, while surjectivity means
+<i>W</i><sub><i>h</i></sub>=<i>Q</i><sub>st</sub>; the final claims are immediate.
 
 ∎
 
@@ -1350,7 +1350,7 @@ $`W_h=Q_\mathrm{st}`$; the final claims are immediate.
 <a name="v12-cor-affine-volume-cap"></a>
 
 Assume that a reference compatible volume pairing reduces, under the same
-fixed reconstruction, to a cap pairing $`m_{\partial,0}`$.  Then the full reduced
+fixed reconstruction, to a cap pairing <i>m</i><sub>∂,0</sub>.  Then the full reduced
 family is
 
 <a name="v12-eq-reduced-affine-family"></a>
@@ -1362,7 +1362,7 @@ family is
  =m_{\partial,0}+L_h^*\omega.
 ```
 
-For every cap increment $`\xi`$,
+For every cap increment <i>ξ</i>,
 
 ```math
 (L_h^*\omega)(\xi,\xi)=0.
@@ -1377,9 +1377,9 @@ identity.
 
 Let
 $`Q_{tx}=\overline E_t\otimes\overline E_x`$ and let
-$`\pi_{tx}:Q_\mathrm{st}\to Q_{tx}`$ be the canonical quotient map in
+<i>π</i><sub><i>tx</i></sub>:<i>Q</i><sub>st</sub> → <i>Q</i><sub><i>tx</i></sub> be the canonical quotient map in
 [Equation (35)](#v12-eq-canonical-sector-sequence).  Pullback embeds the canonical mixed
-gauges as $`\pi_{tx}^*\Lambda^2Q_{tx}^*\subset\Lambda^2Q_\mathrm{st}^*`$, and
+gauges as <i>π</i><sub><i>tx</i></sub><sup>∗</sup>Λ<sup>2</sup><i>Q</i><sub><i>tx</i></sub><sup>∗</sup> ⊂ Λ<sup>2</sup><i>Q</i><sub>st</sub><sup>∗</sup>, and
 
 <a name="v12-eq-intrinsic-mixed-pullback"></a>
 **Equation (46).**
@@ -1392,7 +1392,7 @@ gauges as $`\pi_{tx}^*\Lambda^2Q_{tx}^*\subset\Lambda^2Q_\mathrm{st}^*`$, and
  \quad}
 ```
 
-If $`r_{tx,h}=\operatorname{rank}(\pi_{tx}L_h)`$, then the visible
+If <i>r</i><sub><i>tx</i>,<i>h</i></sub>=rank(<i>π</i><sub><i>tx</i></sub><i>L</i><sub><i>h</i></sub>), then the visible
 canonical mixed family has dimension
 
 <a name="v12-eq-mixed-visibility-dimension"></a>
@@ -1404,8 +1404,8 @@ canonical mixed family has dimension
  =\binom{r_{tx,h}}2.
 ```
 
-Its kernel consists exactly of the forms on $`Q_{tx}`$ that vanish on
-$`\operatorname{im}(\pi_{tx}L_h)\times \operatorname{im}(\pi_{tx}L_h)`$, and has dimension
+Its kernel consists exactly of the forms on <i>Q</i><sub><i>tx</i></sub> that vanish on
+im(<i>π</i><sub><i>tx</i></sub><i>L</i><sub><i>h</i></sub>) × im(<i>π</i><sub><i>tx</i></sub><i>L</i><sub><i>h</i></sub>), and has dimension
 
 ```math
 \binom{\dim Q_{tx}}2-\binom{r_{tx,h}}2.
@@ -1425,8 +1425,8 @@ pullback is nonzero if and only if
 A prescribed nonzero mixed form may nevertheless belong to the kernel.
 
 *Proof.* Functoriality gives
-$`L_h^*\pi_{tx}^*=(\pi_{tx}L_h)^*`$.  Apply
-[Theorem 4.10](#v12-thm-volume-cap-reduction) to the single map $`\pi_{tx}L_h`$.  The
+<i>L</i><sub><i>h</i></sub><sup>∗</sup><i>π</i><sub><i>tx</i></sub><sup>∗</sup>=(<i>π</i><sub><i>tx</i></sub><i>L</i><sub><i>h</i></sub>)<sup>∗</sup>.  Apply
+[Theorem 4.10](#v12-thm-volume-cap-reduction) to the single map <i>π</i><sub><i>tx</i></sub><i>L</i><sub><i>h</i></sub>.  The
 image, kernel, and dimension statements follow verbatim and require no
 choice of tensor complements.
 
@@ -1437,7 +1437,7 @@ choice of tensor complements.
 <a name="v12-prop-schur-lifting"></a>
 
 Suppose a linear Dirac–constitutive cell has been partitioned into
-interior variables $`z_i`$ and cap variables $`\xi`$, and its interior
+interior variables <i>z</i><sub><i>i</i></sub> and cap variables <i>ξ</i>, and its interior
 equations are
 
 <a name="v12-eq-interior-block-system"></a>
@@ -1448,7 +1448,7 @@ equations are
  K_{ii}(h)z_i+K_{i\partial}(h)\xi=0.
 ```
 
-If $`K_{ii}(h)`$ is invertible, the regular reconstruction is
+If <i>K</i><sub><i>ii</i></sub>(<i>h</i>) is invertible, the regular reconstruction is
 
 <a name="v12-eq-schur-lifting"></a>
 **Equation (50).**
@@ -1461,7 +1461,7 @@ If $`K_{ii}(h)`$ is invertible, the regular reconstruction is
  \end{bmatrix}.
 ```
 
-In coordinates, a volume gauge matrix $`\Omega_\mathrm{st}^\top =-\Omega_\mathrm{st}`$ reduces to
+In coordinates, a volume gauge matrix Ω<sub>st</sub><sup>⊤</sup>=−Ω<sub>st</sub> reduces to
 
 <a name="v12-eq-schur-gauge"></a>
 **Equation (51).**
@@ -1481,10 +1481,10 @@ form of [Equation (39)](#v12-eq-volume-cap-pullback).
 
 <a name="v12-thm-trace-generated-condensation"></a>
 
-Let $`X`$ be the active cap state space and $`Z_h`$ a raw cell space.  Let
-$`T_h:Z_h\to X`$ be onto, let $`Q:X\to X^*`$ be symmetric, and let
-$`J:X^*\to X`$ be skew.  For an alternating cap map
-$`S_h:X\to X^*`$, put
+Let <i>X</i> be the active cap state space and <i>Z</i><sub><i>h</i></sub> a raw cell space.  Let
+<i>T</i><sub><i>h</i></sub>:<i>Z</i><sub><i>h</i></sub> → <i>X</i> be onto, let <i>Q</i>:<i>X</i> → <i>X</i><sup>∗</sup> be symmetric, and let
+<i>J</i>:<i>X</i><sup>∗</sup> → <i>X</i> be skew.  For an alternating cap map
+<i>S</i><sub><i>h</i></sub>:<i>X</i> → <i>X</i><sup>∗</sup>, put
 
 <a name="v12-eq-trace-generated-volume-form"></a>
 **Equation (52).**
@@ -1495,7 +1495,7 @@ $`S_h:X\to X^*`$, put
 ```
 
 It descends to $`\overline\Omega_h`$ on
-$`\overline Z_h=Z_h/\ker T_h`$.  Given $`x_0`$, consider the weak cell
+$`\overline Z_h=Z_h/\ker T_h`$.  Given <i>x</i><sub>0</sub>, consider the weak cell
 equations for $`([z],e,x_1)\in\overline Z_h\times X^*\times X`$:
 
 <a name="v12-eq-raw-cell-trace"></a>
@@ -1516,7 +1516,7 @@ equations for $`([z],e,x_1)\in\overline Z_h\times X^*\times X`$:
 \end{aligned}
 ```
 
-Then the cap closure encoded by $`\Omega_h`$ is recovered exactly by
+Then the cap closure encoded by Ω<sub><i>h</i></sub> is recovered exactly by
 elimination:
 
 <a name="v12-eq-condensed-cap-closure"></a>
@@ -1552,12 +1552,12 @@ If
  \quad\text{is invertible},
 ```
 
-it defines a unique map from $`x_0`$ to $`x_1`$.  The physical variables
-$`(e,x_1)`$ are independent of the representative
-of $`[z]`$ and of the right inverse used to coordinatize the quotient.
+it defines a unique map from <i>x</i><sub>0</sub> to <i>x</i><sub>1</sub>.  The physical variables
+(<i>e</i>,<i>x</i><sub>1</sub>) are independent of the representative
+of &#91;<i>z</i>&#93; and of the right inverse used to coordinatize the quotient.
 
-In Euclidean coordinates, let the columns of $`N_h`$ form an orthonormal
-basis of $`\ker T_h`$.  A square raw assembly, with a multiplier fixing
+In Euclidean coordinates, let the columns of <i>N</i><sub><i>h</i></sub> form an orthonormal
+basis of ker <i>T</i><sub><i>h</i></sub>.  A square raw assembly, with a multiplier fixing
 the null component, is
 
 <a name="v12-eq-raw-cell-block-system"></a>
@@ -1577,12 +1577,12 @@ the null component, is
 ```
 
 Under [Equation (58)](#v12-eq-trace-generated-invertibility), this square system is
-invertible and its Schur map from $`x_0`$ to $`x_1`$ is exactly
+invertible and its Schur map from <i>x</i><sub>0</sub> to <i>x</i><sub>1</sub> is exactly
 [Equation (57)](#v12-eq-trace-generated-cap-map).  Thus the prescribed cap gauge is not
 attached as an additional reduced equation: it is encoded by the
 trace-generated volume form and recovered exactly from the raw cell.
 
-*Proof.* Because $`T_h`$ is onto, the induced map
+*Proof.* Because <i>T</i><sub><i>h</i></sub> is onto, the induced map
 $`\overline T_h:\overline Z_h\to X`$ is an isomorphism and
 $`\overline T_h^*`$ is injective.  Using
 [Equation (52)](#v12-eq-trace-generated-volume-form), [Equation (53)](#v12-eq-raw-cell-trace), the third cell
@@ -1601,21 +1601,21 @@ x_1-x_0=hJ\bigl(Q\overline x-S_h(x_1-x_0)\bigr),
 ```
 
 which rearranges to [Equation (57)](#v12-eq-trace-generated-cap-map).  If
-$`R_h:X\to Z_h`$ is any right inverse, then
+<i>R</i><sub><i>h</i></sub>:<i>X</i> → <i>Z</i><sub><i>h</i></sub> is any right inverse, then
 
 ```math
 R_h^*\Omega_hR_h
  =(T_hR_h)^*S_h(T_hR_h)=S_h.
 ```
 
-Two right inverses differ by a map into $`\ker T_h`$, on which
-$`\Omega_h`$ vanishes.  Finally, the last row of
+Two right inverses differ by a map into ker <i>T</i><sub><i>h</i></sub>, on which
+Ω<sub><i>h</i></sub> vanishes.  Finally, the last row of
 [Equation (59)](#v12-eq-raw-cell-block-system) selects the orthogonal representative;
 the third row is the unquotiented weak equation.  Eliminating
-$`(z,e,\lambda)`$ reproduces the preceding calculation.  Under
+(<i>z</i>,<i>e</i>,<i>λ</i>) reproduces the preceding calculation.  Under
 [Equation (58)](#v12-eq-trace-generated-invertibility), a homogeneous right-hand side
-first gives $`x_1=e=0`$ from the condensed equations, then $`z=0`$ from
-$`T_hz=0`$ and $`N_h^*z=0`$, and finally $`\lambda=0`$.  The square raw
+first gives <i>x</i><sub>1</sub>=<i>e</i>=0 from the condensed equations, then <i>z</i>=0 from
+<i>T</i><sub><i>h</i></sub><i>z</i>=0 and <i>N</i><sub><i>h</i></sub><sup>∗</sup><i>z</i>=0, and finally <i>λ</i>=0.  The square raw
 system is therefore invertible.
 
 ∎
@@ -1629,22 +1629,22 @@ flowchart TD
     R -->|"Quotient and right inverse"| C
 ```
 
-The raw cylinder $`Z_h`$ is considered modulo $`\ker T_h`$. Trace assembly $`T_h`$ defines the local cell $`(z,e,x_1,\lambda)`$ with $`\Omega_h=T_h^*S_hT_h`$, whose condensed cap propagator is $`M_{S,h}`$. The lower route expresses $`R_h^*\Omega_hR_h=S_h`$.
+The raw cylinder <i>Z</i><sub><i>h</i></sub> is considered modulo ker <i>T</i><sub><i>h</i></sub>. Trace assembly <i>T</i><sub><i>h</i></sub> defines the local cell (<i>z</i>,<i>e</i>,<i>x</i><sub>1</sub>,<i>λ</i>) with Ω<sub><i>h</i></sub>=<i>T</i><sub><i>h</i></sub><sup>∗</sup><i>S</i><sub><i>h</i></sub><i>T</i><sub><i>h</i></sub>, whose condensed cap propagator is <i>M</i><sub><i>S</i>,<i>h</i></sub>. The lower route expresses <i>R</i><sub><i>h</i></sub><sup>∗</sup>Ω<sub><i>h</i></sub><i>R</i><sub><i>h</i></sub>=<i>S</i><sub><i>h</i></sub>.
 
 **Figure 2.** Exact raw-cell realization of a prescribed cap gauge.  The lower
 identity is independent of the chosen section; the upper path shows that
-the gauge encoded in $`\Omega_h=T_h^*S_hT_h`$ is recovered exactly by
-elimination.  No claim of selecting $`S_h`$ from independent interior
+the gauge encoded in Ω<sub><i>h</i></sub>=<i>T</i><sub><i>h</i></sub><sup>∗</sup><i>S</i><sub><i>h</i></sub><i>T</i><sub><i>h</i></sub> is recovered exactly by
+elimination.  No claim of selecting <i>S</i><sub><i>h</i></sub> from independent interior
 dynamics is made here.
 
 **Remark 4.15. Singular interior problems.**
 
-If $`K_{ii}(h)`$ is singular, the interior solution may be nonunique or
+If <i>K</i><sub><i>ii</i></sub>(<i>h</i>) is singular, the interior solution may be nonunique or
 subject to compatibility constraints.  The reduction is then a linear
-relation rather than a map $`L_h`$, and composition of Dirac relations or
+relation rather than a map <i>L</i><sub><i>h</i></sub>, and composition of Dirac relations or
 presymplectic reduction is required.  Likewise, if changing the volume
-gauge changes the interior solve, one obtains $`L_h^\omega`$ and the
-global map $`\omega\mapsto(L_h^\omega)^*\omega`$ need not be affine.
+gauge changes the interior solve, one obtains <i>L</i><sub><i>h</i></sub><sup><i>ω</i></sup> and the
+global map <i>ω</i> ↦ (<i>L</i><sub><i>h</i></sub><sup><i>ω</i></sup>)<sup>∗</sup><i>ω</i> need not be affine.
 [Theorem 4.10](#v12-thm-volume-cap-reduction) classifies the exact gauge freedom within
 each fixed regular reduction chart; it does not hide these hypotheses.
 
@@ -1652,13 +1652,13 @@ each fixed regular reduction chart; it does not hide these hypotheses.
 
 <a name="v12-prop-gauge-dependent-tangent"></a>
 
-Suppose $`\omega\mapsto L_h^\omega`$ is differentiable and define
+Suppose <i>ω</i> ↦ <i>L</i><sub><i>h</i></sub><sup><i>ω</i></sup> is differentiable and define
 
 ```math
 \mathcal F_h(\omega)=(L_h^\omega)^*\omega.
 ```
 
-For $`\xi,\zeta\in Q_\partial`$,
+For <i>ξ</i>,<i>ζ</i> ∈ <i>Q</i><sub>∂</sub>,
 
 <a name="v12-eq-gauge-dependent-differential"></a>
 **Equation (60).**
@@ -1689,8 +1689,8 @@ family in [Theorem 4.14](#v12-thm-trace-generated-condensation), the stronger fi
 identity holds because the quotient trace itself is gauge independent.
 
 *Proof.* Differentiate
-$`\omega(L_h^\omega\xi,L_h^\omega\zeta)`$ by the product rule.  At
-$`\omega=0`$, the two terms containing the undifferentiated form vanish.
+<i>ω</i>(<i>L</i><sub><i>h</i></sub><sup><i>ω</i></sup><i>ξ</i>,<i>L</i><sub><i>h</i></sub><sup><i>ω</i></sup><i>ζ</i>) by the product rule.  At
+<i>ω</i>=0, the two terms containing the undifferentiated form vanish.
 
 ∎
 
@@ -1701,14 +1701,14 @@ $`\omega=0`$, the two terms containing the undifferentiated form vanish.
 We now pass to the cap-to-cap problem obtained after eliminating interior
 spatial flows, while keeping the spatial state space arbitrary.  In the
 language of [Theorem 4.10](#v12-thm-volume-cap-reduction), its gauge belongs to the image
-of $`\mathcal R_{L_h}`$ and can therefore contain the trace of mixed
+of ℛ<sub><i>L</i><sub><i>h</i></sub></sub> and can therefore contain the trace of mixed
 space–time sectors precisely under [Equation (48)](#v12-eq-mixed-visibility-rank).  This
 is also the smallest setting in which the distinction between
 gauge-invariant power and gauge-dependent symplecticity is visible.
 
 ### 5.1. Temporal Stokes data
 
-Let $`V=\mathbb{R}^n`$, let $`Q=Q^\top`$, and define
+Let <i>V</i>=ℝ<sup><i>n</i></sup>, let <i>Q</i>=<i>Q</i><sup>⊤</sup>, and define
 
 ```math
 H(x)=\tfrac12x^\top Qx,\qquad
@@ -1727,7 +1727,7 @@ The polarized temporal boundary form is
  \qquad w=(y_0,y_1).
 ```
 
-Its restriction to $`K_t=\ker D_t=\{(x,x):x\in V\}`$ vanishes. Hence
+Its restriction to <i>K</i><sub><i>t</i></sub>=ker <i>D</i><sub><i>t</i></sub>={(<i>x</i>,<i>x</i>):<i>x</i> ∈ <i>V</i>} vanishes. Hence
 [Theorem 2.2](#v12-thm-affine-stokes) applies.
 
 A linear two-point effort is a linear map
@@ -1737,7 +1737,7 @@ $`\bar e:E_t\to V^*`$. It defines
 M_{\bar e}(z,v)=\bar e(z)[v].
 ```
 
-Taking $`w=z`$ in [Equation (4)](#v12-eq-stokes-compatibility) shows that compatibility is
+Taking <i>w</i>=<i>z</i> in [Equation (4)](#v12-eq-stokes-compatibility) shows that compatibility is
 exactly the polarized form of
 
 <a name="v12-eq-discrete-chain-rule"></a>
@@ -1753,7 +1753,7 @@ exactly the polarized form of
 <a name="v12-thm-two-point-gauge"></a>
 
 The linear efforts satisfying [Equation (63)](#v12-eq-discrete-chain-rule) for all
-$`x_0,x_1`$ are precisely
+<i>x</i><sub>0</sub>,<i>x</i><sub>1</sub> are precisely
 
 <a name="v12-eq-effort-intrinsic"></a>
 **Equation (64).**
@@ -1767,7 +1767,7 @@ $`x_0,x_1`$ are precisely
  \mathsf S\in\Lambda^2V^*.
 ```
 
-In coordinates, if $`S^\top=-S`$ represents $`\mathsf S`$, then
+In coordinates, if <i>S</i><sup>⊤</sup>=−<i>S</i> represents 𝖲, then
 
 <a name="v12-eq-effort-matrix"></a>
 **Equation (65).**
@@ -1777,7 +1777,7 @@ In coordinates, if $`S^\top=-S`$ represents $`\mathsf S`$, then
  \boxed{\ \bar e_S=Q\bar x-S\Delta x\ }.
 ```
 
-The affine family has dimension $`n(n-1)/2`$.
+The affine family has dimension <i>n</i>(<i>n</i>−1)/2.
 
 *Proof.* The midpoint effort $`Q\bar x`$ is compatible because
 
@@ -1787,13 +1787,13 @@ The affine family has dimension $`n(n-1)/2`$.
  =H(x_1)-H(x_0).
 ```
 
-Moreover, $`E_t/K_t\simeq V`$ through $`D_t`$. Applying
+Moreover, <i>E</i><sub><i>t</i></sub>/<i>K</i><sub><i>t</i></sub> ≃ <i>V</i> through <i>D</i><sub><i>t</i></sub>. Applying
 [Theorem 2.2](#v12-thm-affine-stokes), the difference from the midpoint pairing is an
-arbitrary $`\mathsf S\in\Lambda^2V^*`$ evaluated on
-$`(\Delta x,v)`$. Since
-$`\mathsf S(\Delta x,v)=(-S\Delta x)^\top v`$, this is
+arbitrary 𝖲 ∈ Λ<sup>2</sup><i>V</i><sup>∗</sup> evaluated on
+(Δ<i>x</i>,<i>v</i>). Since
+𝖲(Δ<i>x</i>,<i>v</i>)=(−<i>S</i>Δ<i>x</i>)<sup>⊤</sup><i>v</i>, this is
 [Equation (65)](#v12-eq-effort-matrix). Alternation makes its contraction with
-$`\Delta x`$ vanish.
+Δ<i>x</i> vanish.
 
 ∎
 
@@ -1812,13 +1812,13 @@ Consider the port-Hamiltonian step
  \bar y=G^\top\bar e_S,
 ```
 
-where $`J^\top=-J`$ and $`R^\top=R\succeq0`$.
+where <i>J</i><sup>⊤</sup>=−<i>J</i> and <i>R</i><sup>⊤</sup>=<i>R</i> ⪰ 0.
 
 **Corollary 5.2. Exact gauge-invariant power law.**
 
 <a name="v12-cor-power"></a>
 
-Every $`S^\top=-S`$ gives the exact identity
+Every <i>S</i><sup>⊤</sup>=−<i>S</i> gives the exact identity
 
 <a name="v12-eq-power-law"></a>
 **Equation (67).**
@@ -1829,11 +1829,11 @@ Every $`S^\top=-S`$ gives the exact identity
  =h\,\bar y^\top\bar u-h\,\bar e_S^\top R\bar e_S.
 ```
 
-For $`R=0`$, the discrete boundary supply is exact. For $`R\succeq0`$, the
+For <i>R</i>=0, the discrete boundary supply is exact. For <i>R</i> ⪰ 0, the
 step is passive.
 
 *Proof.* Pair [Equation (66)](#v12-eq-ph-step) with $`\bar e_S`$, use
-[Equation (63)](#v12-eq-discrete-chain-rule), skewness of $`J`$, and the definition of
+[Equation (63)](#v12-eq-discrete-chain-rule), skewness of <i>J</i>, and the definition of
 $`\bar y`$.
 
 ∎
@@ -1844,19 +1844,19 @@ The classical Cayley transform gives rational coordinates between a Lie
 algebra and an open cell of its matrix group
 [[19]](#v12-ref-kostant2001), [[24]](#v12-ref-maslovskaya2024).  The point here is not to rename that
 transform, but to identify the *constitutively shifted* variable
-$`I+hJS`$ selected by the discrete chain rule.  At fixed $`h`$, the cap
+<i>I</i>+<i>hJS</i> selected by the discrete chain rule.  At fixed <i>h</i>, the cap
 gauges thereby parametrize the energy-orthogonal maps having no
-eigenvalue $`+1`$.  This convention differs from the common Cayley cell
-that excludes $`-1`$: the group identity is not in the present cell, and
+eigenvalue +1.  This convention differs from the common Cayley cell
+that excludes −1: the group identity is not in the present cell, and
 the zero gauge represents the midpoint map rather than the identity.
 
-**Theorem 5.3. Gauge coordinate on the no-$`+1`$ Cayley cell of $`O(Q)`$.**
+**Theorem 5.3. Gauge coordinate on the no-+1 Cayley cell of <i>O</i>(<i>Q</i>).**
 
 <a name="v12-thm-gauge-cayley-chart"></a>
 
-Assume that $`J^\top=-J`$ and $`Q=Q^\top`$ are nonsingular, put
-$`A=JQ`$, $`\Omega=J^{-1}`$, and fix $`h\ne0`$.  For an alternating
-matrix $`S`$, define
+Assume that <i>J</i><sup>⊤</sup>=−<i>J</i> and <i>Q</i>=<i>Q</i><sup>⊤</sup> are nonsingular, put
+<i>A</i>=<i>JQ</i>, Ω=<i>J</i><sup>−1</sup>, and fix <i>h</i> ≠ 0.  For an alternating
+matrix <i>S</i>, define
 
 <a name="v12-eq-cap-cayley-blocks"></a>
 **Equation (68).**
@@ -1867,7 +1867,7 @@ matrix $`S`$, define
  \qquad M_S=B_-(S)^{-1}B_+(S),
 ```
 
-whenever $`B_-(S)`$ is invertible.  Then
+whenever <i>B</i><sub>−</sub>(<i>S</i>) is invertible.  Then
 
 <a name="v12-eq-gauge-cayley-bijection"></a>
 **Equation (69).**
@@ -1879,7 +1879,7 @@ whenever $`B_-(S)`$ is invertible.  Then
  \left\{M:M^\top QM=Q,\ M-I\text{ invertible}\right\}
 ```
 
-is a bijection, denoted by $`\Phi_h`$.  Its inverse is
+is a bijection, denoted by Φ<sub><i>h</i></sub>.  Its inverse is
 
 <a name="v12-eq-energy-cayley-ratio"></a>
 
@@ -1896,17 +1896,17 @@ R_M&=(M+I)(M-I)^{-1},\\
 
 *Proof.* The step equations are
 $`\Delta x=hJ(Q\bar x-S\Delta x)`$, so the discrete chain rule gives
-$`x_1^\top Qx_1=x_0^\top Qx_0`$.  Hence every well-defined $`M_S`$ is
-$`Q`$-orthogonal.  Moreover,
+<i>x</i><sub>1</sub><sup>⊤</sup><i>Qx</i><sub>1</sub>=<i>x</i><sub>0</sub><sup>⊤</sup><i>Qx</i><sub>0</sub>.  Hence every well-defined <i>M</i><sub><i>S</i></sub> is
+<i>Q</i>-orthogonal.  Moreover,
 
 ```math
 M_S-I=B_-(S)^{-1}hA,
 ```
 
-which is invertible because $`A`$ is.
+which is invertible because <i>A</i> is.
 
-Conversely, let $`M^\top QM=Q`$ and suppose $`M-I`$ is invertible.
-The Cayley ratio in [Equation (70)](#v12-eq-energy-cayley-ratio) is $`Q`$-skew:
+Conversely, let <i>M</i><sup>⊤</sup><i>QM</i>=<i>Q</i> and suppose <i>M</i>−<i>I</i> is invertible.
+The Cayley ratio in [Equation (70)](#v12-eq-energy-cayley-ratio) is <i>Q</i>-skew:
 
 <a name="v12-eq-q-skew-cayley-ratio"></a>
 **Equation (72).**
@@ -1916,9 +1916,9 @@ The Cayley ratio in [Equation (70)](#v12-eq-energy-cayley-ratio) is $`Q`$-skew:
  R_M^\top Q+QR_M=0.
 ```
 
-Indeed, multiplying the left-hand side by $`(M-I)^\top`$ and $`M-I`$
-reduces it to $`2(M^\top QM-Q)`$.  Since
-$`A^\top\Omega=-Q`$ and $`\Omega A=Q`$,
+Indeed, multiplying the left-hand side by (<i>M</i>−<i>I</i>)<sup>⊤</sup> and <i>M</i>−<i>I</i>
+reduces it to 2(<i>M</i><sup>⊤</sup><i>QM</i>−<i>Q</i>).  Since
+<i>A</i><sup>⊤</sup>Ω=−<i>Q</i> and Ω<i>A</i>=<i>Q</i>,
 
 ```math
 C_M^\top\Omega=-\frac h2R_M^\top Q
@@ -1926,17 +1926,17 @@ C_M^\top\Omega=-\frac h2R_M^\top Q
 ```
 
 It follows that
-$`S_M^\top=-S_M`$.  Finally,
+<i>S</i><sub><i>M</i></sub><sup>⊤</sup>=−<i>S</i><sub><i>M</i></sub>.  Finally,
 
 ```math
 C_M-\frac h2A=hA(M-I)^{-1},\qquad
  C_M+\frac h2A=hAM(M-I)^{-1},
 ```
 
-so $`B_-(S_M)`$ is invertible and
-$`B_-(S_M)^{-1}B_+(S_M)=M`$.  Solving
-$`B_-(S)M_S=B_+(S)`$ for $`I+hJS`$ gives
-$`C_{M_S}`$, proving that the two constructions are inverse.
+so <i>B</i><sub>−</sub>(<i>S</i><sub><i>M</i></sub>) is invertible and
+<i>B</i><sub>−</sub>(<i>S</i><sub><i>M</i></sub>)<sup>−1</sup><i>B</i><sub>+</sub>(<i>S</i><sub><i>M</i></sub>)=<i>M</i>.  Solving
+<i>B</i><sub>−</sub>(<i>S</i>)<i>M</i><sub><i>S</i></sub>=<i>B</i><sub>+</sub>(<i>S</i>) for <i>I</i>+<i>hJS</i> gives
+<i>C</i><sub><i>M</i><sub><i>S</i></sub></sub>, proving that the two constructions are inverse.
 
 ∎
 
@@ -1944,7 +1944,7 @@ $`C_{M_S}`$, proving that the two constructions are inverse.
 
 <a name="v12-cor-exact-flow-gauge"></a>
 
-Where $`e^{hA}-I`$ is invertible, the exact Hamiltonian flow is represented
+Where <i>e</i><sup><i>hA</i></sup>−<i>I</i> is invertible, the exact Hamiltonian flow is represented
 by
 
 <a name="v12-eq-exact-flow-gauge"></a>
@@ -1971,10 +1971,10 @@ The matrix function in brackets is regular at the origin and
   -\frac{h^3}{720}\Omega A^4+O(h^5).
 ```
 
-*Proof.* For $`M=e^{hA}`$, functional calculus gives
-$`(M+I)(M-I)^{-1}=\coth(hA/2)`$.  Apply
+*Proof.* For <i>M</i>=<i>e</i><sup><i>hA</i></sup>, functional calculus gives
+(<i>M</i>+<i>I</i>)(<i>M</i>−<i>I</i>)<sup>−1</sup>=coth (<i>hA</i>/2).  Apply
 [Equation (71)](#v12-eq-inverse-gauge-cayley); the series follows from the Bernoulli
-expansion of $`(z/2)\coth(z/2)`$.
+expansion of (<i>z</i>/2)coth (<i>z</i>/2).
 
 ∎
 
@@ -1983,24 +1983,24 @@ expansion of $`(z/2)\coth(z/2)`$.
 <a name="v12-rem-cayley-conditioning"></a>
 
 The inverse formula [Equation (70)](#v12-eq-energy-cayley-ratio) is an exact algebraic
-identity, but evaluating it from a rounded matrix $`M`$ is ill-conditioned
-as $`M\to I`$: both the subtraction $`M-I`$ and its inverse amplify
+identity, but evaluating it from a rounded matrix <i>M</i> is ill-conditioned
+as <i>M</i> → <i>I</i>: both the subtraction <i>M</i>−<i>I</i> and its inverse amplify
 perturbations.  This is intrinsic to recovering a finite gauge from the
 chosen group coordinate near the excluded identity.  It is not necessary
 when the map is known analytically.  For the exact flow one evaluates
-$`(z/2)\coth(z/2)-1`$ by its Bernoulli series or a cancellation-free
-matrix-function algorithm.  For Gauss–$`s`$, one evaluates
+(<i>z</i>/2)coth (<i>z</i>/2)−1 by its Bernoulli series or a cancellation-free
+matrix-function algorithm.  For Gauss–<i>s</i>, one evaluates
 [Equation (99)](#v12-eq-stage-induced-gauss-gauge) directly from the even and odd Padé
-polynomials, without forming either $`R_s-I`$ or the inverse Cayley ratio.
+polynomials, without forming either <i>R</i><sub><i>s</i></sub>−<i>I</i> or the inverse Cayley ratio.
 For the exact flow, the chart has a genuine resonance whenever
-$`e^{hA}`$ has eigenvalue $`+1`$, equivalently when some spectral value
-satisfies $`h\lambda\in2\pi i\mathbb Z`$.  The local Bernoulli series has
-radius $`2\pi`$, set by the nearest nonzero poles of
-$`(z/2)\coth(z/2)`$; away from the local disk one should use a
+<i>e</i><sup><i>hA</i></sup> has eigenvalue +1, equivalently when some spectral value
+satisfies <i>hλ</i> ∈ 2<i>πi</i>ℤ.  The local Bernoulli series has
+radius 2<i>π</i>, set by the nearest nonzero poles of
+(<i>z</i>/2)coth (<i>z</i>/2); away from the local disk one should use a
 Schur–Parlett or rational matrix-function evaluation and test the
-distance to these resonances.  Since $`S_h^\mathrm{exact}=O(h)`$, a rounded
-evaluation of $`M-I`$ generically gives a *relative* inverse-chart
-error of size $`O(\epsilon_\mathrm{mach}/h^3)`$.  The scaled values in
+distance to these resonances.  Since <i>S</i><sub><i>h</i></sub><sup>exact</sup>=<i>O</i>(<i>h</i>), a rounded
+evaluation of <i>M</i>−<i>I</i> generically gives a *relative* inverse-chart
+error of size <i>O</i>(<i>ϵ</i><sub>mach</sub>/<i>h</i><sup>3</sup>).  The scaled values in
 [Table 8](#v12-tab-cayley-conditioning) confirm this law.
 The numerical tests in [Table 8](#v12-tab-cayley-conditioning) separate this
 stable forward evaluation from the condition-sensitive inverse chart.
@@ -2014,24 +2014,24 @@ stable forward evaluation from the condition-sensitive inverse chart.
 Within [Equation (65)](#v12-eq-effort-matrix):
 
 1. endpoint symmetry
-     $`\bar e(x_1,x_0)=\bar e(x_0,x_1)`$ holds if and only if $`S=0`$;
+     $`\bar e(x_1,x_0)=\bar e(x_0,x_1)`$ holds if and only if <i>S</i>=0;
 
-1. dependence on the midpoint alone holds if and only if $`S=0`$;
+1. dependence on the midpoint alone holds if and only if <i>S</i>=0;
 
-1. if $`Q`$ is nonsingular, localization as
+1. if <i>Q</i> is nonsingular, localization as
      $`\bar e=Q((1-\theta)x_0+\theta x_1)`$, with a fixed
-     $`\theta`$, holds if and only if $`\theta=\tfrac12`$ and $`S=0`$;
+     <i>θ</i>, holds if and only if $`\theta=\tfrac12`$ and <i>S</i>=0;
 
-1. for the closed equation $`\dot x=JQx`$, if both $`J`$ and $`Q`$
+1. for the closed equation $`\dot x=JQx`$, if both <i>J</i> and <i>Q</i>
      are nonsingular, the associated one-step map is second order if and only
-     if $`S=0`$. Every nonzero fixed $`S`$ is first order.
+     if <i>S</i>=0. Every nonzero fixed <i>S</i> is first order.
 
-*Proof.* Interchanging the endpoints changes $`\Delta x`$ to $`-\Delta x`$, proving
+*Proof.* Interchanging the endpoints changes Δ<i>x</i> to −Δ<i>x</i>, proving
 the first two claims. Point localization would require
 $`-S=(\theta-\tfrac12)Q`$. Its left-hand side is skew and its right-hand
 side symmetric, so both vanish.
 
-For the order statement put $`A=JQ`$. The closed method can be written
+For the order statement put <i>A</i>=<i>JQ</i>. The closed method can be written
 
 ```math
 \Delta x=hF_S\bar x,\qquad
@@ -2040,7 +2040,7 @@ For the order statement put $`A=JQ`$. The closed method can be written
 
 Its map is the Cayley transform in
 [Equation (68)](#v12-eq-cap-cayley-blocks), equivalently
-$`M_S=(I-hF_S/2)^{-1}(I+hF_S/2)`$.
+<i>M</i><sub><i>S</i></sub>=(<i>I</i>−<i>hF</i><sub><i>S</i></sub>/2)<sup>−1</sup>(<i>I</i>+<i>hF</i><sub><i>S</i></sub>/2).
 Expansion gives
 
 <a name="v12-eq-order-expansion"></a>
@@ -2051,14 +2051,14 @@ Expansion gives
  M_S=I+hA+h^2\left(\tfrac12A^2-JSA\right)+O(h^3).
 ```
 
-The exact flow has coefficient $`A^2/2`$. Under the stated
-invertibility assumptions, $`JSA=0`$ implies $`S=0`$.
+The exact flow has coefficient <i>A</i><sup>2</sup>/2. Under the stated
+invertibility assumptions, <i>JSA</i>=0 implies <i>S</i>=0.
 
 ∎
 
 **Remark 5.7. Necessary hypotheses.**
 
-If $`Q`$ is singular, a nonzero $`S`$ may satisfy $`SA=0`$, so the
+If <i>Q</i> is singular, a nonzero <i>S</i> may satisfy <i>SA</i>=0, so the
 unqualified claim that every nonzero gauge is first order is false.
 The hypotheses in [Proposition 5.6](#v12-prop-selectors) are therefore substantive.
 
@@ -2066,9 +2066,9 @@ The hypotheses in [Proposition 5.6](#v12-prop-selectors) are therefore substanti
 
 ## 6. The exact symplectic gauge locus
 
-Assume in this section that $`J`$ is invertible, put
-$`\Omega=J^{-1}`$, and keep $`Q=Q^\top`$. The continuous matrix
-$`A=JQ`$ is Hamiltonian:
+Assume in this section that <i>J</i> is invertible, put
+Ω=<i>J</i><sup>−1</sup>, and keep <i>Q</i>=<i>Q</i><sup>⊤</sup>. The continuous matrix
+<i>A</i>=<i>JQ</i> is Hamiltonian:
 
 ```math
 A^\top\Omega+\Omega A=0.
@@ -2078,8 +2078,8 @@ A^\top\Omega+\Omega A=0.
 
 <a name="v12-thm-symplectic-locus"></a>
 
-Assume that $`I+hJS`$ and $`B_-(S)`$ are invertible.  Then the map $`M_S`$
-is $`\Omega`$-symplectic if and only if
+Assume that <i>I</i>+<i>hJS</i> and <i>B</i><sub>−</sub>(<i>S</i>) are invertible.  Then the map <i>M</i><sub><i>S</i></sub>
+is Ω-symplectic if and only if
 
 <a name="v12-eq-locus"></a>
 **Equation (76).**
@@ -2099,21 +2099,21 @@ Thus the symplectic gauges form the linear space
 
 of alternating two-forms invariant under the continuous flow.
 
-*Proof.* A Cayley transform of $`F_S`$ is $`\Omega`$-symplectic exactly when
-$`F_S^\top\Omega+\Omega F_S=0`$. Since
+*Proof.* A Cayley transform of <i>F</i><sub><i>S</i></sub> is Ω-symplectic exactly when
+<i>F</i><sub><i>S</i></sub><sup>⊤</sup>Ω+Ω<i>F</i><sub><i>S</i></sub>=0. Since
 
 ```math
 \Omega F_S=(I+hSJ)^{-1}Q,
 ```
 
-this condition is the symmetry of $`(I+hSJ)^{-1}Q`$. Equivalently,
+this condition is the symmetry of (<i>I</i>+<i>hSJ</i>)<sup>−1</sup><i>Q</i>. Equivalently,
 
 ```math
 (I+hSJ)^{-1}Q=Q(I+hJS)^{-1}.
 ```
 
-Multiplication on the left and right yields $`SJQ=QJS`$. Finally,
-$`A^\top=-QJ`$, so this is equivalent to $`A^\top S+SA=0`$.
+Multiplication on the left and right yields <i>SJQ</i>=<i>QJS</i>. Finally,
+<i>A</i><sup>⊤</sup>=−<i>QJ</i>, so this is equivalent to <i>A</i><sup>⊤</sup><i>S</i>+<i>SA</i>=0.
 
 ∎
 
@@ -2130,7 +2130,7 @@ Under the hypotheses of [Theorem 5.3](#v12-thm-gauge-cayley-chart), the bijectio
  \left\{M\in O(Q)\cap Sp(\Omega):M-I\text{ invertible}\right\}.
 ```
 
-Thus the centralizer equation $`A^\top S+SA=0`$ is precisely the
+Thus the centralizer equation <i>A</i><sup>⊤</sup><i>S</i>+<i>SA</i>=0 is precisely the
 gauge-coordinate description of the intersection between energy
 orthogonality and symplecticity.
 
@@ -2138,8 +2138,8 @@ orthogonality and symplecticity.
 
 <a name="v12-thm-defect"></a>
 
-Assume $`I+hJS`$ is invertible, put
-$`F_S=(I+hJS)^{-1}A`$, and let $`D_S=I-\tfrac h2F_S`$. Then
+Assume <i>I</i>+<i>hJS</i> is invertible, put
+<i>F</i><sub><i>S</i></sub>=(<i>I</i>+<i>hJS</i>)<sup>−1</sup><i>A</i>, and let $`D_S=I-\tfrac h2F_S`$. Then
 
 <a name="v12-eq-defect-cayley"></a>
 
@@ -2157,10 +2157,10 @@ D_S^\top(M_S^\top\Omega M_S-\Omega)D_S
 ```
 
 Hence an off-locus gauge has a one-step symplectic defect of order
-$`h^2`$, with leading coefficient controlled by $`SJQ-QJS`$.
+<i>h</i><sup>2</sup>, with leading coefficient controlled by <i>SJQ</i>−<i>QJS</i>.
 
-*Proof.* Writing $`N_S=I+\tfrac h2F_S`$, commutativity of $`N_S`$ and $`D_S`$
-gives $`M_SD_S=N_S`$. Therefore
+*Proof.* Writing $`N_S=I+\tfrac h2F_S`$, commutativity of <i>N</i><sub><i>S</i></sub> and <i>D</i><sub><i>S</i></sub>
+gives <i>M</i><sub><i>S</i></sub><i>D</i><sub><i>S</i></sub>=<i>N</i><sub><i>S</i></sub>. Therefore
 
 ```math
 D_S^\top(M_S^\top\Omega M_S-\Omega)D_S
@@ -2183,8 +2183,8 @@ Multiplying the middle difference by its two denominators proves
 
 <a name="v12-thm-generic-dimension"></a>
 
-Let $`n=2m`$, $`C=JS`$, and define the $`\Omega`$-adjoint by
-$`C^\dagger=\Omega^{-1}C^\top\Omega`$. Then
+Let <i>n</i>=2<i>m</i>, <i>C</i>=<i>JS</i>, and define the Ω-adjoint by
+<i>C</i><sup>†</sup>=Ω<sup>−1</sup><i>C</i><sup>⊤</sup>Ω. Then
 
 <a name="v12-eq-centralizer"></a>
 **Equation (79).**
@@ -2196,7 +2196,7 @@ $`C^\dagger=\Omega^{-1}C^\top\Omega`$. Then
  [C,A]=0,\qquad C^\dagger=C,\qquad S=\Omega C.
 ```
 
-If $`A`$ is nonderogatory, i.e. its minimal polynomial has degree $`2m`$,
+If <i>A</i> is nonderogatory, i.e. its minimal polynomial has degree 2<i>m</i>,
 then
 
 <a name="v12-eq-generic-basis"></a>
@@ -2208,21 +2208,21 @@ then
  \qquad \dim\mathcal{L}=m.
 ```
 
-*Proof.* Substituting $`S=\Omega C`$ in [Equation (76)](#v12-eq-locus), and using
-$`Q=\Omega A`$ and $`J\Omega=I`$, gives $`CA=AC`$. Moreover,
-$`(\Omega C)^\top=-\Omega C`$ is equivalent to
-$`C^\top\Omega=\Omega C`$, namely $`C^\dagger=C`$.
+*Proof.* Substituting <i>S</i>=Ω<i>C</i> in [Equation (76)](#v12-eq-locus), and using
+<i>Q</i>=Ω<i>A</i> and <i>J</i>Ω=<i>I</i>, gives <i>CA</i>=<i>AC</i>. Moreover,
+(Ω<i>C</i>)<sup>⊤</sup>=−Ω<i>C</i> is equivalent to
+<i>C</i><sup>⊤</sup>Ω=Ω<i>C</i>, namely <i>C</i><sup>†</sup>=<i>C</i>.
 
-If $`A`$ is nonderogatory, its centralizer consists of
-$`p(A)`$, $`\deg p<2m`$. Since $`A^\dagger=-A`$,
+If <i>A</i> is nonderogatory, its centralizer consists of
+<i>p</i>(<i>A</i>), deg <i>p</i>&lt;2<i>m</i>. Since <i>A</i><sup>†</sup>=−<i>A</i>,
 
 ```math
 p(A)^\dagger=p(-A).
 ```
 
-The self-adjoint condition implies $`p(-A)=p(A)`$. The polynomial
-$`p(-z)-p(z)`$ has degree below the minimal-polynomial degree and
-annihilates $`A`$, hence it is zero. Thus $`p`$ is even. The $`m`$ even
+The self-adjoint condition implies <i>p</i>(−<i>A</i>)=<i>p</i>(<i>A</i>). The polynomial
+<i>p</i>(−<i>z</i>)−<i>p</i>(<i>z</i>) has degree below the minimal-polynomial degree and
+annihilates <i>A</i>, hence it is zero. Thus <i>p</i> is even. The <i>m</i> even
 powers in [Equation (80)](#v12-eq-generic-basis) are independent by the same
 minimal-polynomial argument.
 
@@ -2232,20 +2232,20 @@ minimal-polynomial argument.
 
 <a name="v12-cor-two-dimensional"></a>
 
-The form $`\Omega`$ always belongs to $`\mathcal{L}`$. If $`S=\sigma\Omega`$,
+The form Ω always belongs to ℒ. If <i>S</i>=<i>σ</i>Ω,
 then the method is the midpoint rule with effective step
 
 ```math
 h_{\mathrm{eff}}=\frac{h}{1+h\sigma}.
 ```
 
-For $`n=2`$, every skew $`S`$ is a multiple of $`\Omega`$; consequently
-the full gauge family is symplectic, although only $`S=0`$ is second order
+For <i>n</i>=2, every skew <i>S</i> is a multiple of Ω; consequently
+the full gauge family is symplectic, although only <i>S</i>=0 is second order
 for a fixed nondegenerate system.
 
-*Proof.* For $`S=\sigma\Omega`$, $`JS=\sigma I`$, and the step equation becomes
+*Proof.* For <i>S</i>=<i>σ</i>Ω, <i>JS</i>=<i>σI</i>, and the step equation becomes
 $`(1+h\sigma)\Delta x=hA\bar x`$. In two dimensions
-$`\Lambda^2V^*`$ is one-dimensional.
+Λ<sup>2</sup><i>V</i><sup>∗</sup> is one-dimensional.
 
 ∎
 
@@ -2253,17 +2253,17 @@ $`\Lambda^2V^*`$ is one-dimensional.
 
 <a name="v12-ex-two-modes"></a>
 
-Let $`J=\operatorname{diag}(J_2,J_2)`$,
+Let <i>J</i>=diag(<i>J</i><sub>2</sub>,<i>J</i><sub>2</sub>),
 $`J_2=\left[\begin{smallmatrix}0&1\\-1&0\end{smallmatrix}\right]`$, and
-$`Q=\operatorname{diag}(\omega_1I_2,\omega_2I_2)`$, with
-$`\omega_1\ne\omega_2>0`$. Then
+<i>Q</i>=diag(<i>ω</i><sub>1</sub><i>I</i><sub>2</sub>,<i>ω</i><sub>2</sub><i>I</i><sub>2</sub>), with
+<i>ω</i><sub>1</sub> ≠ <i>ω</i><sub>2</sub>&gt;0. Then
 
 ```math
 \mathcal{L}=\left\{\operatorname{diag}(\sigma_1J_2,\sigma_2J_2):
  \sigma_1,\sigma_2\in\mathbb{R}\right\}.
 ```
 
-Every cross-mode skew block lies outside $`\mathcal{L}`$ unless it satisfies a
+Every cross-mode skew block lies outside ℒ unless it satisfies a
 frequency-dependent degeneracy. This four-dimensional example is the
 smallest setting in which exact energy and symplecticity are genuinely
 separated by the gauge.
@@ -2272,7 +2272,7 @@ separated by the gauge.
 
 <a name="v12-cor-wave-locus"></a>
 
-Let a wave semidiscretization with $`N`$ configuration degrees of freedom
+Let a wave semidiscretization with <i>N</i> configuration degrees of freedom
 have
 
 ```math
@@ -2282,8 +2282,8 @@ J=\begin{bmatrix}0&I_N\\-I_N&0\end{bmatrix},
  \qquad K=K^\top\succ0.
 ```
 
-If $`K`$ has $`N`$ distinct eigenvalues, then the state dimension is
-$`2N`$ and
+If <i>K</i> has <i>N</i> distinct eigenvalues, then the state dimension is
+2<i>N</i> and
 
 ```math
 \dim\mathcal{L}=N,\qquad
@@ -2291,13 +2291,13 @@ $`2N`$ and
 ```
 
 If eigenvalues are repeated, the locus can be larger and its dimension is
-not determined by $`N`$ alone.
+not determined by <i>N</i> alone.
 
 *Proof.* The Hamiltonian matrix
 $`A=\left[\begin{smallmatrix}0&I_N\\-K&0\end{smallmatrix}\right]`$
 has eigenvalues $`\pm i\sqrt{\lambda_j(K)}`$. Under the simple-spectrum
-hypothesis they are all distinct, so $`A`$ is nonderogatory.
-[Theorem 6.4](#v12-thm-generic-dimension) applies with $`m=N`$. Repeated eigenvalues
+hypothesis they are all distinct, so <i>A</i> is nonderogatory.
+[Theorem 6.4](#v12-thm-generic-dimension) applies with <i>m</i>=<i>N</i>. Repeated eigenvalues
 enlarge the centralizer in general.
 
 ∎
@@ -2306,7 +2306,7 @@ enlarge the centralizer in general.
 
 ## 7. Nonlinear Hamiltonians and the universal segment rule
 
-Let $`H\in C^1(V,\mathbb{R})`$. A two-point map
+Let <i>H</i> ∈ <i>C</i><sup>1</sup>(<i>V</i>,ℝ). A two-point map
 $`\bar\nabla H:V\times V\to V^*`$ is a discrete gradient if
 
 <a name="v12-eq-dg"></a>
@@ -2324,7 +2324,7 @@ $`\bar\nabla H(x,x)=\,\mathrm{d} H(x)`$.
 
 <a name="v12-prop-nonlinear-gauge"></a>
 
-For a fixed pair $`x_0\ne x_1`$, if $`g_0`$ is one compatible covector,
+For a fixed pair <i>x</i><sub>0</sub> ≠ <i>x</i><sub>1</sub>, if <i>g</i><sub>0</sub> is one compatible covector,
 then every compatible covector is
 
 ```math
@@ -2332,14 +2332,14 @@ g_0+r,\qquad r\in\operatorname{Ann}(\Delta x)
  =\{r\in V^*:r[\Delta x]=0\}.
 ```
 
-The affine direction has dimension $`n-1`$. Moreover every such $`r`$
-can be written $`r=\iota_{\Delta x}\mathsf S`$ for some
-$`\mathsf S\in\Lambda^2V^*`$, although this representation is nonunique
-for $`n>2`$.
+The affine direction has dimension <i>n</i>−1. Moreover every such <i>r</i>
+can be written <i>r</i>=<i>ι</i><sub>Δ<i>x</i></sub>𝖲 for some
+𝖲 ∈ Λ<sup>2</sup><i>V</i><sup>∗</sup>, although this representation is nonunique
+for <i>n</i>&gt;2.
 
 *Proof.* The first assertion is immediate from subtracting two copies of
-[Equation (81)](#v12-eq-dg). Choose $`\alpha\in V^*`$ with
-$`\alpha[\Delta x]=1`$. Since $`r[\Delta x]=0`$,
+[Equation (81)](#v12-eq-dg). Choose <i>α</i> ∈ <i>V</i><sup>∗</sup> with
+<i>α</i>&#91;Δ<i>x</i>&#93;=1. Since <i>r</i>&#91;Δ<i>x</i>&#93;=0,
 
 ```math
 \iota_{\Delta x}(\alpha\wedge r)=r.
@@ -2362,38 +2362,38 @@ The average vector field (AVF) discrete gradient is
 
 <a name="v12-thm-avf-unique"></a>
 
-Let $`\mu`$ be a finite signed Borel measure on $`[0,1]`$, independent of
-$`H,x_0,x_1`$, and set
+Let <i>μ</i> be a finite signed Borel measure on &#91;0,1&#93;, independent of
+<i>H</i>,<i>x</i><sub>0</sub>,<i>x</i><sub>1</sub>, and set
 
 ```math
 \bar\nabla_\mu H(x_0,x_1)
  =\int_0^1\,\mathrm{d} H(x_0+\tau\Delta x)\,\,\mathrm{d}\mu(\tau).
 ```
 
-This formula satisfies the discrete chain rule for every $`C^1`$
-Hamiltonian and every segment if and only if $`\mu`$ is Lebesgue measure.
+This formula satisfies the discrete chain rule for every <i>C</i><sup>1</sup>
+Hamiltonian and every segment if and only if <i>μ</i> is Lebesgue measure.
 Thus AVF is the unique universal discrete gradient in this
 segment-measure class.
 
 *Proof.* Sufficiency is the fundamental theorem of calculus. For necessity,
 restrict to a one-dimensional affine line and write
-$`g(\tau)=H(x_0+\tau\Delta x)`$. Compatibility says
+<i>g</i>(<i>τ</i>)=<i>H</i>(<i>x</i><sub>0</sub>+<i>τ</i>Δ<i>x</i>). Compatibility says
 
 ```math
 \int_0^1 g'(\tau)\,\,\mathrm{d}\mu(\tau)=g(1)-g(0)
  =\int_0^1g'(\tau)\,\,\mathrm{d}\tau
 ```
 
-for every $`g\in C^1[0,1]`$. Every continuous function is the derivative
-of such a $`g`$; hence the two measures have equal integrals against all
+for every <i>g</i> ∈ <i>C</i><sup>1</sup>&#91;0,1&#93;. Every continuous function is the derivative
+of such a <i>g</i>; hence the two measures have equal integrals against all
 continuous functions. The uniqueness part of the Riesz representation
-theorem gives $`\mu=\,\mathrm{d}\tau`$.
+theorem gives <i>μ</i>= d<i>τ</i>.
 
 ∎
 
 **Corollary 7.3.**
 
-For quadratic $`H`$, AVF equals $`Q\bar x`$, the zero-gauge effort of
+For quadratic <i>H</i>, AVF equals $`Q\bar x`$, the zero-gauge effort of
 [Theorem 5.1](#v12-thm-two-point-gauge).
 
 **Remark 7.4. What is and is not selected.**
@@ -2402,7 +2402,7 @@ Symmetry alone does not select AVF: the Gonzalez discrete gradient is also
 symmetric [[13]](#v12-ref-gonzalez1996). AVF is affine-covariant because it
 integrates a covector field along an affine segment; the standard Gonzalez
 formula uses a chosen inner product through
-$`\left\lVert \Delta x\right\rVert^{-2}`$. The uniqueness in
+‖Δ<i>x</i>‖<sup>−2</sup>. The uniqueness in
 [Theorem 7.2](#v12-thm-avf-unique) is therefore precise but deliberately restricted to
 universal segment-measure formulas. It is consistent with the established
 order theory and structural characterization of AVF
@@ -2425,8 +2425,8 @@ problem has an empty locus.
 
 ### 8.1. Bilinear chain-rule pairings
 
-Let $`\mathcal A\in\mathbb{R}^{s\times s}`$ be a Runge–Kutta matrix,
-let $`b\in\mathbb{R}^s`$, and let
+Let 𝒜 ∈ ℝ<sup><i>s</i> × <i>s</i></sup> be a Runge–Kutta matrix,
+let <i>b</i> ∈ ℝ<sup><i>s</i></sup>, and let
 
 ```math
 X=\boldsymbol{1}\otimes x_0+h(\mathcal A\otimes I)F,
@@ -2434,8 +2434,8 @@ X=\boldsymbol{1}\otimes x_0+h(\mathcal A\otimes I)F,
  x_1=x_0+h(b^\top\otimes I)F.
 ```
 
-For a quadratic Hamiltonian, let $`E=(I_s\otimes Q)X`$. A matrix
-$`P\in\mathbb{R}^{s\times s}`$ defines the stage pairing
+For a quadratic Hamiltonian, let <i>E</i>=(<i>I</i><sub><i>s</i></sub> ⊗ <i>Q</i>)<i>X</i>. A matrix
+<i>P</i> ∈ ℝ<sup><i>s</i> × <i>s</i></sup> defines the stage pairing
 
 ```math
 \langle\!\langle E,F\rangle\!\rangle_P
@@ -2453,7 +2453,7 @@ H(x_1)-H(x_0)
  =h\langle\!\langle E,F\rangle\!\rangle_P
 ```
 
-holds for all $`x_0,F`$ and all symmetric $`Q`$ if and only if
+holds for all <i>x</i><sub>0</sub>,<i>F</i> and all symmetric <i>Q</i> if and only if
 
 <a name="v12-eq-p-conditions"></a>
 **Equation (83).**
@@ -2472,7 +2472,7 @@ h\langle\!\langle E,F\rangle\!\rangle_P
  +h^2F^\top(\mathcal A^\top P\otimes Q)F.
 ```
 
-Only the symmetric part of $`\mathcal A^\top P`$ contributes. Comparing
+Only the symmetric part of 𝒜<sup>⊤</sup><i>P</i> contributes. Comparing
 this expression with
 
 ```math
@@ -2484,17 +2484,17 @@ for arbitrary data yields [Equation (83)](#v12-eq-p-conditions).
 
 ∎
 
-**Theorem 8.2. All compatible stage pairings for invertible $`\mathcal A`$.**
+**Theorem 8.2. All compatible stage pairings for invertible 𝒜.**
 
 <a name="v12-thm-p-family"></a>
 
-Assume that $`\mathcal A`$ is invertible.  Let
+Assume that 𝒜 is invertible.  Let
 
 ```math
 v=\mathcal A^{-1}\boldsymbol{1},\qquad \beta=b^\top v.
 ```
 
-A compatible $`P`$ exists if and only if
+A compatible <i>P</i> exists if and only if
 
 <a name="v12-eq-beta"></a>
 **Equation (84).**
@@ -2535,11 +2535,11 @@ The solution set is affine of dimension
  \frac{(s-1)(s-2)}2.
 ```
 
-Equivalently, if $`R(z)=1+z\,b^\top(I-z\mathcal A)^{-1}\boldsymbol{1}`$ is the
+Equivalently, if <i>R</i>(<i>z</i>)=1+<i>z</i> <i>b</i><sup>⊤</sup>(<i>I</i>−<i>z</i>𝒜)<sup>−1</sup><b>1</b> is the
 stability function, existence holds exactly when
-$`|R(\infty)|=1`$.
+&#124;<i>R</i>(∞)&#124;=1.
 
-*Proof.* Put $`X=\mathcal A^\top P`$. The second equation in
+*Proof.* Put <i>X</i>=𝒜<sup>⊤</sup><i>P</i>. The second equation in
 [Equation (83)](#v12-eq-p-conditions) says
 
 ```math
@@ -2547,30 +2547,30 @@ X=\tfrac12bb^\top+K,\qquad K^\top=-K,
 ```
 
 which gives [Equation (85)](#v12-eq-p-general). The first equation becomes
-[Equation (86)](#v12-eq-k-constraint). For every skew $`K`$,
-$`v^\top Kv=0`$. Thus a necessary condition is
+[Equation (86)](#v12-eq-k-constraint). For every skew <i>K</i>,
+<i>v</i><sup>⊤</sup><i>Kv</i>=0. Thus a necessary condition is
 
 ```math
 (1-\tfrac12\beta)b^\top v
  =(1-\tfrac12\beta)\beta=0,
 ```
 
-which is [Equation (84)](#v12-eq-beta). It is sufficient: every row $`w^\top`$ with
-$`w^\top v=0`$ can be represented as $`v^\top K=w^\top`$, for example
+which is [Equation (84)](#v12-eq-beta). It is sufficient: every row <i>w</i><sup>⊤</sup> with
+<i>w</i><sup>⊤</sup><i>v</i>=0 can be represented as <i>v</i><sup>⊤</sup><i>K</i>=<i>w</i><sup>⊤</sup>, for example
 
 ```math
 K=\frac{vw^\top-wv^\top}{v^\top v}.
 ```
 
-The linear map $`K\mapsto v^\top K`$ from skew matrices has image
-$`v^\perp`$, hence rank $`s-1`$. Its kernel, and therefore the affine
+The linear map <i>K</i> ↦ <i>v</i><sup>⊤</sup><i>K</i> from skew matrices has image
+<i>v</i><sup>⊥</sup>, hence rank <i>s</i>−1. Its kernel, and therefore the affine
 solution family, has dimension
 
 ```math
 \frac{s(s-1)}2-(s-1)=\frac{(s-1)(s-2)}2.
 ```
 
-Finally $`R(\infty)=1-b^\top\mathcal A^{-1}\boldsymbol{1}=1-\beta`$.
+Finally <i>R</i>(∞)=1−<i>b</i><sup>⊤</sup>𝒜<sup>−1</sup><b>1</b>=1−<i>β</i>.
 
 ∎
 
@@ -2579,7 +2579,7 @@ Finally $`R(\infty)=1-b^\top\mathcal A^{-1}\boldsymbol{1}=1-\beta`$.
 <a name="v12-rem-singular-stage"></a>
 
 [Proposition 8.1](#v12-prop-p-conditions) remains the complete solvability system when
-$`\mathcal A`$ is singular, but [Theorem 8.2](#v12-thm-p-family) does not classify that
+𝒜 is singular, but [Theorem 8.2](#v12-thm-p-family) does not classify that
 case.  It is nonempty: for the trapezoidal rule
 
 ```math
@@ -2602,17 +2602,17 @@ it is deliberately not claimed here.
 
 **Remark 8.4. Nondegeneracy and power skewness.**
 
-Existence of $`P`$ does not imply $`\det P\ne0`$. Nor does the chain rule
-alone make the pointwise stage operator $`I_s\otimes J`$ skew for the
-$`P`$-pairing. For pointwise Hamiltonian stages $`f_i=Je_i`$, the
-contraction vanishes automatically when $`P=P^\top`$. These are separate
+Existence of <i>P</i> does not imply det <i>P</i> ≠ 0. Nor does the chain rule
+alone make the pointwise stage operator <i>I</i><sub><i>s</i></sub> ⊗ <i>J</i> skew for the
+<i>P</i>-pairing. For pointwise Hamiltonian stages <i>f</i><sub><i>i</i></sub>=<i>Je</i><sub><i>i</i></sub>, the
+contraction vanishes automatically when <i>P</i>=<i>P</i><sup>⊤</sup>. These are separate
 requirements. The local Gauss pairing below has
-$`P=\operatorname{diag}(b)\succ0`$, so both issues disappear.
+<i>P</i>=diag(<i>b</i>) ≻ 0, so both issues disappear.
 
 ### 8.2. Locality, the Cooper condition, and Gauss rigidity
 
-Take distinct real collocation nodes $`c_1,\ldots,c_s`$, with Lagrange
-polynomials $`\ell_j`$, and set
+Take distinct real collocation nodes <i>c</i><sub>1</sub>,…,<i>c</i><sub><i>s</i></sub>, with Lagrange
+polynomials ℓ<sub><i>j</i></sub>, and set
 
 <a name="v12-eq-collocation"></a>
 **Equation (88).**
@@ -2624,7 +2624,7 @@ polynomials $`\ell_j`$, and set
  B=\operatorname{diag}(b).
 ```
 
-Local diagonal stage pairing is $`P=B`$. The compatibility equations then
+Local diagonal stage pairing is <i>P</i>=<i>B</i>. The compatibility equations then
 reduce to
 
 <a name="v12-eq-cooper"></a>
@@ -2641,18 +2641,18 @@ the Cooper condition.
 
 <a name="v12-thm-gauss-rigidity"></a>
 
-For a collocation method with $`s`$ distinct real nodes, the following
+For a collocation method with <i>s</i> distinct real nodes, the following
 are equivalent:
 
-1. the local diagonal pairing $`P=B`$ satisfies the chain rule;
+1. the local diagonal pairing <i>P</i>=<i>B</i> satisfies the chain rule;
 
 1. the Cooper condition [Equation (89)](#v12-eq-cooper) holds;
 
-1. the interpolatory quadrature is exact on $`\mathcal{P}_{2s-1}`$;
+1. the interpolatory quadrature is exact on 𝒫<sub>2<i>s</i>−1</sub>;
 
 1. the nodal polynomial
      $`\pi(\tau)=\prod_{i=1}^s(\tau-c_i)`$ is orthogonal to
-     $`\mathcal{P}_{s-1}`$ in $`L^2(0,1)`$;
+     𝒫<sub><i>s</i>−1</sub> in <i>L</i><sup>2</sup>(0,1);
 
 1. the nodes and weights are the shifted Gauss–Legendre rule.
 
@@ -2672,28 +2672,28 @@ The quadrature functional $`\mathcal Q(p)=\sum_kb_kp(c_k)`$ satisfies
 
 Under the Cooper condition this equals
 $`b_ib_j=L_i(1)L_j(1)=\int_0^1(L_iL_j)'`$.
-The $`L_i`$ span
+The <i>L</i><sub><i>i</i></sub> span
 
 ```math
 \{p\in\mathcal{P}_s:p(0)=0\}=t\mathcal{P}_{s-1}.
 ```
 
-Their pairwise products span $`t^2\mathcal{P}_{2s-2}`$, and their derivatives
-span $`t\mathcal{P}_{2s-2}`$, i.e. all monomials
-$`t,t^2,\ldots,t^{2s-1}`$. Constants are already integrated exactly.
-Thus Cooper implies exactness on $`\mathcal{P}_{2s-1}`$. The converse follows by
-applying exactness to each $`(L_iL_j)'`$.
+Their pairwise products span <i>t</i><sup>2</sup>𝒫<sub>2<i>s</i>−2</sub>, and their derivatives
+span <i>t</i>𝒫<sub>2<i>s</i>−2</sub>, i.e. all monomials
+<i>t</i>,<i>t</i><sup>2</sup>,…,<i>t</i><sup>2<i>s</i>−1</sup>. Constants are already integrated exactly.
+Thus Cooper implies exactness on 𝒫<sub>2<i>s</i>−1</sub>. The converse follows by
+applying exactness to each (<i>L</i><sub><i>i</i></sub><i>L</i><sub><i>j</i></sub>)′.
 
-An $`s`$-node interpolatory rule is exact on $`\mathcal{P}_{2s-1}`$ exactly when,
-for every $`q\in\mathcal{P}_{s-1}`$,
+An <i>s</i>-node interpolatory rule is exact on 𝒫<sub>2<i>s</i>−1</sub> exactly when,
+for every <i>q</i> ∈ 𝒫<sub><i>s</i>−1</sub>,
 
 ```math
 \int_0^1\pi(\tau)q(\tau)\,\,\mathrm{d}\tau=0.
 ```
 
-The unique monic degree-$`s`$ polynomial with this orthogonality property is
+The unique monic degree-<i>s</i> polynomial with this orthogonality property is
 the shifted Legendre polynomial. Its roots are automatically distinct and
-interior to $`(0,1)`$; they are the Gauss nodes, and the
+interior to (0,1); they are the Gauss nodes, and the
 interpolatory weights are then the Gauss weights.
 
 ∎
@@ -2702,13 +2702,13 @@ interpolatory weights are then the Gauss weights.
 
 <a name="v12-cor-polynomial-energy"></a>
 
-Let $`u\in\mathcal{P}_s([0,1];V)`$ be a collocation polynomial for
-$`u'=hJQu`$. Then Gauss nodes imply exact conservation of
+Let <i>u</i> ∈ 𝒫<sub><i>s</i></sub>(&#91;0,1&#93;;<i>V</i>) be a collocation polynomial for
+<i>u</i>′=<i>hJQu</i>. Then Gauss nodes imply exact conservation of
 $`\tfrac12u^\top Qu`$.
 
-*Proof.* The polynomial $`p(\tau)=(Qu(\tau))^\top u'(\tau)`$ has degree at most
-$`2s-1`$ and vanishes at every collocation node. Hence
-$`p=\pi q`$, with $`q\in\mathcal{P}_{s-1}`$. Orthogonality in
+*Proof.* The polynomial <i>p</i>(<i>τ</i>)=(<i>Qu</i>(<i>τ</i>))<sup>⊤</sup><i>u</i>′(<i>τ</i>) has degree at most
+2<i>s</i>−1 and vanishes at every collocation node. Hence
+<i>p</i>=<i>πq</i>, with <i>q</i> ∈ 𝒫<sub><i>s</i>−1</sub>. Orthogonality in
 [Theorem 8.5](#v12-thm-gauss-rigidity) gives
 
 ```math
@@ -2721,9 +2721,9 @@ H(u(1))-H(u(0))=\int_0^1p(\tau)\,\,\mathrm{d}\tau=0.
 
 <a name="v12-prop-local-stokes-to-stages"></a>
 
-Let the nodes $`c_i`$ be distinct and real, let
-$`Q=Q^\top\ne0`$, and let
-$`x_h\in\mathcal P_s([0,1];X)`$.  Write its scaled flow as
+Let the nodes <i>c</i><sub><i>i</i></sub> be distinct and real, let
+<i>Q</i>=<i>Q</i><sup>⊤</sup> ≠ 0, and let
+<i>x</i><sub><i>h</i></sub> ∈ 𝒫<sub><i>s</i></sub>(&#91;0,1&#93;;<i>X</i>).  Write its scaled flow as
 
 <a name="v12-eq-polynomial-flow-interpolation"></a>
 **Equation (90).**
@@ -2747,7 +2747,7 @@ ansatz,
  x_1=x_0+h\sum_{j=1}^sb_jk_j.
 ```
 
-For the quadratic effort $`e_h=Qx_h`$, the local diagonal pairing
+For the quadratic effort <i>e</i><sub><i>h</i></sub>=<i>Qx</i><sub><i>h</i></sub>, the local diagonal pairing
 
 <a name="v12-eq-local-gauss-stokes-pairing"></a>
 **Equation (92).**
@@ -2758,39 +2758,39 @@ For the quadratic effort $`e_h=Qx_h`$, the local diagonal pairing
 ```
 
 is the exact cap difference
-$`H(x_1)-H(x_0)`$ for every $`x_h\in\mathcal P_s`$ if and only if the
+<i>H</i>(<i>x</i><sub>1</sub>)−<i>H</i>(<i>x</i><sub>0</sub>) for every <i>x</i><sub><i>h</i></sub> ∈ 𝒫<sub><i>s</i></sub> if and only if the
 Cooper condition holds, equivalently if and only if the nodes and weights
-are the shifted Gauss rule.  If additionally $`J^\top=-J`$, closing the
-active variables by $`k_i=JQX_i`$ annihilates
+are the shifted Gauss rule.  If additionally <i>J</i><sup>⊤</sup>=−<i>J</i>, closing the
+active variables by <i>k</i><sub><i>i</i></sub>=<i>JQX</i><sub><i>i</i></sub> annihilates
 [Equation (92)](#v12-eq-local-gauss-stokes-pairing) and turns
 [Equation (91)](#v12-eq-stokes-generated-stages) into the Gauss stage equations.
 
-*Proof.* Integrating [Equation (90)](#v12-eq-polynomial-flow-interpolation) from $`0`$ to
-$`c_i`$ and to $`1`$ gives [Equation (91)](#v12-eq-stokes-generated-stages).  Moreover,
+*Proof.* Integrating [Equation (90)](#v12-eq-polynomial-flow-interpolation) from 0 to
+<i>c</i><sub><i>i</i></sub> and to 1 gives [Equation (91)](#v12-eq-stokes-generated-stages).  Moreover,
 
 ```math
 H(x_1)-H(x_0)
  =h\int_0^1(Qx_h)^\top k_h\,\,\mathrm{d}\tau .
 ```
 
-The integrand has degree at most $`2s-1`$, so Gauss exactness proves
+The integrand has degree at most 2<i>s</i>−1, so Gauss exactness proves
 sufficiency.  Conversely, suppose the pairing is exact for every
-$`x_h`$.  Since $`Q`$ is real symmetric and nonzero, some $`v\in X`$
-satisfies $`v^\top Qv\ne0`$.  Taking $`x_h(\tau)=p(\tau)v`$ proves
+<i>x</i><sub><i>h</i></sub>.  Since <i>Q</i> is real symmetric and nonzero, some <i>v</i> ∈ <i>X</i>
+satisfies <i>v</i><sup>⊤</sup><i>Qv</i> ≠ 0.  Taking <i>x</i><sub><i>h</i></sub>(<i>τ</i>)=<i>p</i>(<i>τ</i>)<i>v</i> proves
 quadrature exactness for $`pp'=\tfrac12(p^2)'`$, for every
-$`p\in\mathcal P_s`$.  Polarization with $`p+q`$ then proves exactness
+<i>p</i> ∈ 𝒫<sub><i>s</i></sub>.  Polarization with <i>p</i>+<i>q</i> then proves exactness
 for
 
 ```math
 (pq)'=p'q+pq'\qquad(p,q\in\mathcal P_s).
 ```
 
-The products $`pq`$ span $`\mathcal P_{2s}`$, hence their derivatives
-span $`\mathcal P_{2s-1}`$.  Thus the quadrature is exact on the whole
-space $`\mathcal P_{2s-1}`$, and [Theorem 8.5](#v12-thm-gauss-rigidity) gives the
+The products <i>pq</i> span 𝒫<sub>2<i>s</i></sub>, hence their derivatives
+span 𝒫<sub>2<i>s</i>−1</sub>.  Thus the quadrature is exact on the whole
+space 𝒫<sub>2<i>s</i>−1</sub>, and [Theorem 8.5](#v12-thm-gauss-rigidity) gives the
 Cooper condition and the shifted Gauss rule.  Under the constitutive law
 each summand is
-$`(QX_i)^\top J(QX_i)=0`$.  Thus the active stage equations follow from
+(<i>QX</i><sub><i>i</i></sub>)<sup>⊤</sup><i>J</i>(<i>QX</i><sub><i>i</i></sub>)=0.  Thus the active stage equations follow from
 the local polynomial Stokes pairing plus constitutive closure, and their
 later Schur reduction is not an arbitrary rewriting of a preselected
 Runge–Kutta method.
@@ -2801,9 +2801,9 @@ Runge–Kutta method.
 
 <a name="v12-thm-active-gauss-cell"></a>
 
-Let $`X=\mathbb{R}^n`$, let $`A=JQ`$, and take the shifted $`s`$-point
-Gauss–Legendre nodes, Lagrange polynomials, matrix $`\mathcal A_s`$, and
-weights $`b`$ from [Equation (88)](#v12-eq-collocation).  The polynomial temporal cell
+Let <i>X</i>=ℝ<sup><i>n</i></sup>, let <i>A</i>=<i>JQ</i>, and take the shifted <i>s</i>-point
+Gauss–Legendre nodes, Lagrange polynomials, matrix 𝒜<sub><i>s</i></sub>, and
+weights <i>b</i> from [Equation (88)](#v12-eq-collocation).  The polynomial temporal cell
 
 ```math
 \mathcal P_s([0,1];X)
@@ -2811,7 +2811,7 @@ weights $`b`$ from [Equation (88)](#v12-eq-collocation).  The polynomial tempora
  \mathcal P_{s-1}([0,1];X)
 ```
 
-is represented by active stage states $`X_i`$ and stage flows $`k_i`$:
+is represented by active stage states <i>X</i><sub><i>i</i></sub> and stage flows <i>k</i><sub><i>i</i></sub>:
 
 <a name="v12-eq-active-gauss-stages"></a>
 
@@ -2837,7 +2837,7 @@ Put
  \mathcal K_s(h,A)=I_s\otimes I-h\mathcal A_s\otimes A.
 ```
 
-Whenever this block is invertible, elimination of the $`sn`$ stage
+Whenever this block is invertible, elimination of the <i>sn</i> stage
 variables gives
 
 <a name="v12-eq-active-stage-schur-map"></a>
@@ -2867,7 +2867,7 @@ P_s(z)&=\sum_{k=0}^s
 \end{aligned}
 ```
 
-Assume in addition that $`J,Q`$, $`R_s(hA)-I`$, and the displayed
+Assume in addition that <i>J</i>,<i>Q</i>, <i>R</i><sub><i>s</i></sub>(<i>hA</i>)−<i>I</i>, and the displayed
 matrix functions below are invertible.  Write
 
 ```math
@@ -2893,12 +2893,12 @@ The cap gauge induced by this interior Schur reduction is
  \quad}
 ```
 
-It is alternating, and its two-point map is exactly the $`s`$-stage
+It is alternating, and its two-point map is exactly the <i>s</i>-stage
 Gauss method.
 
 *Proof.* The polynomial reconstruction and the two stage relations follow from
 [Proposition 8.7](#v12-prop-local-stokes-to-stages); conversely they reconstruct a unique
-$`x_h\in\mathcal P_s`$.  Stacking the
+<i>x</i><sub><i>h</i></sub> ∈ 𝒫<sub><i>s</i></sub>.  Stacking the
 stage equations gives
 
 ```math
@@ -2909,13 +2909,13 @@ and substitution into the endpoint equation proves the first equality in
 [Equation (96)](#v12-eq-active-stage-schur-map).
 
 The scalar stability function of Gauss collocation has numerator and
-denominator of degree at most $`s`$ and agrees with $`e^z`$ through degree
-$`2s`$; it is therefore the diagonal Padé approximant
-$`P_s(-z)^{-1}P_s(z)`$.  The same rational identity holds for matrices on
+denominator of degree at most <i>s</i> and agrees with <i>e</i><sup><i>z</i></sup> through degree
+2<i>s</i>; it is therefore the diagonal Padé approximant
+<i>P</i><sub><i>s</i></sub>(−<i>z</i>)<sup>−1</sup><i>P</i><sub><i>s</i></sub>(<i>z</i>).  The same rational identity holds for matrices on
 the common resolvent set, proving the second equality.
 
 It remains to identify the cap two-form generated by the stages.  Since
-all polynomials in $`A`$ commute,
+all polynomials in <i>A</i> commute,
 
 ```math
 (R_s+I)(R_s-I)^{-1}
@@ -2926,8 +2926,8 @@ all polynomials in $`A`$ commute,
 Substitution into the inverse Cayley formula
 [Equation (71)](#v12-eq-inverse-gauge-cayley) gives
 [Equation (99)](#v12-eq-stage-induced-gauss-gauge).  Alternation follows either from
-[Theorem 5.3](#v12-thm-gauge-cayley-chart) and $`R_s^\top QR_s=Q`$, or directly from
-$`A^\top\Omega+\Omega A=0`$.
+[Theorem 5.3](#v12-thm-gauge-cayley-chart) and <i>R</i><sub><i>s</i></sub><sup>⊤</sup><i>QR</i><sub><i>s</i></sub>=<i>Q</i>, or directly from
+<i>A</i><sup>⊤</sup>Ω+Ω<i>A</i>=0.
 
 ∎
 
@@ -2936,16 +2936,16 @@ $`A^\top\Omega+\Omega A=0`$.
 <a name="v12-rem-representation-generation"></a>
 
 The trace-generated theorem [Theorem 4.14](#v12-thm-trace-generated-condensation)
-starts from $`S_h`$ and realizes it in a redundant raw cell.  By contrast,
+starts from <i>S</i><sub><i>h</i></sub> and realizes it in a redundant raw cell.  By contrast,
 [Theorem 8.8](#v12-thm-active-gauss-cell) starts from the standard local Gauss pairing
-on $`\mathcal P_s\to\mathcal P_{s-1}`$ and the constitutive stage law
-$`k_i=AX_i`$; the cap gauge is computed only after the active stage block
+on 𝒫<sub><i>s</i></sub> → 𝒫<sub><i>s</i>−1</sub> and the constitutive stage law
+<i>k</i><sub><i>i</i></sub>=<i>AX</i><sub><i>i</i></sub>; the cap gauge is computed only after the active stage block
 has been eliminated.  This is a genuine interior generation result.
 
 **Remark 8.10.**
 
 The same monic-polynomial orthogonality is the scalar core of the spatial
-$`\mathcal{P}_N/\mathcal{P}_{N-1}`$ Stokes-pairing construction
+𝒫<sub><i>N</i></sub>/𝒫<sub><i>N</i>−1</sub> Stokes-pairing construction
 [[20]](#v12-ref-moulla2012). The common mechanism is not merely that both methods
 use Gauss nodes: in both variables, scalar locality turns compatibility
 into maximal-degree quadrature exactness, and maximal-degree exactness is
@@ -2957,8 +2957,8 @@ equivalent to orthogonality of the nodal polynomial.
 
 ### 9.1. Maximality, constitutive closure, and glued faces
 
-Let active state flows and efforts lie in dual spaces of dimension $`d`$,
-and let a boundary port have dimension $`r`$.  Coordinates may be chosen
+Let active state flows and efforts lie in dual spaces of dimension <i>d</i>,
+and let a boundary port have dimension <i>r</i>.  Coordinates may be chosen
 after restricting to the active quotient in
 [Equation (33)](#v12-eq-intrinsic-space-time-gauge).  Consider
 
@@ -2989,18 +2989,18 @@ The symmetric split-power pairing is
 
 <a name="v12-prop-dirac-maximal"></a>
 
-The subspace $`\mathcal{D}_h`$ in [Equation (100)](#v12-eq-open-dirac) is maximally isotropic for
+The subspace 𝒟<sub><i>h</i></sub> in [Equation (100)](#v12-eq-open-dirac) is maximally isotropic for
 [Equation (101)](#v12-eq-plus-pairing).
 
-*Proof.* For any element of $`\mathcal{D}_h`$,
+*Proof.* For any element of 𝒟<sub><i>h</i></sub>,
 
 ```math
 e^\top f+y^\top u
  =-e^\top\mathcal J_he-e^\top Bu+e^\top Bu+u^\top Nu=0.
 ```
 
-Polarization proves isotropy. The free variables $`(e,u)`$ give
-$`\dim\mathcal{D}_h=d+r`$, half the dimension of the ambient split space.
+Polarization proves isotropy. The free variables (<i>e</i>,<i>u</i>) give
+dim 𝒟<sub><i>h</i></sub>=<i>d</i>+<i>r</i>, half the dimension of the ambient split space.
 Therefore the isotropic subspace is maximal.
 
 ∎
@@ -3009,7 +3009,7 @@ Therefore the isotropic subspace is maximal.
 
 <a name="v12-thm-rectangular-stokes-dirac"></a>
 
-Let $`E`$ be a raw effort space, $`X`$ an active state space, and $`U`$
+Let <i>E</i> be a raw effort space, <i>X</i> an active state space, and <i>U</i>
 a port-input space.  Consider linear maps
 
 ```math
@@ -3073,12 +3073,12 @@ Consequently the raw equations reduce exactly to
  \epsilon=Pe,\quad u=\Gamma e,\quad f=Ke,\quad y=Ye,
 ```
 
-and the oriented tuple $`(-f,u;\epsilon,y)`$ belongs to the maximally
+and the oriented tuple (−<i>f</i>,<i>u</i>;<i>ϵ</i>,<i>y</i>) belongs to the maximally
 isotropic relation [Equation (100)](#v12-eq-open-dirac) with
-$`\mathcal J_h=\mathcal J`$.
+𝒥<sub><i>h</i></sub>=𝒥.
 
-*Proof.* For arbitrary $`(\epsilon,u)`$, write
-$`e=\mathcal R^{-1}(\epsilon,u)`$.  Then
+*Proof.* For arbitrary (<i>ϵ</i>,<i>u</i>), write
+<i>e</i>=ℛ<sup>−1</sup>(<i>ϵ</i>,<i>u</i>).  Then
 [Equation (102)](#v12-eq-abstract-rectangular-stokes) becomes
 
 ```math
@@ -3086,8 +3086,8 @@ $`e=\mathcal R^{-1}(\epsilon,u)`$.  Then
  =\left\langle C\epsilon+Nu,u\right\rangle.
 ```
 
-The pure quadratic terms imply $`\mathcal J^*=-\mathcal J`$ and
-$`N^*=-N`$; polarization of the mixed term gives $`C=B^*`$.
+The pure quadratic terms imply 𝒥<sup>∗</sup>=−𝒥 and
+<i>N</i><sup>∗</sup>=−<i>N</i>; polarization of the mixed term gives <i>C</i>=<i>B</i><sup>∗</sup>.
 [Equation (106)](#v12-eq-rectangular-open-reduction) follows from the definitions,
 and [Proposition 9.1](#v12-prop-dirac-maximal) gives maximal isotropy.
 
@@ -3097,7 +3097,7 @@ and [Proposition 9.1](#v12-prop-dirac-maximal) gives maximal isotropy.
 
 <a name="v12-thm-space-time-step"></a>
 
-Let $`H_h`$ be a discrete Hamiltonian on a temporal cap and let
+Let <i>H</i><sub><i>h</i></sub> be a discrete Hamiltonian on a temporal cap and let
 $`\bar e(x_0,x_1)`$ be any compatible temporal boundary reduction of a
 space–time pairing, so that
 
@@ -3126,7 +3126,7 @@ Then
 ```
 
 The result holds for every active space–time gauge whose pullback gives
-the chosen temporal effort.  The relation $`\mathcal{D}_h`$ supplies maximal
+the chosen temporal effort.  The relation 𝒟<sub><i>h</i></sub> supplies maximal
 isotropy, whereas the compatible pairing supplies constitutive closure;
 neither statement implies the other.
 
@@ -3142,7 +3142,7 @@ evaluated twice on the same active increment.
 
 <a name="v12-cor-composition"></a>
 
-If a resistive relation adds $`R_h=R_h^\top\succeq0`$, then
+If a resistive relation adds <i>R</i><sub><i>h</i></sub>=<i>R</i><sub><i>h</i></sub><sup>⊤</sup> ⪰ 0, then
 
 <a name="v12-eq-dissipative-power"></a>
 **Equation (109).**
@@ -3162,10 +3162,10 @@ cancel in a cellular boundary.
 
 ### 9.2. Local diagonal rigidity derived from the total equations
 
-Let $`c_i^t`$, $`1\le i\le N_t`$, and
-$`c_j^x`$, $`1\le j\le N_x`$, be distinct nodes with Lagrange bases
-$`\ell_i^t`$ and $`\ell_j^x`$.  A pointwise diagonal pairing on the tensor
-grid is determined by a weight array $`W=(W_{ji})`$ through
+Let <i>c</i><sub><i>i</i></sub><sup><i>t</i></sup>, 1 ≤ <i>i</i> ≤ <i>N</i><sub><i>t</i></sub>, and
+<i>c</i><sub><i>j</i></sub><sup><i>x</i></sup>, 1 ≤ <i>j</i> ≤ <i>N</i><sub><i>x</i></sub>, be distinct nodes with Lagrange bases
+ℓ<sub><i>i</i></sub><sup><i>t</i></sup> and ℓ<sub><i>j</i></sub><sup><i>x</i></sup>.  A pointwise diagonal pairing on the tensor
+grid is determined by a weight array <i>W</i>=(<i>W</i><sub><i>ji</i></sub>) through
 
 <a name="v12-eq-local-tensor-pairing"></a>
 **Equation (110).**
@@ -3178,7 +3178,7 @@ grid is determined by a weight array $`W=(W_{ji})`$ through
 ```
 
 Suppose the one-dimensional local compatible weight spaces are the lines
-$`\operatorname{span}\{w^t\}`$ and $`\operatorname{span}\{w^x\}`$.  This conclusion follows from
+span{<i>w</i><sup><i>t</i></sup>} and span{<i>w</i><sup><i>x</i></sup>}.  This conclusion follows from
 [Theorem 8.5](#v12-thm-gauss-rigidity) for maximal polynomial collocation and from its
 spatial Stokes analogue.
 
@@ -3187,9 +3187,9 @@ spatial Stokes analogue.
 <a name="v12-thm-tensor-rigidity"></a>
 
 Assume that the full tensor trial space contains all products
-$`\ell_i^t p_x`$ and $`p_t\ell_j^x`$, and that the diagonal pairing
+ℓ<sub><i>i</i></sub><sup><i>t</i></sup><i>p</i><sub><i>x</i></sub> and <i>p</i><sub><i>t</i></sub>ℓ<sub><i>j</i></sub><sup><i>x</i></sup>, and that the diagonal pairing
 [Equation (110)](#v12-eq-local-tensor-pairing) satisfies the two components of the global
-Stokes identity associated with $`D_\mathrm{st}`$.  Then
+Stokes identity associated with <i>D</i><sub>st</sub>.  Then
 
 <a name="v12-eq-tensor-weight-scaled"></a>
 **Equation (111).**
@@ -3199,8 +3199,8 @@ Stokes identity associated with $`D_\mathrm{st}`$.  Then
  W=\alpha\,w^x(w^t)^\top
 ```
 
-for a scalar $`\alpha`$.  If the one-dimensional weights and $`W`$ are
-normalized, $`\alpha=1`$.  If the factor rules are polynomial rules of
+for a scalar <i>α</i>.  If the one-dimensional weights and <i>W</i> are
+normalized, <i>α</i>=1.  If the factor rules are polynomial rules of
 maximal degree, the unique normalized local pairing is
 
 <a name="v12-eq-tensor-weight"></a>
@@ -3212,10 +3212,10 @@ maximal degree, the unique normalized local pairing is
  =\mathrm{GL}_x\otimes\mathrm{GL}_t.\quad}
 ```
 
-*Proof.* Fix a temporal node $`c_i^t`$ and test the spatial component of the global
-identity with functions $`\ell_i^t p_x`$ and $`\ell_i^t q_x`$.  Since
-$`\ell_i^t(c_k^t)=\delta_{ik}`$, every temporal slice except $`i`$
-vanishes in [Equation (110)](#v12-eq-local-tensor-pairing).  The column $`W_{:i}`$ must
+*Proof.* Fix a temporal node <i>c</i><sub><i>i</i></sub><sup><i>t</i></sup> and test the spatial component of the global
+identity with functions ℓ<sub><i>i</i></sub><sup><i>t</i></sup><i>p</i><sub><i>x</i></sub> and ℓ<sub><i>i</i></sub><sup><i>t</i></sup><i>q</i><sub><i>x</i></sub>.  Since
+ℓ<sub><i>i</i></sub><sup><i>t</i></sup>(<i>c</i><sub><i>k</i></sub><sup><i>t</i></sup>)=<i>δ</i><sub><i>ik</i></sub>, every temporal slice except <i>i</i>
+vanishes in [Equation (110)](#v12-eq-local-tensor-pairing).  The column <i>W</i><sub>:<i>i</i></sub> must
 therefore be a one-dimensional spatial compatible weight vector.  Hence
 
 ```math
@@ -3223,11 +3223,11 @@ W_{:i}=\lambda_iw^x,
  \qquad W=w^x\lambda^\top.
 ```
 
-Now fix a spatial node and use $`p_t\ell_j^x`$, $`q_t\ell_j^x`$ in the
-temporal component.  Every row of $`W`$ belongs to
-$`\operatorname{span}\{(w^t)^\top\}`$.  Choosing $`j`$ with $`w_j^x\ne0`$ gives
-$`\lambda=\alpha w^t`$, proving
-[Equation (111)](#v12-eq-tensor-weight-scaled).  Normalization fixes $`\alpha=1`$, and
+Now fix a spatial node and use <i>p</i><sub><i>t</i></sub>ℓ<sub><i>j</i></sub><sup><i>x</i></sup>, <i>q</i><sub><i>t</i></sub>ℓ<sub><i>j</i></sub><sup><i>x</i></sup> in the
+temporal component.  Every row of <i>W</i> belongs to
+span{(<i>w</i><sup><i>t</i></sup>)<sup>⊤</sup>}.  Choosing <i>j</i> with <i>w</i><sub><i>j</i></sub><sup><i>x</i></sup> ≠ 0 gives
+<i>λ</i>=<i>αw</i><sup><i>t</i></sup>, proving
+[Equation (111)](#v12-eq-tensor-weight-scaled).  Normalization fixes <i>α</i>=1, and
 maximal polynomial exactness selects the Gauss factors by
 the nodal-polynomial argument in [Theorem 8.5](#v12-thm-gauss-rigidity), applied on
 each axis.
@@ -3246,7 +3246,7 @@ product weights, not a violation of Stokes compatibility.
 ### 9.3. A wave system with boundary ports
 
 Consider the first-order wave system on a spatial nodal grid.  Let
-$`W_x=W_x^\top\succ0`$ and $`D_x`$ satisfy the summation-by-parts identity
+<i>W</i><sub><i>x</i></sub>=<i>W</i><sub><i>x</i></sub><sup>⊤</sup> ≻ 0 and <i>D</i><sub><i>x</i></sub> satisfy the summation-by-parts identity
 
 <a name="v12-eq-sbp-wave"></a>
 **Equation (113).**
@@ -3257,7 +3257,7 @@ $`W_x=W_x^\top\succ0`$ and $`D_x`$ satisfy the summation-by-parts identity
  \qquad B_x=\operatorname{diag}(-1,0,\ldots,0,1).
 ```
 
-For $`x=(q,p)`$, set
+For <i>x</i>=(<i>q</i>,<i>p</i>), set
 
 <a name="v12-eq-wave-qj"></a>
 **Equation (114).**
@@ -3273,11 +3273,11 @@ For $`x=(q,p)`$, set
  \mathcal R_h=\rho Q_h^{-1},\quad\rho\ge0.
 ```
 
-Here $`\mathcal J_h`$ is the unclosed Stokes operator, not a skew matrix:
+Here 𝒥<sub><i>h</i></sub> is the unclosed Stokes operator, not a skew matrix:
 its symmetric defect is exactly the boundary term encoded by
 [Equation (113)](#v12-eq-sbp-wave).  Introducing the two endpoint ports converts this
 defect into an open Dirac relation of the form [Equation (100)](#v12-eq-open-dirac).
-For any skew gauge $`S`$, define
+For any skew gauge <i>S</i>, define
 
 <a name="v12-eq-wave-gauge-effort"></a>
 **Equation (115).**
@@ -3322,7 +3322,7 @@ power minus the left-face power.  On two adjacent cells, continuity of
 the two boundary efforts makes the shared-face contributions cancel with
 opposite orientations.
 
-*Proof.* Skewness of $`S`$ gives
+*Proof.* Skewness of <i>S</i> gives
 
 ```math
 H_h(x_1)-H_h(x_0)=g^\top\Delta x.
@@ -3337,9 +3337,9 @@ g^\top\mathcal J_hg
 ```
 
 which is the oriented boundary term in [Equation (117)](#v12-eq-wave-power); and
-$`g^\top\mathcal R_hg =\rho(v_q^\top W_xv_q+v_p^\top W_xv_p)`$.
+<i>g</i><sup>⊤</sup>ℛ<sub><i>h</i></sub><i>g</i>=<i>ρ</i>(<i>v</i><sub><i>q</i></sub><sup>⊤</sup><i>W</i><sub><i>x</i></sub><i>v</i><sub><i>q</i></sub>+<i>v</i><sub><i>p</i></sub><sup>⊤</sup><i>W</i><sub><i>x</i></sub><i>v</i><sub><i>p</i></sub>).
 Substitute [Equation (116)](#v12-eq-wave-step).  Shared faces occur twice with opposite
-entries of $`B_x`$, proving cancellation.
+entries of <i>B</i><sub><i>x</i></sub>, proving cancellation.
 
 ∎
 
@@ -3355,7 +3355,7 @@ E_N=\mathcal{P}_N([0,\ell]),\qquad F_N=\mathcal{P}_{N-1}([0,\ell]),
  \qquad D_N=\partial_z:E_N\longrightarrow F_N,
 ```
 
-and let the full-rank rectangular pairing $`M_N:E_N\times F_N\to\mathbb{R}`$
+and let the full-rank rectangular pairing <i>M</i><sub><i>N</i></sub>:<i>E</i><sub><i>N</i></sub> × <i>F</i><sub><i>N</i></sub> → ℝ
 satisfy
 
 <a name="v12-eq-rectangular-stokes-line"></a>
@@ -3367,19 +3367,19 @@ satisfy
  =r_\ell r_\ell^\top-r_0r_0^\top,
 ```
 
-where $`r_0,r_\ell\in E_N^*`$ are endpoint evaluation.  This is the
+where <i>r</i><sub>0</sub>,<i>r</i><sub>ℓ</sub> ∈ <i>E</i><sub><i>N</i></sub><sup>∗</sup> are endpoint evaluation.  This is the
 coordinate form of the exact polynomial Stokes identity used in the 2012
 construction.  No square same-grid differentiation matrix is assumed.
 The temporal factor is the minimal exact complex
 $`\mathcal{P}_1([0,h])\xrightarrow{\partial_t}\mathcal{P}_0([0,h])`$: its traces are the
 two caps and its single flow coordinate is the cap difference divided by
-$`h`$.  Consequently the following equations are the simultaneous
+<i>h</i>.  Consequently the following equations are the simultaneous
 closure of one tensor cylinder cell, even though they may subsequently be
 eliminated to a cap map.
 
-On a temporal slab, take cap states $`x_a=(q_a,p_a)\in F_N\oplus F_N`$,
-$`a\in\{0,1\}`$, and spatial effort polynomials
-$`e_q,e_p\in E_N`$.  Put
+On a temporal slab, take cap states <i>x</i><sub><i>a</i></sub>=(<i>q</i><sub><i>a</i></sub>,<i>p</i><sub><i>a</i></sub>) ∈ <i>F</i><sub><i>N</i></sub> ⊕ <i>F</i><sub><i>N</i></sub>,
+<i>a</i> ∈ {0,1}, and spatial effort polynomials
+<i>e</i><sub><i>q</i></sub>,<i>e</i><sub><i>p</i></sub> ∈ <i>E</i><sub><i>N</i></sub>.  Put
 
 <a name="v12-eq-active-line-efforts"></a>
 **Equation (119).**
@@ -3393,7 +3393,7 @@ $`e_q,e_p\in E_N`$.  Put
  \qquad Q_N=Q_N^\top\succ0.
 ```
 
-For a skew cap gauge $`S_h^\top=-S_h`$, impose simultaneously
+For a skew cap gauge <i>S</i><sub><i>h</i></sub><sup>⊤</sup>=−<i>S</i><sub><i>h</i></sub>, impose simultaneously
 
 <a name="v12-eq-rectangular-line-flow"></a>
 
@@ -3423,10 +3423,10 @@ Choose the boundary causality
 ```
 
 We denote these oriented components by
-$`u=(u_L,u_R)^\top`$ and $`y=(y_L,y_R)^\top`$, so that the left supply is
-$`y_Lu_L`$ and the right supply is $`y_Ru_R`$.  This convention is used
+<i>u</i>=(<i>u</i><sub><i>L</i></sub>,<i>u</i><sub><i>R</i></sub>)<sup>⊤</sup> and <i>y</i>=(<i>y</i><sub><i>L</i></sub>,<i>y</i><sub><i>R</i></sub>)<sup>⊤</sup>, so that the left supply is
+<i>y</i><sub><i>L</i></sub><i>u</i><sub><i>L</i></sub> and the right supply is <i>y</i><sub><i>R</i></sub><i>u</i><sub><i>R</i></sub>.  This convention is used
 unchanged when neighboring cells are interconnected.
-The homogeneous conditions $`u=0`$ are the complementary endpoint
+The homogeneous conditions <i>u</i>=0 are the complementary endpoint
 conditions used for the closed ideal line in [[20]](#v12-ref-moulla2012).
 
 **Proposition 9.8. Direct cap–mantle balance for the rectangular line.**
@@ -3445,15 +3445,15 @@ Every well-defined solution of
 ```
 
 If two such cells are glued by
-$`u_{1,R}=y_{2,L}`$ and $`u_{2,L}=-y_{1,R}`$, their interface
+<i>u</i><sub>1,<i>R</i></sub>=<i>y</i><sub>2,<i>L</i></sub> and <i>u</i><sub>2,<i>L</i></sub>=−<i>y</i><sub>1,<i>R</i></sub>, their interface
 supplies cancel.  Adding a symmetric positive semidefinite active
-resistance $`R_N`$ to the flow relation changes the right-hand side to
+resistance <i>R</i><sub><i>N</i></sub> to the flow relation changes the right-hand side to
 
 ```math
 h\,y^\top u-h\,\epsilon^\top R_N\epsilon.
 ```
 
-*Proof.* Skewness of $`S_h`$ and [Equation (121)](#v12-eq-rectangular-line-closure) give
+*Proof.* Skewness of <i>S</i><sub><i>h</i></sub> and [Equation (121)](#v12-eq-rectangular-line-closure) give
 
 ```math
 \begin{aligned}
@@ -3473,15 +3473,15 @@ h\bigl(e_q(0)e_p(0)-e_q(\ell)e_p(\ell)\bigr)=h\,y^\top u.
 ```
 
 The interconnection contribution is
-$`y_{1,R}y_{2,L}-y_{2,L}y_{1,R}=0`$.  The resistive statement follows
-by contracting the additional flow $`-R_N\epsilon`$ with $`\epsilon`$.
+<i>y</i><sub>1,<i>R</i></sub><i>y</i><sub>2,<i>L</i></sub>−<i>y</i><sub>2,<i>L</i></sub><i>y</i><sub>1,<i>R</i></sub>=0.  The resistive statement follows
+by contracting the additional flow −<i>R</i><sub><i>N</i></sub><i>ϵ</i> with <i>ϵ</i>.
 
 ∎
 
 The cap gauge in [Equation (121)](#v12-eq-rectangular-line-closure) can now be placed
 inside the exact visibility sequence of
 [Theorem 4.10](#v12-thm-volume-cap-reduction).  Write
-$`\mathcal D_x=I_2\otimes D_N`$ and define the cap trace
+𝒟<sub><i>x</i></sub>=<i>I</i><sub>2</sub> ⊗ <i>D</i><sub><i>N</i></sub> and define the cap trace
 
 <a name="v12-eq-line-cap-trace"></a>
 **Equation (124).**
@@ -3494,7 +3494,7 @@ $`\mathcal D_x=I_2\otimes D_N`$ and define the cap trace
 ```
 
 For an alternating form
-$`\Theta\in\Lambda^2(F_N\oplus F_N)^*`$, define
+Θ ∈ Λ<sup>2</sup>(<i>F</i><sub><i>N</i></sub> ⊕ <i>F</i><sub><i>N</i></sub>)<sup>∗</sup>, define
 
 <a name="v12-eq-mixed-cylinder-lift"></a>
 **Equation (125).**
@@ -3511,10 +3511,10 @@ $`\Theta\in\Lambda^2(F_N\oplus F_N)^*`$, define
 
 <a name="v12-prop-mixed-cylinder-lift"></a>
 
-The form $`\omega_{tx}^{\Theta}`$ is well defined on the active
+The form <i>ω</i><sub><i>tx</i></sub><sup>Θ</sup> is well defined on the active
 space–time quotient.  It vanishes on time-constant fields and on fields
-whose spatial part lies in $`\ker\mathcal D_x`$; hence it is supported on
-the mixed sector $`Q_{tx}`$ of [Equation (36)](#v12-eq-quotient-sector-split).
+whose spatial part lies in ker 𝒟<sub><i>x</i></sub>; hence it is supported on
+the mixed sector <i>Q</i><sub><i>tx</i></sub> of [Equation (36)](#v12-eq-quotient-sector-split).
 Equivalently, after passage to the active quotient, there is a unique onto
 map $`\widetilde{\mathcal T}_N`$ such that
 
@@ -3528,9 +3528,9 @@ map $`\widetilde{\mathcal T}_N`$ such that
  \quad}
 ```
 
-Moreover, $`\mathcal T_N`$ is onto.  If
-$`\sigma_x:F_N\oplus F_N\to E_N\oplus E_N`$ is any right inverse of
-$`\mathcal D_x`$, then
+Moreover, 𝒯<sub><i>N</i></sub> is onto.  If
+<i>σ</i><sub><i>x</i></sub>:<i>F</i><sub><i>N</i></sub> ⊕ <i>F</i><sub><i>N</i></sub> → <i>E</i><sub><i>N</i></sub> ⊕ <i>E</i><sub><i>N</i></sub> is any right inverse of
+𝒟<sub><i>x</i></sub>, then
 
 <a name="v12-eq-line-geometric-lifting"></a>
 **Equation (127).**
@@ -3541,9 +3541,9 @@ $`\mathcal D_x`$, then
 ```
 
 is an explicit geometric right inverse with
-$`\mathcal T_N\mathcal L_N=I`$.  More generally, every regular interior
-reconstruction $`L_h`$ consistent with the cap trace satisfies
-$`\mathcal T_NL_h=I`$, and
+𝒯<sub><i>N</i></sub>ℒ<sub><i>N</i></sub>=<i>I</i>.  More generally, every regular interior
+reconstruction <i>L</i><sub><i>h</i></sub> consistent with the cap trace satisfies
+𝒯<sub><i>N</i></sub><i>L</i><sub><i>h</i></sub>=<i>I</i>, and
 
 <a name="v12-eq-mixed-cap-reduction"></a>
 **Equation (128).**
@@ -3560,16 +3560,16 @@ Consequently every alternating cap gauge on the active line state has an
 explicit purely mixed cylinder realization.
 
 *Proof.* Changing either cap potential by an element of
-$`\ker\mathcal D_x`$ leaves [Equation (125)](#v12-eq-mixed-cylinder-lift) unchanged.
-If $`z_1=z_0`$, the temporal increment vanishes; if both spatial
+ker 𝒟<sub><i>x</i></sub> leaves [Equation (125)](#v12-eq-mixed-cylinder-lift) unchanged.
+If <i>z</i><sub>1</sub>=<i>z</i><sub>0</sub>, the temporal increment vanishes; if both spatial
 increments lie in the spatial kernel, their images under
-$`\mathcal D_x`$ vanish.  Alternation follows from
-$`\Theta^\top=-\Theta`$.  These are precisely the quotient and support
-properties defining the $`Q_{tx}`$ sector.  The universal property of the
+𝒟<sub><i>x</i></sub> vanish.  Alternation follows from
+Θ<sup>⊤</sup>=−Θ.  These are precisely the quotient and support
+properties defining the <i>Q</i><sub><i>tx</i></sub> sector.  The universal property of the
 quotient gives [Equation (126)](#v12-eq-line-trace-mixed-factorization).  Since
-$`D_N:\mathcal P_N\to\mathcal P_{N-1}`$ is onto,
-$`\mathcal D_x`$ and $`\mathcal T_N`$ are onto and a right inverse
-$`\sigma_x`$ exists.  Finally,
+<i>D</i><sub><i>N</i></sub>:𝒫<sub><i>N</i></sub> → 𝒫<sub><i>N</i>−1</sub> is onto,
+𝒟<sub><i>x</i></sub> and 𝒯<sub><i>N</i></sub> are onto and a right inverse
+<i>σ</i><sub><i>x</i></sub> exists.  Finally,
 
 ```math
 L_h^*\mathcal T_N^*\Theta
@@ -3592,12 +3592,12 @@ finite-dimensional result gives a sharp algebraic answer.
 
 <a name="v12-thm-minimal-schur-gauge-generation"></a>
 
-Let $`V`$ be an $`n`$-dimensional cap space and let
-$`\Theta_0,\Theta_1\in\Lambda^2V^*`$.  Put
-$`\Delta=\Theta_1-\Theta_0`$ and
-$`\operatorname{rank}\Delta=2q`$.  Then there exist an interior space
-$`W`$ of dimension $`2q`$, a nondegenerate alternating matrix
-$`K:W\to W^*`$, and a coupling $`B:W\to V^*`$ such that
+Let <i>V</i> be an <i>n</i>-dimensional cap space and let
+Θ<sub>0</sub>,Θ<sub>1</sub> ∈ Λ<sup>2</sup><i>V</i><sup>∗</sup>.  Put
+Δ=Θ<sub>1</sub>−Θ<sub>0</sub> and
+rankΔ=2<i>q</i>.  Then there exist an interior space
+<i>W</i> of dimension 2<i>q</i>, a nondegenerate alternating matrix
+<i>K</i>:<i>W</i> → <i>W</i><sup>∗</sup>, and a coupling <i>B</i>:<i>W</i> → <i>V</i><sup>∗</sup> such that
 
 <a name="v12-eq-skew-interior-generator"></a>
 **Equation (129).**
@@ -3632,12 +3632,12 @@ gives exactly
  p=\Theta_1x.
 ```
 
-Moreover, $`2q`$ is the smallest possible interior dimension among all
+Moreover, 2<i>q</i> is the smallest possible interior dimension among all
 representations of the form [Equation (129)](#v12-eq-skew-interior-generator) with
-invertible $`K`$.
+invertible <i>K</i>.
 
 *Proof.* The real congruence normal form for an alternating matrix gives a full
-column-rank matrix $`U\in\mathbb R^{n\times2q}`$ such that
+column-rank matrix <i>U</i> ∈ ℝ<sup><i>n</i> × 2<i>q</i></sup> such that
 
 ```math
 \Delta=U\mathbb J_qU^\top,
@@ -3647,10 +3647,10 @@ column-rank matrix $`U\in\mathbb R^{n\times2q}`$ such that
  \begin{bmatrix}0&1\\-1&0\end{bmatrix}\right).
 ```
 
-Take $`B=U`$ and $`K=-\mathbb J_q`$, so that
-$`K^{-1}=\mathbb J_q`$.  The second equation in
+Take <i>B</i>=<i>U</i> and <i>K</i>=−𝕁<sub><i>q</i></sub>, so that
+<i>K</i><sup>−1</sup>=𝕁<sub><i>q</i></sub>.  The second equation in
 [Equation (130)](#v12-eq-skew-interior-elimination) gives
-$`\eta=K^{-1}B^\top x`$, and substitution in the first gives
+<i>η</i>=<i>K</i><sup>−1</sup><i>B</i><sup>⊤</sup><i>x</i>, and substitution in the first gives
 
 ```math
 p=(\Theta_0+BK^{-1}B^\top)x
@@ -3666,7 +3666,7 @@ every such elimination satisfies
  \operatorname{rank}\Delta\le\dim W.
 ```
 
-Thus no smaller interior space can generate a rank-$`2q`$ change.
+Thus no smaller interior space can generate a rank-2<i>q</i> change.
 
 ∎
 
@@ -3677,9 +3677,9 @@ Thus no smaller interior space can generate a rank-$`2q`$ change.
 [Theorem 9.10](#v12-thm-minimal-schur-gauge-generation) is stronger than a volume
 pullback: the target gauge appears only after an interior variable is
 eliminated, and the number of auxiliary modes is minimal.  It is still an
-*encoded auxiliary generation*, because $`B`$ and $`K`$ are built
-from the desired $`\Delta`$.  It does not prove that a spatial–temporal
-field complex, specified independently of $`\Theta_1`$, selects that gauge.
+*encoded auxiliary generation*, because <i>B</i> and <i>K</i> are built
+from the desired Δ.  It does not prove that a spatial–temporal
+field complex, specified independently of Θ<sub>1</sub>, selects that gauge.
 That field-selection problem remains the genuinely mixed open step.
 The theorem's role is therefore to close the unrestricted algebraic
 existence question and identify its sharp dimension.  Its block
@@ -3698,14 +3698,14 @@ The rectangular maps entering [Theorem 9.2](#v12-thm-rectangular-stokes-dirac) a
  \begin{bmatrix}0&-D_N\\-D_N&0\end{bmatrix},
 ```
 
-while $`\mathcal C_Ne=u`$ and $`\mathcal Y_Ne=y`$ are the input and
+while 𝒞<sub><i>N</i></sub><i>e</i>=<i>u</i> and 𝒴<sub><i>N</i></sub><i>e</i>=<i>y</i> are the input and
 output traces in [Equation (122)](#v12-eq-line-port-causality).
 
 **Lemma 9.12. Polynomial endpoint reconstruction.**
 
 <a name="v12-lem-polynomial-endpoint-reconstruction"></a>
 
-For either $`a=0`$ or $`a=\ell`$, the single-field map
+For either <i>a</i>=0 or <i>a</i>=ℓ, the single-field map
 
 <a name="v12-eq-single-field-endpoint-reconstruction"></a>
 **Equation (133).**
@@ -3718,27 +3718,27 @@ For either $`a=0`$ or $`a=\ell`$, the single-field map
 
 is an isomorphism.  Consequently, with the complementary causality in
 [Equation (122)](#v12-eq-line-port-causality), the two-field effort/input reconstruction
-$`\mathcal R_N`$ below is an isomorphism.
+ℛ<sub><i>N</i></sub> below is an isomorphism.
 
-*Proof.* Suppose first that $`M_N^\top e=0`$ and $`r_0^\top e=0`$.  Contracting
-[Equation (118)](#v12-eq-rectangular-stokes-line) on both sides with $`e`$ gives
-$`(r_\ell^\top e)^2-(r_0^\top e)^2=0`$, hence
-$`r_\ell^\top e=0`$.  Left multiplication of the same identity by
-$`e^\top`$ now gives
+*Proof.* Suppose first that <i>M</i><sub><i>N</i></sub><sup>⊤</sup><i>e</i>=0 and <i>r</i><sub>0</sub><sup>⊤</sup><i>e</i>=0.  Contracting
+[Equation (118)](#v12-eq-rectangular-stokes-line) on both sides with <i>e</i> gives
+(<i>r</i><sub>ℓ</sub><sup>⊤</sup><i>e</i>)<sup>2</sup>−(<i>r</i><sub>0</sub><sup>⊤</sup><i>e</i>)<sup>2</sup>=0, hence
+<i>r</i><sub>ℓ</sub><sup>⊤</sup><i>e</i>=0.  Left multiplication of the same identity by
+<i>e</i><sup>⊤</sup> now gives
 
 ```math
 (D_Ne)^\top M_N^\top=0,
 ```
 
-because both trace terms and $`e^\top M_N`$ vanish.  Thus
-$`M_ND_Ne=0`$.  The pairing matrix $`M_N`$ has full column rank, so
-$`D_Ne=0`$.  Therefore $`e`$ is constant, and its zero endpoint trace
-forces $`e=0`$.  The proof with $`r_\ell^\top e=0`$ is identical, with
+because both trace terms and <i>e</i><sup>⊤</sup><i>M</i><sub><i>N</i></sub> vanish.  Thus
+<i>M</i><sub><i>N</i></sub><i>D</i><sub><i>N</i></sub><i>e</i>=0.  The pairing matrix <i>M</i><sub><i>N</i></sub> has full column rank, so
+<i>D</i><sub><i>N</i></sub><i>e</i>=0.  Therefore <i>e</i> is constant, and its zero endpoint trace
+forces <i>e</i>=0.  The proof with <i>r</i><sub>ℓ</sub><sup>⊤</sup><i>e</i>=0 is identical, with
 the endpoints exchanged.  Each map in
 [Equation (133)](#v12-eq-single-field-endpoint-reconstruction) is injective between
-spaces of the same dimension $`N+1`$, hence bijective.  Taking the block
-sum of the $`r_0`$ reconstruction for $`e_q`$ and the $`r_\ell`$
-reconstruction for $`e_p`$ proves the last claim.
+spaces of the same dimension <i>N</i>+1, hence bijective.  Taking the block
+sum of the <i>r</i><sub>0</sub> reconstruction for <i>e</i><sub><i>q</i></sub> and the <i>r</i><sub>ℓ</sub>
+reconstruction for <i>e</i><sub><i>p</i></sub> proves the last claim.
 
 ∎
 
@@ -3754,7 +3754,7 @@ The map
 ```
 
 is therefore invertible: each full effort polynomial is determined by
-its $`N`$ active power coordinates and its prescribed complementary
+its <i>N</i> active power coordinates and its prescribed complementary
 endpoint trace.  The rectangular identity [Equation (118)](#v12-eq-rectangular-stokes-line) is
 exactly [Equation (102)](#v12-eq-abstract-rectangular-stokes).  Therefore
 [Theorem 9.2](#v12-thm-rectangular-stokes-dirac) proves, rather than assumes, the
@@ -3788,7 +3788,7 @@ The blocks are explicitly
 
 This square representation is a consequence of the rectangular Stokes
 identity; it is not the starting point.  For the closed line put
-$`A_N=\mathcal J_NQ_N`$.  If $`f_\mathrm{phys}=\Delta x/h`$, the correct
+<i>A</i><sub><i>N</i></sub>=𝒥<sub><i>N</i></sub><i>Q</i><sub><i>N</i></sub>.  If <i>f</i><sub>phys</sub>=Δ<i>x</i>/<i>h</i>, the correct
 oriented Dirac statement is
 
 <a name="v12-eq-line-oriented-dirac-identification"></a>
@@ -3806,12 +3806,12 @@ in agreement with [Equation (107)](#v12-eq-dirac-step).
 
 <a name="v12-thm-mixed-gauss-deformation"></a>
 
-Assume that $`Q_N`$ and $`\mathcal J_N`$ are nonsingular.  Let
-$`\Theta^\top=-\Theta`$ be the cap reduction of
-[Equation (125)](#v12-eq-mixed-cylinder-lift).  For $`s\ge1`$, let
-$`P_s,E_s,\widehat O_s`$, and $`R_s`$ be those of
+Assume that <i>Q</i><sub><i>N</i></sub> and 𝒥<sub><i>N</i></sub> are nonsingular.  Let
+Θ<sup>⊤</sup>=−Θ be the cap reduction of
+[Equation (125)](#v12-eq-mixed-cylinder-lift).  For <i>s</i> ≥ 1, let
+$`P_s,E_s,\widehat O_s`$, and <i>R</i><sub><i>s</i></sub> be those of
 [Theorem 8.8](#v12-thm-active-gauss-cell).  Where the displayed inverses exist, define
-the stage-induced Gauss–$`s`$ cap gauge by
+the stage-induced Gauss–<i>s</i> cap gauge by
 
 <a name="v12-eq-gauss-s-cap-gauge"></a>
 **Equation (138).**
@@ -3838,7 +3838,7 @@ Define its mixed deformation by
  \quad}
 ```
 
-For $`u=0`$, the step
+For <i>u</i>=0, the step
 
 <a name="v12-eq-mixed-gauss-step"></a>
 **Equation (140).**
@@ -3852,40 +3852,40 @@ For $`u=0`$, the step
 
 has the following properties whenever its matrices are invertible.
 
-1. At $`\Theta=0`$, $`S^\mathrm{G}_{s,h}`$ is generated by elimination
-    of the $`s`$ active polynomial stages in
-    [Theorem 8.8](#v12-thm-active-gauss-cell).  The added mixed perturbation has the
-    volume representative
-    $`\mathcal T_N^*(h^{2s-1}\Theta)\mathcal T_N`$, and exact raw-cell
-    elimination recovers the sum $`S_{s,h}^{\Theta}`$.
+**(1)** At Θ=0, <i>S</i><sup>G</sup><sub><i>s</i>,<i>h</i></sub> is generated by elimination
+ of the <i>s</i> active polynomial stages in
+ [Theorem 8.8](#v12-thm-active-gauss-cell).  The added mixed perturbation has the
+ volume representative
+ 𝒯<sub><i>N</i></sub><sup>∗</sup>(<i>h</i><sup>2<i>s</i>−1</sup>Θ)𝒯<sub><i>N</i></sub>, and exact raw-cell
+ elimination recovers the sum <i>S</i><sub><i>s</i>,<i>h</i></sub><sup>Θ</sup>.
 
-1. It preserves $`H_N`$ exactly, is self-adjoint, and has global order
-    at least $`2s`$.  At $`\Theta=0`$, its
-    propagator is the diagonal Padé map $`R_s(hA_N)`$, equivalently the
-    $`s`$-stage Gauss method.
+**(2)** It preserves <i>H</i><sub><i>N</i></sub> exactly, is self-adjoint, and has global order
+ at least 2<i>s</i>.  At Θ=0, its
+ propagator is the diagonal Padé map <i>R</i><sub><i>s</i></sub>(<i>hA</i><sub><i>N</i></sub>), equivalently the
+ <i>s</i>-stage Gauss method.
 
-1. It is symplectic if and only if
+**(3)** It is symplectic if and only if
 
-   
 
-   <a name="v12-eq-mixed-gauss-symplectic"></a>
-   **Equation (141).**
 
-   ```math
+<a name="v12-eq-mixed-gauss-symplectic"></a>
+**Equation (141).**
 
-     [\mathcal J_N\Theta,A_N]=0.
-   ```
+```math
 
-1. If $`[\mathcal J_N\Theta,A_N]\ne0`$, then for all sufficiently
-    small nonzero $`h`$ its propagator does not commute with $`A_N`$.  It
-    therefore lies outside the scalar functional calculus of $`A_N`$.  In
-    particular, it cannot be the result of applying any Runge–Kutta or
-    collocation method with scalar coefficients to $`\dot x=A_Nx`$.
+  [\mathcal J_N\Theta,A_N]=0.
+```
+
+**(4)** If &#91;𝒥<sub><i>N</i></sub>Θ,<i>A</i><sub><i>N</i></sub>&#93; ≠ 0, then for all sufficiently
+ small nonzero <i>h</i> its propagator does not commute with <i>A</i><sub><i>N</i></sub>.  It
+ therefore lies outside the scalar functional calculus of <i>A</i><sub><i>N</i></sub>.  In
+ particular, it cannot be the result of applying any Runge–Kutta or
+ collocation method with scalar coefficients to $`\dot x=A_Nx`$.
 
 *Proof.* [Theorem 8.8](#v12-thm-active-gauss-cell), applied with
-$`A=A_N`$ and $`\Omega=\Omega_N`$, proves that
-$`S^\mathrm{G}_{s,h}`$ is alternating and generated by the interior Gauss
-cell, with cap map $`R_s(hA_N)`$.  The mixed lift follows from
+<i>A</i>=<i>A</i><sub><i>N</i></sub> and Ω=Ω<sub><i>N</i></sub>, proves that
+<i>S</i><sup>G</sup><sub><i>s</i>,<i>h</i></sub> is alternating and generated by the interior Gauss
+cell, with cap map <i>R</i><sub><i>s</i></sub>(<i>hA</i><sub><i>N</i></sub>).  The mixed lift follows from
 [Proposition 9.9](#v12-prop-mixed-cylinder-lift); its exact raw realization is
 [Theorem 4.14](#v12-thm-trace-generated-condensation).
 
@@ -3910,8 +3910,8 @@ Eliminating the effort from [Equation (140)](#v12-eq-mixed-gauss-step) gives
 ```
 
 The discrete chain rule proves exact energy preservation.  Both
-$`S^\mathrm{G}_{s,h}`$ and $`h^{2s-1}\Theta`$ are odd in $`h`$, so reversing
-$`h`$ and exchanging the caps inverts the map; hence the method is
+<i>S</i><sup>G</sup><sub><i>s</i>,<i>h</i></sub> and <i>h</i><sup>2<i>s</i>−1</sup>Θ are odd in <i>h</i>, so reversing
+<i>h</i> and exchanging the caps inverts the map; hence the method is
 self-adjoint.
 
 The exact resolvent identity
@@ -3921,20 +3921,20 @@ M_{s,\Theta,h}-R_s
  =(B_{s,-}+E_{s,h})^{-1}E_{s,h}(I-R_s)
 ```
 
-is $`O(h^{2s+1})`$.  Since diagonal Padé has local error
-$`O(h^{2s+1})`$, the deformation has local error
-$`O(h^{2s+1})`$ and therefore global order at least $`2s`$.  The leading
-coefficient and the unique exceptional value of $`\Theta`$ are computed
+is <i>O</i>(<i>h</i><sup>2<i>s</i>+1</sup>).  Since diagonal Padé has local error
+<i>O</i>(<i>h</i><sup>2<i>s</i>+1</sup>), the deformation has local error
+<i>O</i>(<i>h</i><sup>2<i>s</i>+1</sup>) and therefore global order at least 2<i>s</i>.  The leading
+coefficient and the unique exceptional value of Θ are computed
 exactly in [Theorem 9.14](#v12-thm-unique-order-raising-gauge) below.
 
-The symplectic criterion [Equation (76)](#v12-eq-locus), applied at each fixed $`h`$,
-is automatic for $`S^\mathrm{G}_{s,h}`$, because its map is Gauss and
-$`\mathcal J_NS^\mathrm{G}_{s,h}`$ is a rational function of $`A_N`$.
+The symplectic criterion [Equation (76)](#v12-eq-locus), applied at each fixed <i>h</i>,
+is automatic for <i>S</i><sup>G</sup><sub><i>s</i>,<i>h</i></sub>, because its map is Gauss and
+𝒥<sub><i>N</i></sub><i>S</i><sup>G</sup><sub><i>s</i>,<i>h</i></sub> is a rational function of <i>A</i><sub><i>N</i></sub>.
 The remaining condition is
-$`\Theta A_N=Q_N\mathcal J_N\Theta`$; multiplication by
-$`\mathcal J_N`$ gives [Equation (141)](#v12-eq-mixed-gauss-symplectic).  Finally,
-$`E_{s,h}=h^{2s}\mathcal J_N\Theta`$ and
-$`I-R_s=-hA_N+O(h^2)`$ yield
+Θ<i>A</i><sub><i>N</i></sub>=<i>Q</i><sub><i>N</i></sub>𝒥<sub><i>N</i></sub>Θ; multiplication by
+𝒥<sub><i>N</i></sub> gives [Equation (141)](#v12-eq-mixed-gauss-symplectic).  Finally,
+<i>E</i><sub><i>s</i>,<i>h</i></sub>=<i>h</i><sup>2<i>s</i></sup>𝒥<sub><i>N</i></sub>Θ and
+<i>I</i>−<i>R</i><sub><i>s</i></sub>=−<i>hA</i><sub><i>N</i></sub>+<i>O</i>(<i>h</i><sup>2</sup>) yield
 
 <a name="v12-eq-mixed-map-commutator"></a>
 **Equation (143).**
@@ -3946,8 +3946,8 @@ $`I-R_s=-hA_N+O(h^2)`$ yield
   +O(h^{2s+2}).
 ```
 
-Nonsingularity of $`A_N`$ proves the noncommutation claim.  Every scalar
-rational, polynomial, or analytic function of $`A_N`$ commutes with it.
+Nonsingularity of <i>A</i><sub><i>N</i></sub> proves the noncommutation claim.  Every scalar
+rational, polynomial, or analytic function of <i>A</i><sub><i>N</i></sub> commutes with it.
 
 ∎
 
@@ -3965,8 +3965,8 @@ Under the assumptions of [Theorem 9.13](#v12-thm-mixed-gauss-deformation), set
  c_s=(-1)^{s+1}\frac{(s!)^2}{(2s)!(2s+1)!}.
 ```
 
-Within the one-term ansatz [Equation (139)](#v12-eq-mixed-gauss-gauge), let $`\Theta`$
-be alternating, independent of $`h`$, and fixed as $`h\to0`$.  Then
+Within the one-term ansatz [Equation (139)](#v12-eq-mixed-gauss-gauge), let Θ
+be alternating, independent of <i>h</i>, and fixed as <i>h</i> → 0.  Then
 
 <a name="v12-eq-mixed-gauss-leading-error"></a>
 **Equation (145).**
@@ -3978,7 +3978,7 @@ be alternating, independent of $`h`$, and fixed as $`h\to0`$.  Then
   +O(h^{2s+2}).
 ```
 
-Consequently the unique $`h`$-independent leading coefficient in this
+Consequently the unique <i>h</i>-independent leading coefficient in this
 ansatz that cancels the leading error is
 
 <a name="v12-eq-unique-order-raising-gauge"></a>
@@ -3991,9 +3991,9 @@ ansatz that cancels the leading error is
  \quad}
 ```
 
-It is alternating.  If $`\Theta\ne\Theta_s^\star`$, the method has
-exact global order $`2s`$; for $`\Theta=\Theta_s^\star`$, it has global
-order exactly $`2s+2`$.  More precisely,
+It is alternating.  If Θ ≠ Θ<sub><i>s</i></sub><sup>⋆</sup>, the method has
+exact global order 2<i>s</i>; for Θ=Θ<sub><i>s</i></sub><sup>⋆</sup>, it has global
+order exactly 2<i>s</i>+2.  More precisely,
 
 <a name="v12-eq-raised-branch-leading-error"></a>
 **Equation (147).**
@@ -4016,14 +4016,14 @@ where
 ```
 
 In particular, every noncommuting coefficient in the one-term ansatz has
-exactly order $`2s`$.  The cap coefficient
-$`\Theta_s^\star`$ depends on the constitutive generator, but by
+exactly order 2<i>s</i>.  The cap coefficient
+Θ<sub><i>s</i></sub><sup>⋆</sup> depends on the constitutive generator, but by
 [Proposition 9.9](#v12-prop-mixed-cylinder-lift) it possesses a pure-mixed cylinder
-realization.  For $`s=1`$, the order-raised method is identically the
+realization.  For <i>s</i>=1, the order-raised method is identically the
 two-stage Gauss method, not merely a fourth-order approximation to it.
 
-*Proof.* Write $`P_s(z)=\sum_{k=0}^sa_kz^k`$, with $`a_k`$ given in
-[Equation (97)](#v12-eq-pade-polynomial).  For $`r\ge0`$, coefficient extraction and
+*Proof.* Write $`P_s(z)=\sum_{k=0}^sa_kz^k`$, with <i>a</i><sub><i>k</i></sub> given in
+[Equation (97)](#v12-eq-pade-polynomial).  For <i>r</i> ≥ 0, coefficient extraction and
 the beta integral give
 
 <a name="v12-eq-pade-residual-coefficients"></a>
@@ -4057,7 +4057,7 @@ a_1=\frac12,\qquad
 ```
 
 division by
-$`P_s(-z)=1-a_1z+a_2z^2+O(z^3)`$, using $`r=0,1,2`$, yields
+<i>P</i><sub><i>s</i></sub>(−<i>z</i>)=1−<i>a</i><sub>1</sub><i>z</i>+<i>a</i><sub>2</sub><i>z</i><sup>2</sup>+<i>O</i>(<i>z</i><sup>3</sup>), using <i>r</i>=0,1,2, yields
 
 <a name="v12-eq-pade-three-term-error"></a>
 **Equation (150).**
@@ -4082,7 +4082,7 @@ In particular, its first term is
 
 For the mixed perturbation, the exact resolvent identity in the proof of
 [Theorem 9.13](#v12-thm-mixed-gauss-deformation), together with
-$`E_{s,h}=h^{2s}\mathcal J_N\Theta`$, gives
+<i>E</i><sub><i>s</i>,<i>h</i></sub>=<i>h</i><sup>2<i>s</i></sup>𝒥<sub><i>N</i></sub>Θ, gives
 
 ```math
 M_{s,\Theta,h}-R_s(hA_N)
@@ -4090,23 +4090,23 @@ M_{s,\Theta,h}-R_s(hA_N)
 ```
 
 Adding [Equation (151)](#v12-eq-pade-leading-error) proves
-[Equation (145)](#v12-eq-mixed-gauss-leading-error).  Since $`A_N`$ and
-$`\mathcal J_N`$ are invertible, its coefficient vanishes if and only if
-$`\Theta=c_s\Omega_NA_N^{2s}`$.  Moreover,
+[Equation (145)](#v12-eq-mixed-gauss-leading-error).  Since <i>A</i><sub><i>N</i></sub> and
+𝒥<sub><i>N</i></sub> are invertible, its coefficient vanishes if and only if
+Θ=<i>c</i><sub><i>s</i></sub>Ω<sub><i>N</i></sub><i>A</i><sub><i>N</i></sub><sup>2<i>s</i></sup>.  Moreover,
 
 ```math
 (\Omega_NA_N^{2s})^\top=-\Omega_NA_N^{2s},
 ```
 
 so this unique coefficient is an admissible two-form.  Every other choice
-has nonzero local error at degree $`2s+1`$, hence exact global order
-$`2s`$.  Cancellation gives global order at least $`2s+1`$; self-adjoint
-one-step methods have even order, so the order is at least $`2s+2`$.
+has nonzero local error at degree 2<i>s</i>+1, hence exact global order
+2<i>s</i>.  Cancellation gives global order at least 2<i>s</i>+1; self-adjoint
+one-step methods have even order, so the order is at least 2<i>s</i>+2.
 If the gauge is noncommuting, it cannot equal
-$`\Theta_s^\star`$, because
-$`\mathcal J_N\Theta_s^\star=c_sA_N^{2s}`$ commutes with $`A_N`$.
-Finally, $`S^\mathrm{G}_{1,h}=0`$, while
-$`h\Theta_1^\star=(h/12)\Omega_NA_N^2=S^\mathrm{G}_{2,h}`$; the two maps
+Θ<sub><i>s</i></sub><sup>⋆</sup>, because
+𝒥<sub><i>N</i></sub>Θ<sub><i>s</i></sub><sup>⋆</sup>=<i>c</i><sub><i>s</i></sub><i>A</i><sub><i>N</i></sub><sup>2<i>s</i></sup> commutes with <i>A</i><sub><i>N</i></sub>.
+Finally, <i>S</i><sup>G</sup><sub>1,<i>h</i></sub>=0, while
+<i>h</i>Θ<sub>1</sub><sup>⋆</sup>=(<i>h</i>/12)Ω<sub><i>N</i></sub><i>A</i><sub><i>N</i></sub><sup>2</sup>=<i>S</i><sup>G</sup><sub>2,<i>h</i></sub>; the two maps
 are therefore identical.
 
 It remains to determine the exact order on the raised branch.  Introduce
@@ -4129,7 +4129,7 @@ The scalar identity
  {(e^z-1)(R_s(z)-1)}
 ```
 
-transfers the Padé residual to the gauge coordinate.  For $`s\ge2`$,
+transfers the Padé residual to the gauge coordinate.  For <i>s</i> ≥ 2,
 [Equation (150)](#v12-eq-pade-three-term-error) and
 
 ```math
@@ -4156,14 +4156,14 @@ d_s=c_s\left(\rho_s-\frac7{12}\right)
  =-c_s\frac{(s+1)(2s-3)}{6(2s-1)(2s+3)}.
 ```
 
-For $`s=1`$, $`C_1=1`$, so the Bernoulli expansion of
-$`C_\mathrm{ex}`$ gives $`d_1=-1/720`$ directly.  Thus the corrected common
-block $`C_s+c_sz^{2s}`$ differs from $`C_\mathrm{ex}`$ by
-$`-d_sz^{2s+2}+O(z^{2s+4})`$.  The same resolvent identity used above,
-now with $`z=hA_N`$, proves
-[Equation (147)](#v12-eq-raised-branch-leading-error).  Every $`d_s`$ is nonzero, and
-$`A_N`$ is invertible, so the local order is exactly $`2s+3`$ and the
-global order exactly $`2s+2`$.
+For <i>s</i>=1, <i>C</i><sub>1</sub>=1, so the Bernoulli expansion of
+<i>C</i><sub>ex</sub> gives <i>d</i><sub>1</sub>=−1/720 directly.  Thus the corrected common
+block <i>C</i><sub><i>s</i></sub>+<i>c</i><sub><i>s</i></sub><i>z</i><sup>2<i>s</i></sup> differs from <i>C</i><sub>ex</sub> by
+−<i>d</i><sub><i>s</i></sub><i>z</i><sup>2<i>s</i>+2</sup>+<i>O</i>(<i>z</i><sup>2<i>s</i>+4</sup>).  The same resolvent identity used above,
+now with <i>z</i>=<i>hA</i><sub><i>N</i></sub>, proves
+[Equation (147)](#v12-eq-raised-branch-leading-error).  Every <i>d</i><sub><i>s</i></sub> is nonzero, and
+<i>A</i><sub><i>N</i></sub> is invertible, so the local order is exactly 2<i>s</i>+3 and the
+global order exactly 2<i>s</i>+2.
 
 ∎
 
@@ -4173,22 +4173,22 @@ global order exactly $`2s+2`$.
 
 Within [Equation (139)](#v12-eq-mixed-gauss-gauge), the following are equivalent:
 
-1. the global order is greater than $`2s`$;
+1. the global order is greater than 2<i>s</i>;
 
-1. $`\Theta=\Theta_s^\star`$;
+1. Θ=Θ<sub><i>s</i></sub><sup>⋆</sup>;
 
-1. the global order is exactly $`2s+2`$.
+1. the global order is exactly 2<i>s</i>+2.
 
 This unique higher-order branch lies in the symplectic centralizer and is
-a scalar rational function of $`A_N`$.  Conversely, every coefficient
-with $`[\mathcal J_N\Theta,A_N]\ne0`$ has exactly order $`2s`$, is
-nonsymplectic for small nonzero $`h`$, and lies outside the scalar
-functional calculus of $`A_N`$.
+a scalar rational function of <i>A</i><sub><i>N</i></sub>.  Conversely, every coefficient
+with &#91;𝒥<sub><i>N</i></sub>Θ,<i>A</i><sub><i>N</i></sub>&#93; ≠ 0 has exactly order 2<i>s</i>, is
+nonsymplectic for small nonzero <i>h</i>, and lies outside the scalar
+functional calculus of <i>A</i><sub><i>N</i></sub>.
 
 *Proof.* The order equivalences follow from
 [Theorem 9.14](#v12-thm-unique-order-raising-gauge).  Moreover,
-$`\mathcal J_N\Theta_s^\star=c_sA_N^{2s}`$, so the exceptional
-coefficient commutes with $`A_N`$ and satisfies
+𝒥<sub><i>N</i></sub>Θ<sub><i>s</i></sub><sup>⋆</sup>=<i>c</i><sub><i>s</i></sub><i>A</i><sub><i>N</i></sub><sup>2<i>s</i></sup>, so the exceptional
+coefficient commutes with <i>A</i><sub><i>N</i></sub> and satisfies
 [Equation (141)](#v12-eq-mixed-gauss-symplectic).  The remaining statements follow from
 [Equation (143)](#v12-eq-mixed-map-commutator) and
 [Theorem 9.13](#v12-thm-mixed-gauss-deformation).
@@ -4199,7 +4199,7 @@ coefficient commutes with $`A_N`$ and satisfies
 
 <a name="v12-thm-two-term-gauge-hierarchy"></a>
 
-Let $`\Xi^\top=-\Xi`$ be independent of $`h`$, and set
+Let Ξ<sup>⊤</sup>=−Ξ be independent of <i>h</i>, and set
 
 <a name="v12-eq-two-term-gauge"></a>
 **Equation (154).**
@@ -4212,7 +4212,7 @@ Let $`\Xi^\top=-\Xi`$ be independent of $`h`$, and set
 ```
 
 The associated method is energy preserving, self-adjoint, and has global
-order at least $`2s+2`$.  Its leading error is
+order at least 2<i>s</i>+2.  Its leading error is
 
 <a name="v12-eq-two-term-leading-error"></a>
 **Equation (155).**
@@ -4224,7 +4224,7 @@ order at least $`2s+2`$.  Its leading error is
  +O(h^{2s+4}).
 ```
 
-Hence it has exact order $`2s+2`$ unless
+Hence it has exact order 2<i>s</i>+2 unless
 
 <a name="v12-eq-second-central-corrector"></a>
 **Equation (156).**
@@ -4234,18 +4234,18 @@ Hence it has exact order $`2s+2`$ unless
  \Xi=\Xi_s^\star:=d_s\Omega_NA_N^{2s+2},
 ```
 
-in which case its order is at least $`2s+4`$.  If
-$`[\mathcal J_N\Xi,A_N]\ne0`$, the method has exact order $`2s+2`$
+in which case its order is at least 2<i>s</i>+4.  If
+&#91;𝒥<sub><i>N</i></sub>Ξ,<i>A</i><sub><i>N</i></sub>&#93; ≠ 0, the method has exact order 2<i>s</i>+2
 while being nonsymplectic and outside the scalar functional calculus of
-$`A_N`$ for all sufficiently small nonzero $`h`$.
+<i>A</i><sub><i>N</i></sub> for all sufficiently small nonzero <i>h</i>.
 
 *Proof.* The first correction gives [Equation (147)](#v12-eq-raised-branch-leading-error).  The
 additional cap term changes the common block by
-$`h^{2s+2}\mathcal J_N\Xi`$.  The resolvent identity therefore contributes
-$`-h^{2s+3}\mathcal J_N\Xi A_N+O(h^{2s+4})`$, proving
-[Equation (155)](#v12-eq-two-term-leading-error).  Invertibility of $`A_N`$ and
-$`\mathcal J_N`$ gives the unique second corrector.  Cancellation and
-self-adjointness imply order at least $`2s+4`$.  Finally,
+<i>h</i><sup>2<i>s</i>+2</sup>𝒥<sub><i>N</i></sub>Ξ.  The resolvent identity therefore contributes
+−<i>h</i><sup>2<i>s</i>+3</sup>𝒥<sub><i>N</i></sub>Ξ<i>A</i><sub><i>N</i></sub>+<i>O</i>(<i>h</i><sup>2<i>s</i>+4</sup>), proving
+[Equation (155)](#v12-eq-two-term-leading-error).  Invertibility of <i>A</i><sub><i>N</i></sub> and
+𝒥<sub><i>N</i></sub> gives the unique second corrector.  Cancellation and
+self-adjointness imply order at least 2<i>s</i>+4.  Finally,
 
 ```math
 [M_{s,\star,\Xi,h},A_N]
@@ -4272,7 +4272,7 @@ Near the origin, define the even Taylor coefficients by
  \qquad \alpha_{s,0}=c_s,\quad\alpha_{s,1}=d_s.
 ```
 
-For $`r\ge1`$, the truncated cap gauge
+For <i>r</i> ≥ 1, the truncated cap gauge
 
 <a name="v12-eq-recursive-central-gauge"></a>
 **Equation (158).**
@@ -4286,13 +4286,13 @@ For $`r\ge1`$, the truncated cap gauge
 ```
 
 is energy preserving, self-adjoint, symplectic, and has global order at
-least $`2s+2r`$.  If $`\alpha_{s,r}\ne0`$, that order is exact.  Within
+least 2<i>s</i>+2<i>r</i>.  If <i>α</i><sub><i>s</i>,<i>r</i></sub> ≠ 0, that order is exact.  Within
 the common disk of analyticity, the full convergent series is the
-exact-flow gauge.  At level $`r`$, an arbitrary alternating addition
-$`h^{2s-1+2r}\Xi`$ preserves order at least $`2s+2r`$; it introduces
-noncommutation whenever $`[\mathcal J_N\Xi,A_N]\ne0`$.
+exact-flow gauge.  At level <i>r</i>, an arbitrary alternating addition
+<i>h</i><sup>2<i>s</i>−1+2<i>r</i></sup>Ξ preserves order at least 2<i>s</i>+2<i>r</i>; it introduces
+noncommutation whenever &#91;𝒥<sub><i>N</i></sub>Ξ,<i>A</i><sub><i>N</i></sub>&#93; ≠ 0.
 
-*Proof.* Multiplication by $`h\mathcal J_N`$ turns the $`j`$-th cap correction in
+*Proof.* Multiplication by <i>h</i>𝒥<sub><i>N</i></sub> turns the <i>j</i>-th cap correction in
 [Equation (158)](#v12-eq-recursive-central-gauge) into
 
 ```math
@@ -4300,9 +4300,9 @@ noncommutation whenever $`[\mathcal J_N\Xi,A_N]\ne0`$.
 ```
 
 Thus the common block agrees with
-$`C_\mathrm{ex}(hA_N)`$ through degree $`2s+2r-2`$, and the Cayley map has
-local error $`O(h^{2s+2r+1})`$.  Every central correction is alternating
-and commutes with $`A_N`$, proving the structural claims.  The last
+<i>C</i><sub>ex</sub>(<i>hA</i><sub><i>N</i></sub>) through degree 2<i>s</i>+2<i>r</i>−2, and the Cayley map has
+local error <i>O</i>(<i>h</i><sup>2<i>s</i>+2<i>r</i>+1</sup>).  Every central correction is alternating
+and commutes with <i>A</i><sub><i>N</i></sub>, proving the structural claims.  The last
 statement follows from the same one-order shift between a cap-gauge term
 and its map perturbation used in the preceding theorem.
 
@@ -4323,19 +4323,19 @@ P_s
  R_{s,r}=\frac{\Pi_{s,r}(z)}{\Pi_{s,r}(-z)}.
 ```
 
-Here $`P_s(z)/P_s(-z)`$ is the Gauss–$`s`$ map,
-$`\delta_{s,r}`$ is the truncated central correction,
-$`C_{s,r}`$ is a chart coordinate and may diverge, whereas
-$`\Pi_{s,r}`$ is the denominator-cleared polynomial whose coprime quotient
-determines the true poles of $`R_{s,r}`$.
+Here <i>P</i><sub><i>s</i></sub>(<i>z</i>)/<i>P</i><sub><i>s</i></sub>(−<i>z</i>) is the Gauss–<i>s</i> map,
+<i>δ</i><sub><i>s</i>,<i>r</i></sub> is the truncated central correction,
+<i>C</i><sub><i>s</i>,<i>r</i></sub> is a chart coordinate and may diverge, whereas
+Π<sub><i>s</i>,<i>r</i></sub> is the denominator-cleared polynomial whose coprime quotient
+determines the true poles of <i>R</i><sub><i>s</i>,<i>r</i></sub>.
 
 **Theorem 9.18. Central rational hierarchy.**
 
 <a name="v12-thm-central-rational-hierarchy"></a>
 
-Let the even functions $`C_s`$, $`C_\mathrm{ex}`$, and the coefficients
-$`\alpha_{s,j}`$ be defined by
-[Equation (157)](#v12-eq-recursive-cayley-coefficients).  For $`r\ge1`$, set
+Let the even functions <i>C</i><sub><i>s</i></sub>, <i>C</i><sub>ex</sub>, and the coefficients
+<i>α</i><sub><i>s</i>,<i>j</i></sub> be defined by
+[Equation (157)](#v12-eq-recursive-cayley-coefficients).  For <i>r</i> ≥ 1, set
 
 <a name="v12-eq-central-delta-pi"></a>
 **Equation (159).**
@@ -4365,73 +4365,73 @@ Then the central propagator has the two equivalent representations
 The last expression is understood after cancellation of common scalar
 polynomial factors.  It has the following properties.
 
-1. $`R_{s,r}(-z)=R_{s,r}(z)^{-1}`$.  Hence the induced one-step
-    map is self-adjoint.
+**(1)** <i>R</i><sub><i>s</i>,<i>r</i></sub>(−<i>z</i>)=<i>R</i><sub><i>s</i>,<i>r</i></sub>(<i>z</i>)<sup>−1</sup>.  Hence the induced one-step
+ map is self-adjoint.
 
-1. If $`A_N^\top Q_N+Q_NA_N=0`$, then
-    $`R_{s,r}(hA_N)^\top Q_NR_{s,r}(hA_N)=Q_N`$.  Thus the map preserves
-    the quadratic Hamiltonian exactly.
+**(2)** If <i>A</i><sub><i>N</i></sub><sup>⊤</sup><i>Q</i><sub><i>N</i></sub>+<i>Q</i><sub><i>N</i></sub><i>A</i><sub><i>N</i></sub>=0, then
+ <i>R</i><sub><i>s</i>,<i>r</i></sub>(<i>hA</i><sub><i>N</i></sub>)<sup>⊤</sup><i>Q</i><sub><i>N</i></sub><i>R</i><sub><i>s</i>,<i>r</i></sub>(<i>hA</i><sub><i>N</i></sub>)=<i>Q</i><sub><i>N</i></sub>.  Thus the map preserves
+ the quadratic Hamiltonian exactly.
 
-1. For fixed $`A_N`$,
+**(3)** For fixed <i>A</i><sub><i>N</i></sub>,
 
-   
 
-   <a name="v12-eq-central-rational-order"></a>
-   **Equation (161).**
 
-   ```math
+<a name="v12-eq-central-rational-order"></a>
+**Equation (161).**
 
-     R_{s,r}(hA_N)-e^{hA_N}=O(h^{2s+2r+1}).
-   ```
+```math
 
-   
-    In the terminology of [Definition 1.1](#v12-def-matrix-order), the local matrix defect
-    is of order at least $`2s+2r+1`$, so the global operator order is at
-    least $`2s+2r`$.  It is
-    exactly $`2s+2r`$ when $`\alpha_{s,r}\ne0`$ and
-    $`A_N^{2s+2r+1}\ne0`$.
+  R_{s,r}(hA_N)-e^{hA_N}=O(h^{2s+2r+1}).
+```
 
-1. Let $`N_{s,r}/D_{s,r}`$ be the coprime scalar reduction of
-    $`\Pi_{s,r}(z)/\Pi_{s,r}(-z)`$.  The true finite-step poles of the
-    matrix propagator are exactly the failures of invertibility of
-    $`D_{s,r}(hA_N)`$.  Zeros of $`\widehat O_s`$ are singularities of the
-    coordinate $`C_s`$, not additional poles of $`R_{s,r}`$: the polynomial
-    representation extends the propagator through them, with $`R_{s,r}=1`$.
 
-1. The reduced scalar propagator has no pole on the imaginary axis.
-    For every real $`\xi`$, its continuous rational extension satisfies
+ In the terminology of [Definition 1.1](#v12-def-matrix-order), the local matrix defect
+ is of order at least 2<i>s</i>+2<i>r</i>+1, so the global operator order is at
+ least 2<i>s</i>+2<i>r</i>.  It is
+ exactly 2<i>s</i>+2<i>r</i> when <i>α</i><sub><i>s</i>,<i>r</i></sub> ≠ 0 and
+ <i>A</i><sub><i>N</i></sub><sup>2<i>s</i>+2<i>r</i>+1</sup> ≠ 0.
 
-   
+**(4)** Let <i>N</i><sub><i>s</i>,<i>r</i></sub>/<i>D</i><sub><i>s</i>,<i>r</i></sub> be the coprime scalar reduction of
+ Π<sub><i>s</i>,<i>r</i></sub>(<i>z</i>)/Π<sub><i>s</i>,<i>r</i></sub>(−<i>z</i>).  The true finite-step poles of the
+ matrix propagator are exactly the failures of invertibility of
+ <i>D</i><sub><i>s</i>,<i>r</i></sub>(<i>hA</i><sub><i>N</i></sub>).  Zeros of $`\widehat O_s`$ are singularities of the
+ coordinate <i>C</i><sub><i>s</i></sub>, not additional poles of <i>R</i><sub><i>s</i>,<i>r</i></sub>: the polynomial
+ representation extends the propagator through them, with <i>R</i><sub><i>s</i>,<i>r</i></sub>=1.
 
-   <a name="v12-eq-central-rational-imaginary-axis"></a>
-   **Equation (162).**
+**(5)** The reduced scalar propagator has no pole on the imaginary axis.
+ For every real <i>ξ</i>, its continuous rational extension satisfies
 
-   ```math
 
-     |R_{s,r}(i\xi)|=1,
-     \qquad
-     \arg R_{s,r}(i\xi)
-     =2\operatorname{atan2}\!\left(
-       \Im\Pi_{s,r}(i\xi),\Re\Pi_{s,r}(i\xi)
-      \right)\pmod{2\pi}.
-   ```
 
-   
-    In a finite $`C_{s,r}`$-chart this becomes
+<a name="v12-eq-central-rational-imaginary-axis"></a>
+**Equation (162).**
 
-   
+```math
 
-   <a name="v12-eq-central-rational-phase"></a>
-   **Equation (163).**
+  |R_{s,r}(i\xi)|=1,
+  \qquad
+  \arg R_{s,r}(i\xi)
+  =2\operatorname{atan2}\!\left(
+    \Im\Pi_{s,r}(i\xi),\Re\Pi_{s,r}(i\xi)
+   \right)\pmod{2\pi}.
+```
 
-   ```math
 
-     \arg R_{s,r}(i\xi)
-     =2\operatorname{atan2}\!\left(\xi,2C_{s,r}(i\xi)\right)
-     \quad\pmod{2\pi}.
-   ```
+ In a finite <i>C</i><sub><i>s</i>,<i>r</i></sub>-chart this becomes
 
-The cap gauge generating $`R_{s,r}(hA_N)`$ is exactly
+
+
+<a name="v12-eq-central-rational-phase"></a>
+**Equation (163).**
+
+```math
+
+  \arg R_{s,r}(i\xi)
+  =2\operatorname{atan2}\!\left(\xi,2C_{s,r}(i\xi)\right)
+  \quad\pmod{2\pi}.
+```
+
+The cap gauge generating <i>R</i><sub><i>s</i>,<i>r</i></sub>(<i>hA</i><sub><i>N</i></sub>) is exactly
 [Equation (158)](#v12-eq-recursive-central-gauge).
 
 *Proof.* Since
@@ -4444,13 +4444,13 @@ C_{s,r}(z)\mathbin{\pm}\frac z2
 
 the coordinate denominator cancels and gives the polynomial quotient in
 [Equation (160)](#v12-eq-central-rational-family).  This proves in particular that poles
-of $`C_s`$ are not automatically poles of the propagator.  At a zero of
+of <i>C</i><sub><i>s</i></sub> are not automatically poles of the propagator.  At a zero of
 $`\widehat O_s`$, the coprimality of the diagonal Padé pair gives
-$`P_s(z)=P_s(-z)=E_s(z)\ne0`$; hence the continued value is $`1`$.
+<i>P</i><sub><i>s</i></sub>(<i>z</i>)=<i>P</i><sub><i>s</i></sub>(−<i>z</i>)=<i>E</i><sub><i>s</i></sub>(<i>z</i>) ≠ 0; hence the continued value is 1.
 
-The function $`C_{s,r}`$ is even, which gives the reversibility identity.
-From $`A_N^\top Q_N=-Q_NA_N`$, every even rational function satisfies
-$`C_{s,r}(hA_N)^\top Q_N=Q_NC_{s,r}(hA_N)`$.  Expanding the two quadratic
+The function <i>C</i><sub><i>s</i>,<i>r</i></sub> is even, which gives the reversibility identity.
+From <i>A</i><sub><i>N</i></sub><sup>⊤</sup><i>Q</i><sub><i>N</i></sub>=−<i>Q</i><sub><i>N</i></sub><i>A</i><sub><i>N</i></sub>, every even rational function satisfies
+<i>C</i><sub><i>s</i>,<i>r</i></sub>(<i>hA</i><sub><i>N</i></sub>)<sup>⊤</sup><i>Q</i><sub><i>N</i></sub>=<i>Q</i><sub><i>N</i></sub><i>C</i><sub><i>s</i>,<i>r</i></sub>(<i>hA</i><sub><i>N</i></sub>).  Expanding the two quadratic
 products then gives
 
 ```math
@@ -4458,26 +4458,26 @@ products then gives
  =(C_{s,r}-hA_N/2)^\top Q_N(C_{s,r}-hA_N/2),
 ```
 
-which proves exact $`Q_N`$-orthogonality.  By construction,
-$`C_\mathrm{ex}-C_{s,r}=O(z^{2s+2r})`$.  The Cayley resolvent identity adds
-one power of $`z`$, proving [Equation (161)](#v12-eq-central-rational-order); its first
+which proves exact <i>Q</i><sub><i>N</i></sub>-orthogonality.  By construction,
+<i>C</i><sub>ex</sub>−<i>C</i><sub><i>s</i>,<i>r</i></sub>=<i>O</i>(<i>z</i><sup>2<i>s</i>+2<i>r</i></sup>).  The Cayley resolvent identity adds
+one power of <i>z</i>, proving [Equation (161)](#v12-eq-central-rational-order); its first
 coefficient is nonzero under the stated hypotheses.  Cancelling the
 greatest common polynomial factor gives the asserted intrinsic pole
 condition.
 
-All coefficients of $`\Pi_{s,r}`$ are real.  Therefore
+All coefficients of Π<sub><i>s</i>,<i>r</i></sub> are real.  Therefore
 $`\Pi_{s,r}(-i\xi)=\overline{\Pi_{s,r}(i\xi)}`$.  If either factor
 vanishes on the imaginary axis, so does the other, with the same
 multiplicity; that factor disappears in the coprime reduction.  The
 reduced denominator consequently has no imaginary-axis zero, and the
 quotient has unit modulus.  Its argument is twice the argument of
-$`\Pi_{s,r}(i\xi)`$, proving
-[Equation (162)](#v12-eq-central-rational-imaginary-axis).  Where the $`C_{s,r}`$-chart
+Π<sub><i>s</i>,<i>r</i></sub>(<i>iξ</i>), proving
+[Equation (162)](#v12-eq-central-rational-imaginary-axis).  Where the <i>C</i><sub><i>s</i>,<i>r</i></sub>-chart
 is finite, the same calculation applied to
-$`C_{s,r}(i\xi)+i\xi/2`$ gives
+<i>C</i><sub><i>s</i>,<i>r</i></sub>(<i>iξ</i>)+<i>iξ</i>/2 gives
 [Equation (163)](#v12-eq-central-rational-phase).  Finally, multiplication of
-[Equation (158)](#v12-eq-recursive-central-gauge) by $`h\mathcal J_N`$ produces exactly
-the added even powers in $`C_{s,r}(hA_N)`$.
+[Equation (158)](#v12-eq-recursive-central-gauge) by <i>h</i>𝒥<sub><i>N</i></sub> produces exactly
+the added even powers in <i>C</i><sub><i>s</i>,<i>r</i></sub>(<i>hA</i><sub><i>N</i></sub>).
 
 ∎
 
@@ -4485,9 +4485,9 @@ the added even powers in $`C_{s,r}(hA_N)`$.
 
 <a name="v12-rem-gauss-coincidence-exception"></a>
 
-For $`s=1,r=1`$, $`C_{1,1}(z)=1+z^2/12=C_2(z)`$, so the corrected
+For <i>s</i>=1,<i>r</i>=1, <i>C</i><sub>1,1</sub>(<i>z</i>)=1+<i>z</i><sup>2</sup>/12=<i>C</i><sub>2</sub>(<i>z</i>), so the corrected
 one-stage map is exactly Gauss–2.  There is no general identity
-``corrected Gauss–$`s`$ equals Gauss–$`(s+1)`$.”  Already
+``corrected Gauss–<i>s</i> equals Gauss–(<i>s</i>+1).”  Already
 
 ```math
 C_{2,1}(z)=1+\frac{z^2}{12}-\frac{z^4}{720},
@@ -4498,57 +4498,57 @@ C_{2,1}(z)=1+\frac{z^2}{12}-\frac{z^4}{720},
 which agree only through the required Taylor degree and define distinct
 rational maps.
 
-**Proposition 9.20. Coordinate resonances and loss of $`A`$-stability.**
+**Proposition 9.20. Coordinate resonances and loss of <i>A</i>-stability.**
 
 <a name="v12-prop-rational-resonance-stability"></a>
 
 The distinction between the gauge chart and the reduced propagator is
 already visible in the first nontrivial members.
 
-1. For $`s=3`$,
+**(1)** For <i>s</i>=3,
 
-   
 
-   
-   ```math
-   C_3(z)=6\frac{z^2+10}{z^2+60}.
-   ```
 
-   
-    At $`z=\pm i\sqrt{60}`$, the coordinate diverges, whereas for every
-    $`r\ge1`$,
-    $`\Pi_{3,r}(z)=\Pi_{3,r}(-z)=-5`$ and the continued propagator is
-    $`R_{3,r}(z)=1`$.
 
-1. For $`s=2,r=1`$,
+```math
+C_3(z)=6\frac{z^2+10}{z^2+60}.
+```
 
-   
 
-   <a name="v12-eq-pi-21"></a>
-   **Equation (164).**
+ At $`z=\pm i\sqrt{60}`$, the coordinate diverges, whereas for every
+ <i>r</i> ≥ 1,
+ Π<sub>3,<i>r</i></sub>(<i>z</i>)=Π<sub>3,<i>r</i></sub>(−<i>z</i>)=−5 and the continued propagator is
+ <i>R</i><sub>3,<i>r</i></sub>(<i>z</i>)=1.
 
-   ```math
+**(2)** For <i>s</i>=2,<i>r</i>=1,
 
-     \Pi_{2,1}(z)=1+\frac z2+\frac{z^2}{12}-\frac{z^4}{720}.
-   ```
 
-   
-    It has a positive real zero
-    $`\rho_\star=10.1275149065\ldots`$.  Hence the reduced denominator
-    $`\Pi_{2,1}(-z)`$ has a genuine pole at
-    $`z=-\rho_\star`$ in the open left half-plane.  The sixth-order map
-    $`R_{2,1}`$ is therefore not $`A`$-stable.
 
-*Proof.* For $`s=3`$,
+<a name="v12-eq-pi-21"></a>
+**Equation (164).**
+
+```math
+
+  \Pi_{2,1}(z)=1+\frac z2+\frac{z^2}{12}-\frac{z^4}{720}.
+```
+
+
+ It has a positive real zero
+ <i>ρ</i><sub>⋆</sub>=10.1275149065….  Hence the reduced denominator
+ Π<sub>2,1</sub>(−<i>z</i>) has a genuine pole at
+ <i>z</i>=−<i>ρ</i><sub>⋆</sub> in the open left half-plane.  The sixth-order map
+ <i>R</i><sub>2,1</sub> is therefore not <i>A</i>-stable.
+
+*Proof.* For <i>s</i>=3,
 $`\widehat O_3(z)=1/2+z^2/120`$; at its two zeros the correction in
-[Equation (159)](#v12-eq-central-delta-pi) vanishes and direct substitution in $`P_3`$
-gives $`-5`$ for both signs.  For $`s=2`$,
-$`2\widehat O_2=1`$, $`\alpha_{2,0}=-1/720`$, and
+[Equation (159)](#v12-eq-central-delta-pi) vanishes and direct substitution in <i>P</i><sub>3</sub>
+gives −5 for both signs.  For <i>s</i>=2,
+$`2\widehat O_2=1`$, <i>α</i><sub>2,0</sub>=−1/720, and
 [Equation (164)](#v12-eq-pi-21) follows.  Direct polynomial root isolation gives
-$`\Pi_{2,1}(10.1275)>0>\Pi_{2,1}(10.1276)`$, and Newton refinement gives
-$`\rho_\star`$.  Since
-$`\Pi_{2,1}(z)-\Pi_{2,1}(-z)=z`$, the numerator is nonzero at
-$`-\rho_\star`$, so the pole does not cancel.
+Π<sub>2,1</sub>(10.1275)&gt;0&gt;Π<sub>2,1</sub>(10.1276), and Newton refinement gives
+<i>ρ</i><sub>⋆</sub>.  Since
+Π<sub>2,1</sub>(<i>z</i>)−Π<sub>2,1</sub>(−<i>z</i>)=<i>z</i>, the numerator is nonzero at
+−<i>ρ</i><sub>⋆</sub>, so the pole does not cancel.
 
 ∎
 
@@ -4558,7 +4558,7 @@ The absence of imaginary-axis poles in
 [Theorem 9.18](#v12-thm-central-rational-hierarchy) is the property relevant to the
 positive-energy Hamiltonian line.  It does not imply left-half-plane
 stability for dissipative, parabolic, or split extensions.  Root
-localization of $`\Pi_{s,r}`$ is therefore a separate design constraint,
+localization of Π<sub><i>s</i>,<i>r</i></sub> is therefore a separate design constraint,
 not a consequence of high order or exact quadratic conservation.
 
 **Remark 9.22. Relation with the exact-flow gauge.**
@@ -4572,19 +4572,19 @@ S_h^\mathrm{exact}-S^\mathrm{G}_{s,h}
  =h^{2s-1}\Theta_s^\star+O(h^{2s+1}).
 ```
 
-Thus $`c_s`$ is the leading coefficient of the *difference*
-between the exact-flow gauge and the Gauss–$`s`$ gauge.  It is not, in
+Thus <i>c</i><sub><i>s</i></sub> is the leading coefficient of the *difference*
+between the exact-flow gauge and the Gauss–<i>s</i> gauge.  It is not, in
 general, the raw Bernoulli coefficient of
-$`(z/2)\coth(z/2)-1`$.  For example, at $`s=3`$ the exact $`z^6`$
-coefficient is $`1/30240`$, the Gauss–3 gauge already contributes
-$`1/43200`$, and their difference is
-$`c_3=1/100800`$.
+(<i>z</i>/2)coth (<i>z</i>/2)−1.  For example, at <i>s</i>=3 the exact <i>z</i><sup>6</sup>
+coefficient is 1/30240, the Gauss–3 gauge already contributes
+1/43200, and their difference is
+<i>c</i><sub>3</sub>=1/100800.
 
 **Proposition 9.23. Stieltjes representation and Padé identification.**
 
 <a name="v12-prop-stieltjes-pade-coordinate"></a>
 
-With $`u=z^2`$, define
+With <i>u</i>=<i>z</i><sup>2</sup>, define
 
 ```math
 F(u)=\frac{C_\mathrm{ex}(\sqrt u)-1}{u}.
@@ -4604,7 +4604,7 @@ Then
        \delta_{1/(4\pi^2k^2)}.
 ```
 
-Thus $`F`$ is a Stieltjes function.  Moreover,
+Thus <i>F</i> is a Stieltjes function.  Moreover,
 $`C_s(\sqrt u)`$ is the Padé approximant of type
 
 ```math
@@ -4612,20 +4612,20 @@ $`C_s(\sqrt u)`$ is the Padé approximant of type
  \Big/\left\lfloor\frac{s-1}{2}\right\rfloor\right]
 ```
 
-to $`C_\mathrm{ex}(\sqrt u)`$ at $`u=0`$.  Equivalently,
-$`(C_s(\sqrt u)-1)/u`$ is of type $`[m-1/m-1]`$ when $`s=2m`$, and
-of type $`[m-1/m]`$ when $`s=2m+1`$.
+to $`C_\mathrm{ex}(\sqrt u)`$ at <i>u</i>=0.  Equivalently,
+$`(C_s(\sqrt u)-1)/u`$ is of type &#91;<i>m</i>−1/<i>m</i>−1&#93; when <i>s</i>=2<i>m</i>, and
+of type &#91;<i>m</i>−1/<i>m</i>&#93; when <i>s</i>=2<i>m</i>+1.
 
-*Proof.* The Mittag–Leffler expansion of $`\coth`$ gives the first equality in
+*Proof.* The Mittag–Leffler expansion of coth  gives the first equality in
 [Equation (165)](#v12-eq-stieltjes-coth); rewriting each summand with
-$`\lambda_k=(4\pi^2k^2)^{-1}`$ gives the positive discrete measure.
+<i>λ</i><sub><i>k</i></sub>=(4<i>π</i><sup>2</sup><i>k</i><sup>2</sup>)<sup>−1</sup> gives the positive discrete measure.
 The numerator and denominator degrees of
-$`C_s=E_s/(2\widehat O_s)`$, expressed in $`u`$, are respectively
-$`\lfloor s/2\rfloor`$ and $`\lfloor(s-1)/2\rfloor`$.  Finally,
+$`C_s=E_s/(2\widehat O_s)`$, expressed in <i>u</i>, are respectively
+⌊<i>s</i>/2⌋ and ⌊(<i>s</i>−1)/2⌋.  Finally,
 [Equation (152)](#v12-eq-cayley-common-block-difference) gives
 $`C_\mathrm{ex}(\sqrt u)-C_s(\sqrt u)=O(u^s)`$, which is exactly the Padé
 matching condition for those degrees.  Division of the constant-free
-difference by $`u`$ gives the two stated types.  This places the coordinate
+difference by <i>u</i> gives the two stated types.  This places the coordinate
 hierarchy within classical Stieltjes–Padé theory
 [[36]](#v12-ref-wynn1968).
 
@@ -4642,8 +4642,8 @@ F_s(u)=\frac{C_s(\sqrt u)-1}{u},
  \qquad q_s=\left\lfloor\frac{s-1}{2}\right\rfloor.
 ```
 
-There exist $`a_s\ge0`$, positive numbers
-$`w_{s,k},\lambda_{s,k}>0`$, $`1\le k\le q_s`$, and hence
+There exist <i>a</i><sub><i>s</i></sub> ≥ 0, positive numbers
+<i>w</i><sub><i>s</i>,<i>k</i></sub>,<i>λ</i><sub><i>s</i>,<i>k</i></sub>&gt;0, 1 ≤ <i>k</i> ≤ <i>q</i><sub><i>s</i></sub>, and hence
 
 ```math
 L_s=\operatorname{diag}(\lambda_{s,1},\ldots,\lambda_{s,q_s})\succ0,
@@ -4663,7 +4663,7 @@ such that
  =a_s+b_s^\top(I+uL_s)^{-1}b_s.
 ```
 
-The sum is absent when $`q_s=0`$.  Consequently $`C_s`$ is generated by
+The sum is absent when <i>q</i><sub><i>s</i></sub>=0.  Consequently <i>C</i><sub><i>s</i></sub> is generated by
 the positive interior system
 
 <a name="v12-eq-positive-coordinate-interior-system"></a>
@@ -4678,13 +4678,13 @@ the positive interior system
  C_s(\sqrt u)x=x+up.
 ```
 
-After Lanczos tridiagonalization with starting vector $`b_s`$, the same
+After Lanczos tridiagonalization with starting vector <i>b</i><sub><i>s</i></sub>, the same
 realization has a positive Jacobi matrix and repeated scalar Schur
 elimination gives a finite Stieltjes continued fraction.
 
 Here *positive Jacobi-chain realization* means precisely that
-$`L_s\succ0`$, the residues $`w_{s,k}`$ are positive, the associated
-rational Stieltjes function is nonnegative on $`u\ge0`$, and the Jacobi
+<i>L</i><sub><i>s</i></sub> ≻ 0, the residues <i>w</i><sub><i>s</i>,<i>k</i></sub> are positive, the associated
+rational Stieltjes function is nonnegative on <i>u</i> ≥ 0, and the Jacobi
 off-diagonal coefficients can be chosen positive.  It does not assert
 that the complete augmented matrix is positive in the energy metric of
 the original port-Hamiltonian system.
@@ -4702,28 +4702,28 @@ Already
  \qquad (u>60),
 ```
 
-so $`C_{2,1}`$ admits no realization of the positive form
+so <i>C</i><sub>2,1</sub> admits no realization of the positive form
 [Equation (166)](#v12-eq-finite-stieltjes-realization).
 
-*Proof.* By [Proposition 9.23](#v12-prop-stieltjes-pade-coordinate), $`F_s`$ is a diagonal or
-subdiagonal Padé approximant of the Stieltjes function $`F`$.  The
+*Proof.* By [Proposition 9.23](#v12-prop-stieltjes-pade-coordinate), <i>F</i><sub><i>s</i></sub> is a diagonal or
+subdiagonal Padé approximant of the Stieltjes function <i>F</i>.  The
 classical Stieltjes–Padé theorem gives real negative simple poles and
 positive residues; a diagonal member may additionally have a nonnegative
 constant term at infinity [[36]](#v12-ref-wynn1968).  Rewriting every pole as
-$`-1/\lambda_{s,k}`$ gives [Equation (166)](#v12-eq-finite-stieltjes-realization).
+−1/<i>λ</i><sub><i>s</i>,<i>k</i></sub> gives [Equation (166)](#v12-eq-finite-stieltjes-realization).
 This is the finite positive-measure realization of a rational Stieltjes
 function.
 
-Eliminating $`\eta`$ in
-[Equation (167)](#v12-eq-positive-coordinate-interior-system) gives $`p=F_s(u)x`$, hence
-the last identity.  Orthogonal Lanczos reduction of $`L_s`$ with starting
-vector $`b_s`$ preserves the scalar resolvent and produces a symmetric
+Eliminating <i>η</i> in
+[Equation (167)](#v12-eq-positive-coordinate-interior-system) gives <i>p</i>=<i>F</i><sub><i>s</i></sub>(<i>u</i>)<i>x</i>, hence
+the last identity.  Orthogonal Lanczos reduction of <i>L</i><sub><i>s</i></sub> with starting
+vector <i>b</i><sub><i>s</i></sub> preserves the scalar resolvent and produces a symmetric
 tridiagonal Jacobi matrix; successive block elimination of its last
 coordinate yields the Stieltjes continued fraction [[35]](#v12-ref-wall1948).
 The corresponding positive-network interpretation belongs to classical
 network synthesis [[1]](#v12-ref-basubose1983).  Finally, the right-hand side
 of [Equation (166)](#v12-eq-finite-stieltjes-realization) is nonnegative for every
-$`u\ge0`$, whereas direct substitution of $`C_{2,1}`$ gives
+<i>u</i> ≥ 0, whereas direct substitution of <i>C</i><sub>2,1</sub> gives
 [Equation (168)](#v12-eq-corrected-stieltjes-obstruction).  The claimed obstruction
 follows.
 
@@ -4748,7 +4748,7 @@ indefinite/nonpassive internal structure.
 
 <a name="v12-rem-alpha-sign-conjecture"></a>
 
-Exact arithmetic for $`1\le s\le12`$ and $`0\le j\le12`$ gives
+Exact arithmetic for 1 ≤ <i>s</i> ≤ 12 and 0 ≤ <i>j</i> ≤ 12 gives
 
 <a name="v12-eq-alpha-sign-conjecture"></a>
 **Equation (169).**
@@ -4758,19 +4758,19 @@ Exact arithmetic for $`1\le s\le12`$ and $`0\le j\le12`$ gives
  (-1)^{s+j+1}\alpha_{s,j}>0.
 ```
 
-If proved for all $`s,j`$, this would remove the non-annulation hypothesis
+If proved for all <i>s</i>,<i>j</i>, this would remove the non-annulation hypothesis
 from [Corollary 9.17](#v12-cor-recursive-gauge-hierarchy), [Theorem 9.18](#v12-thm-central-rational-hierarchy).
 The Stieltjes representation makes [Equation (169)](#v12-eq-alpha-sign-conjecture)
 natural, but standard real-axis Padé error inequalities do not by
 themselves establish this coefficientwise statement.  We therefore retain
 it as a conjecture, and every exact-order claim continues to state the
-hypothesis $`\alpha_{s,r}\ne0`$.
+hypothesis <i>α</i><sub><i>s</i>,<i>r</i></sub> ≠ 0.
 
 **Corollary 9.27. The Gauss–2 member.**
 
 <a name="v12-cor-mixed-gauss-two"></a>
 
-For $`s=2`$,
+For <i>s</i>=2,
 
 <a name="v12-eq-mixed-gauss-two-gauge"></a>
 **Equation (170).**
@@ -4802,8 +4802,8 @@ the propagator is
 
 It is the fourth-order example used below.
 
-*Proof.* For $`P_2(z)=I+z/2+z^2/12`$,
-$`E_2(z)=I+z^2/12`$ and $`\widehat O_2(z)=I/2`$.  Substitution in
+*Proof.* For <i>P</i><sub>2</sub>(<i>z</i>)=<i>I</i>+<i>z</i>/2+<i>z</i><sup>2</sup>/12,
+<i>E</i><sub>2</sub>(<i>z</i>)=<i>I</i>+<i>z</i><sup>2</sup>/12 and $`\widehat O_2(z)=I/2`$.  Substitution in
 [Equation (138)](#v12-eq-gauss-s-cap-gauge), [Equation (142)](#v12-eq-mixed-gauss-map-general) gives the stated
 formulas.
 
@@ -4811,9 +4811,9 @@ formulas.
 
 **Remark 9.28. What is and is not new in the line example.**
 
-The case $`\Theta=0`$ is only Gauss–$`s`$ applied to the 2012 spatial
+The case Θ=0 is only Gauss–<i>s</i> applied to the 2012 spatial
 reduction and lies within the architecture of [[18]](#v12-ref-kotyczka2019).
-The difference is the lifted $`Q_{tx}`$ term.  It preserves the proved
+The difference is the lifted <i>Q</i><sub><i>tx</i></sub> term.  It preserves the proved
 order and power but, under the commutator hypothesis, destroys both the
 scalar-coefficient Runge–Kutta method-of-lines representation and
 symplecticity.  Thus the construction does not relabel Gauss as
@@ -4824,7 +4824,7 @@ the broader scalar functional-calculus subclass.  The one-term
 classification also exposes a sharp tradeoff: its unique higher-order
 coefficient is central.  The two-term family in
 [Theorem 9.16](#v12-thm-two-term-gauge-hierarchy) removes that apparent obstruction by
-retaining order $`2s+2`$ with an arbitrary noncommuting next coefficient.
+retaining order 2<i>s</i>+2 with an arbitrary noncommuting next coefficient.
 High-order
 energy-preserving methods exist in other forms
 [[25]](#v12-ref-miyatake2016), [[10]](#v12-ref-eidnes2022), [[16]](#v12-ref-kemmochi2023); the specific contribution
@@ -4841,7 +4841,7 @@ two-form evaluated on two variational solutions
 the Cooper condition preserves quadratic invariants, but the two tensor
 parities must not be identified.  In the present theory, symmetric power
 balance holds throughout the compatible affine family, while the
-alternating temporal symplectic law holds exactly on $`\mathcal L`$.
+alternating temporal symplectic law holds exactly on ℒ.
 
 <a name="v12-section-10"></a>
 
@@ -4851,15 +4851,15 @@ alternating temporal symplectic law holds exactly on $`\mathcal L`$.
 
 <a name="v12-tab-gauge"></a>
 
-**Table 1. Properties of a fixed, $`h`$-independent one-step linear gauge
-for nonsingular $`J,Q`$.  Step-dependent odd gauges such as
+**Table 1. Properties of a fixed, <i>h</i>-independent one-step linear gauge
+for nonsingular <i>J</i>,<i>Q</i>.  Step-dependent odd gauges such as
 [Equation (139)](#v12-eq-mixed-gauss-gauge) are not covered by the order column.**
 
 | Gauge | Exact energy | Symplectic | Order |
 | --- | --- | --- | --- |
-| $`S=0`$ | yes | yes | two |
-| $`S\in\mathcal{L}\setminus\{0\}`$ | yes | yes | one |
-| $`S\notin\mathcal{L}`$ | yes | no | one |
+| <i>S</i>=0 | yes | yes | two |
+| <i>S</i> ∈ ℒ ∖ {0} | yes | yes | one |
+| <i>S</i> ∉ ℒ | yes | no | one |
 
 <a name="v12-tab-nonlinear"></a>
 
@@ -4869,7 +4869,7 @@ for nonsingular $`J,Q`$.  Step-dependent odd gauges such as
 | --- | --- | --- | --- |
 | AVF discrete gradient | yes | no | yes |
 | Gonzalez discrete gradient | yes | no | no, metric-dependent |
-| Implicit midpoint | only for quadratic $`H`$ | yes | yes |
+| Implicit midpoint | only for quadratic <i>H</i> | yes | yes |
 
 ### 10.2. Verification on a stacked space–time polynomial cell
 
@@ -4880,7 +4880,7 @@ genuine total-complex map or a time-stepping reduction.  Take
 E_t=\mathcal{P}_3,\qquad E_x=\mathcal{P}_4,
 ```
 
-with monomial coefficients on $`[0,1]^2`$, exact $`L^2`$ product
+with monomial coefficients on &#91;0,1&#93;<sup>2</sup>, exact <i>L</i><sup>2</sup> product
 pairings, and
 
 ```math
@@ -4888,10 +4888,10 @@ D_\mathrm{st}z=
  \bigl((\partial_t\otimes I)z,(I\otimes\partial_x)z\bigr).
 ```
 
-Then $`\dim E_\mathrm{st}=20`$, $`\dim F_\mathrm{st}=31`$, and the computed
-rank is $`19`$, exactly as predicted by
+Then dim <i>E</i><sub>st</sub>=20, dim <i>F</i><sub>st</sub>=31, and the computed
+rank is 19, exactly as predicted by
 [Equation (31)](#v12-eq-space-time-rank); hence
-$`\dim\mathcal G_\mathrm{st}=19\cdot18/2=171`$.
+dim 𝒢<sub>st</sub>=19 · 18/2=171.
 
 Starting from the exact product representative, we add unit-Frobenius
 gauges supported respectively in the temporal, spatial, mixed, and
@@ -4913,19 +4913,19 @@ and the alternating self-contraction are reported in
 
 <a name="v12-tab-space-time-residuals"></a>
 
-**Table 3. Compatibility residuals on the $`\mathcal{P}_3\otimes\mathcal{P}_4`$
+**Table 3. Compatibility residuals on the 𝒫<sub>3</sub> ⊗ 𝒫<sub>4</sub>
 space–time cell.**
 
-| Gauge sector | $`\varepsilon_\mathrm{st}`$ | $`\vert \omega(z,z)\vert `$ |
+| Gauge sector | <i>ε</i><sub>st</sub> | &#124;<i>ω</i>(<i>z</i>,<i>z</i>)&#124; |
 | --- | --- | --- |
-| zero representative | $`5.93\times10^{-16}`$ | $`0`$ |
-| temporal | $`6.71\times10^{-16}`$ | $`5.55\times10^{-17}`$ |
-| spatial | $`6.71\times10^{-16}`$ | $`0`$ |
-| mixed | $`6.71\times10^{-16}`$ | $`3.99\times10^{-18}`$ |
-| temporal–mixed cross | $`5.93\times10^{-16}`$ | $`0`$ |
+| zero representative | 5.93 × 10<sup>−16</sup> | 0 |
+| temporal | 6.71 × 10<sup>−16</sup> | 5.55 × 10<sup>−17</sup> |
+| spatial | 6.71 × 10<sup>−16</sup> | 0 |
+| mixed | 6.71 × 10<sup>−16</sup> | 3.99 × 10<sup>−18</sup> |
+| temporal–mixed cross | 5.93 × 10<sup>−16</sup> | 0 |
 
 This check confirms two claims that cannot be seen in a method-of-lines
-experiment: the active rank is smaller than $`\dim F_\mathrm{st}`$, and a
+experiment: the active rank is smaller than dim <i>F</i><sub>st</sub>, and a
 genuinely mixed nonseparable gauge can satisfy the same global Stokes
 identity as the product representative.
 
@@ -4938,11 +4938,11 @@ ideal-line experiment in [[20]](#v12-ref-moulla2012):
 \ell=2,\qquad C=3,\qquad L=2,
 ```
 
-with $`N=8`$.  In the shifted $`L^2(0,\ell)`$-orthonormal Legendre basis,
+with <i>N</i>=8.  In the shifted <i>L</i><sup>2</sup>(0,ℓ)-orthonormal Legendre basis,
 the exact rectangular power chart is particularly transparent:
-$`M_N=[I_N;0]`$, while $`D_N`$ and both endpoint traces are evaluated
+<i>M</i><sub><i>N</i></sub>=&#91;<i>I</i><sub><i>N</i></sub>;0&#93;, while <i>D</i><sub><i>N</i></sub> and both endpoint traces are evaluated
 exactly.  The residual in [Equation (118)](#v12-eq-rectangular-stokes-line) is
-$`3.97\times10^{-13}`$.  Eliminating the degree-$`N`$ radical under the
+3.97 × 10<sup>−13</sup>.  Eliminating the degree-<i>N</i> radical under the
 causality [Equation (122)](#v12-eq-line-port-causality) gives
 [Equation (135)](#v12-eq-reduced-open-line), with
 
@@ -4957,7 +4957,7 @@ causality [Equation (122)](#v12-eq-line-port-causality) gives
 The stronger blockwise test of
 [Theorem 9.2](#v12-thm-rectangular-stokes-dirac), [Equation (136)](#v12-eq-line-square-block-recovery) is shown
 in [Table 4](#v12-tab-rectangular-reconstruction).  Every square open-system block
-is reconstructed from $`(M_N,D_N)`$ and the four endpoint traces.
+is reconstructed from (<i>M</i><sub><i>N</i></sub>,<i>D</i><sub><i>N</i></sub>) and the four endpoint traces.
 
 <a name="v12-tab-rectangular-reconstruction"></a>
 
@@ -4965,13 +4965,13 @@ is reconstructed from $`(M_N,D_N)`$ and the four endpoint traces.
 
 | Quantity | residual or condition number |
 | --- | --- |
-| polarized rectangular Stokes block | $`5.61\times10^{-13}`$ |
-| recovery of $`\mathcal J_N`$ | $`1.10\times10^{-14}`$ |
-| recovery of $`B_N`$ | $`7.35\times10^{-16}`$ |
-| recovery of $`B_N^\top`$ from the output trace | $`3.26\times10^{-15}`$ |
-| recovery of $`N_N`$ | $`1.11\times10^{-16}`$ |
-| minimum singular value of each endpoint reconstruction | $`4.54\times10^{-1}`$ |
-| $`\kappa_2(\mathcal R_N)`$ | $`1.42\times10^{1}`$ |
+| polarized rectangular Stokes block | 5.61 × 10<sup>−13</sup> |
+| recovery of 𝒥<sub><i>N</i></sub> | 1.10 × 10<sup>−14</sup> |
+| recovery of <i>B</i><sub><i>N</i></sub> | 7.35 × 10<sup>−16</sup> |
+| recovery of <i>B</i><sub><i>N</i></sub><sup>⊤</sup> from the output trace | 3.26 × 10<sup>−15</sup> |
+| recovery of <i>N</i><sub><i>N</i></sub> | 1.11 × 10<sup>−16</sup> |
+| minimum singular value of each endpoint reconstruction | 4.54 × 10<sup>−1</sup> |
+| <i>κ</i><sub>2</sub>(ℛ<sub><i>N</i></sub>) | 1.42 × 10<sup>1</sup> |
 
 The transmission-line computation is organized as a falsifiable
 validation of the rectangular Stokes theorem, the volume-to-cap pullback,
@@ -4980,8 +4980,8 @@ the Cayley bijection and its conditioning, active-stage Gauss
 condensation, the open power law, the exact order dichotomy and its unique
 order-raising coefficient, the scalar-functional-calculus obstruction,
 dispersion-based gauge selection, and cancellation after solving two
-coupled cells.  We choose a rank-six alternating $`\Theta`$
-coupling distinct $`q`$- and $`p`$-Legendre modes.  Its scale is fixed in
+coupled cells.  We choose a rank-six alternating Θ
+coupling distinct <i>q</i>- and <i>p</i>-Legendre modes.  Its scale is fixed in
 energy-orthonormal coordinates:
 
 <a name="v12-eq-intrinsic-theta-normalization"></a>
@@ -4994,7 +4994,7 @@ energy-orthonormal coordinates:
  (Q_N\mathcal J_NQ_N/12)Q_N^{-1/2}\right\rVert_F.
 ```
 
-Equivalently, this is the norm on covariant two-forms induced by $`Q_N`$,
+Equivalently, this is the norm on covariant two-forms induced by <i>Q</i><sub><i>N</i></sub>,
 and is invariant under a change of state coordinates.
 For the reduction test we use the following numerical section:
 
@@ -5007,8 +5007,8 @@ For the reduction test we use the following numerical section:
 It is inserted in [Equation (127)](#v12-eq-line-geometric-lifting) and is not used in the
 time-step solve and therefore tests [Proposition 9.9](#v12-prop-mixed-cylinder-lift)
 independently; in coordinates the lifted form is
-$`\Omega_\mathrm{st}=\mathcal T_N^\top\Theta\mathcal T_N`$.
-The cap dimension is $`16`$, so surjectivity predicts all
+Ω<sub>st</sub>=𝒯<sub><i>N</i></sub><sup>⊤</sup>Θ𝒯<sub><i>N</i></sub>.
+The cap dimension is 16, so surjectivity predicts all
 $`\binom{16}{2}=120`$ cap gauges to be reachable.  The residuals are
 reported in [Table 5](#v12-tab-line-pullback).
 
@@ -5018,24 +5018,24 @@ reported in [Table 5](#v12-tab-line-pullback).
 
 | Quantity | residual or rank |
 | --- | --- |
-| $`\Vert \mathcal T_N\mathcal L_N-I\Vert _F`$ | $`1.29\times10^{-14}`$ |
-| $`\Vert \Omega_\mathrm{st}+\Omega_\mathrm{st}^\top\Vert _F`$ | $`4.77\times10^{-14}`$ |
-| $`\Vert \mathcal L_N^\top\Omega_\mathrm{st}\mathcal L_N-\Theta\Vert _F/ \Vert \Theta\Vert _F`$ | $`5.73\times10^{-15}`$ |
-| $`\operatorname{rank}\mathcal T_N`$ | $`16`$ |
-| reachable cap-gauge dimension | $`120`$ |
+| ‖𝒯<sub><i>N</i></sub>ℒ<sub><i>N</i></sub>−<i>I</i>‖<sub><i>F</i></sub> | 1.29 × 10<sup>−14</sup> |
+| ‖Ω<sub>st</sub>+Ω<sub>st</sub><sup>⊤</sup>‖<sub><i>F</i></sub> | 4.77 × 10<sup>−14</sup> |
+| ‖ℒ<sub><i>N</i></sub><sup>⊤</sup>Ω<sub>st</sub>ℒ<sub><i>N</i></sub>−Θ‖<sub><i>F</i></sub>/‖Θ‖<sub><i>F</i></sub> | 5.73 × 10<sup>−15</sup> |
+| rank𝒯<sub><i>N</i></sub> | 16 |
+| reachable cap-gauge dimension | 120 |
 
 The preceding pullback is followed by an exact raw-realization test.  At
-$`h=0.1`$, set $`S_h=S_{2,h}^{\Theta}`$ and assemble the full raw system
+<i>h</i>=0.1, set <i>S</i><sub><i>h</i></sub>=<i>S</i><sub>2,<i>h</i></sub><sup>Θ</sup> and assemble the full raw system
 [Equation (59)](#v12-eq-raw-cell-block-system) with
-$`\Omega_h=\mathcal T_N^\top S_h\mathcal T_N`$.  The raw potential has
-dimension $`36`$; the effort remains in the full rectangular space
-$`(\mathcal P_8)^2`$ of dimension $`18`$; and the two endpoint conditions
-$`e_q(0)=e_p(\ell)=0`$ are imposed explicitly.  Since
-$`\ker\mathcal T_N`$ has dimension $`20`$, including the final cap and
-the null-space multiplier gives a $`90\times90`$ system.  Its blocks use
-$`D_N`$, $`M_N`$, the endpoint traces, and $`\Omega_h`$; neither
-$`\mathcal J_N`$ nor a cap propagator is inserted.  After solving the
-system for the sixteen coordinate initial states, its $`x_1`$-block is
+Ω<sub><i>h</i></sub>=𝒯<sub><i>N</i></sub><sup>⊤</sup><i>S</i><sub><i>h</i></sub>𝒯<sub><i>N</i></sub>.  The raw potential has
+dimension 36; the effort remains in the full rectangular space
+(𝒫<sub>8</sub>)<sup>2</sup> of dimension 18; and the two endpoint conditions
+<i>e</i><sub><i>q</i></sub>(0)=<i>e</i><sub><i>p</i></sub>(ℓ)=0 are imposed explicitly.  Since
+ker 𝒯<sub><i>N</i></sub> has dimension 20, including the final cap and
+the null-space multiplier gives a 90 × 90 system.  Its blocks use
+<i>D</i><sub><i>N</i></sub>, <i>M</i><sub><i>N</i></sub>, the endpoint traces, and Ω<sub><i>h</i></sub>; neither
+𝒥<sub><i>N</i></sub> nor a cap propagator is inserted.  After solving the
+system for the sixteen coordinate initial states, its <i>x</i><sub>1</sub>-block is
 compared with [Equation (171)](#v12-eq-mixed-gauss-map).
 
 In coordinates, the input trace in
@@ -5046,7 +5046,7 @@ In coordinates, the input trace in
  \begin{bmatrix}r_0^\top&0\\0&r_\ell^\top\end{bmatrix}.
 ```
 
-If the columns of $`N_T`$ span $`\ker\mathcal T_N`$, the implemented
+If the columns of <i>N</i><sub><i>T</i></sub> span ker 𝒯<sub><i>N</i></sub>, the implemented
 rectangular cell is
 
 <a name="v12-eq-raw-rectangular-line-system"></a>
@@ -5069,7 +5069,7 @@ rectangular cell is
 \end{bmatrix}x_0.
 ```
 
-The square map $`\mathcal J_N`$ is itself recovered only during
+The square map 𝒥<sub><i>N</i></sub> is itself recovered only during
 elimination:
 
 <a name="v12-eq-rectangular-generator-recovery"></a>
@@ -5089,55 +5089,55 @@ elimination:
 
 | Quantity | value |
 | --- | --- |
-| raw block-system residual | $`6.80\times10^{-15}`$ |
-| relative error of the condensed cap map | $`1.92\times10^{-16}`$ |
-| relative change under a different right inverse | $`1.05\times10^{-14}`$ |
-| cap-map change under a different raw gauge fixing | $`1.17\times10^{-16}`$ |
-| alternative raw-system residual | $`6.73\times10^{-15}`$ |
-| null-space multiplier norm | $`7.75\times10^{-16}`$ |
-| recovery of $`\mathcal J_N`$ from rectangular blocks | $`1.10\times10^{-14}`$ |
-| condition number of the raw system | $`1.53\times10^{2}`$ |
+| raw block-system residual | 6.80 × 10<sup>−15</sup> |
+| relative error of the condensed cap map | 1.92 × 10<sup>−16</sup> |
+| relative change under a different right inverse | 1.05 × 10<sup>−14</sup> |
+| cap-map change under a different raw gauge fixing | 1.17 × 10<sup>−16</sup> |
+| alternative raw-system residual | 6.73 × 10<sup>−15</sup> |
+| null-space multiplier norm | 7.75 × 10<sup>−16</sup> |
+| recovery of 𝒥<sub><i>N</i></sub> from rectangular blocks | 1.10 × 10<sup>−14</sup> |
+| condition number of the raw system | 1.53 × 10<sup>2</sup> |
 
 This test has the precise scope of
 [Theorem 4.14](#v12-thm-trace-generated-condensation): the prescribed cap gauge is
 encoded in the raw volume matrix and recovered by elimination.  It is not
 presented as selection of that gauge by independent interior dynamics.
 The additional gauge-fixing test solves the complete raw system with a
-nonorthogonal complement of $`\ker\mathcal T_N`$; the physical cap map is
+nonorthogonal complement of ker 𝒯<sub><i>N</i></sub>; the physical cap map is
 unchanged to roundoff.
 
 The genuinely interior test is instead the polynomial Gauss cell of
-[Theorem 8.8](#v12-thm-active-gauss-cell).  We assemble its $`sn`$-dimensional stage
-block for $`s=1,\ldots,4`$, eliminate the stages, and only then recover the
+[Theorem 8.8](#v12-thm-active-gauss-cell).  We assemble its <i>sn</i>-dimensional stage
+block for <i>s</i>=1,…,4, eliminate the stages, and only then recover the
 cap gauge by [Equation (71)](#v12-eq-inverse-gauge-cayley).  The results are in
 [Table 7](#v12-tab-active-stage-condensation); the largest energy defect is
-$`2.69\times10^{-15}`$.
+2.69 × 10<sup>−15</sup>.
 
 <a name="v12-tab-active-stage-condensation"></a>
 
-**Table 7. Active temporal-stage elimination at $`h=0.1`$, $`n=16`$.**
+**Table 7. Active temporal-stage elimination at <i>h</i>=0.1, <i>n</i>=16.**
 
-| $`s`$ | $`sn`$ | stage residual | map–Padé | induced gauge | $`\kappa_2`$ |
+| <i>s</i> | <i>sn</i> | stage residual | map–Padé | induced gauge | <i>κ</i><sub>2</sub> |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 16 | $`4.73\times10^{-16}`$ | $`1.77\times10^{-16}`$ | $`1.88\times10^{-14}`$ | 1.608 |
-| 2 | 32 | $`9.87\times10^{-16}`$ | $`2.59\times10^{-16}`$ | $`2.90\times10^{-14}`$ | 2.976 |
-| 3 | 48 | $`1.49\times10^{-15}`$ | $`2.45\times10^{-16}`$ | $`2.31\times10^{-14}`$ | 3.660 |
-| 4 | 64 | $`2.00\times10^{-15}`$ | $`1.35\times10^{-15}`$ | $`4.75\times10^{-14}`$ | 3.805 |
+| 1 | 16 | 4.73 × 10<sup>−16</sup> | 1.77 × 10<sup>−16</sup> | 1.88 × 10<sup>−14</sup> | 1.608 |
+| 2 | 32 | 9.87 × 10<sup>−16</sup> | 2.59 × 10<sup>−16</sup> | 2.90 × 10<sup>−14</sup> | 2.976 |
+| 3 | 48 | 1.49 × 10<sup>−15</sup> | 2.45 × 10<sup>−16</sup> | 2.31 × 10<sup>−14</sup> | 3.660 |
+| 4 | 64 | 2.00 × 10<sup>−15</sup> | 1.35 × 10<sup>−15</sup> | 4.75 × 10<sup>−14</sup> | 3.805 |
 
 The Cayley coordinate is first checked independently at the moderate step
-$`h=0.1`$.  A prescribed alternating gauge is mapped to $`O(Q_N)`$,
+<i>h</i>=0.1.  A prescribed alternating gauge is mapped to <i>O</i>(<i>Q</i><sub><i>N</i></sub>),
 inverted by [Equation (71)](#v12-eq-inverse-gauge-cayley), and mapped forward again.  The
-gauge and map round trips have relative errors $`6.07\times10^{-13}`$
-and $`1.93\times10^{-16}`$; the energy-orthogonality defect is
-$`2.34\times10^{-15}`$.  Applying the same algebraic inverse to
-$`\exp(hA_N)`$ and reconstructing the flow gives
-$`2.99\times10^{-16}`$ relative error.
+gauge and map round trips have relative errors 6.07 × 10<sup>−13</sup>
+and 1.93 × 10<sup>−16</sup>; the energy-orthogonality defect is
+2.34 × 10<sup>−15</sup>.  Applying the same algebraic inverse to
+exp (<i>hA</i><sub><i>N</i></sub>) and reconstructing the flow gives
+2.99 × 10<sup>−16</sup> relative error.
 
 That test does not conceal the singular conditioning of the inverse chart
-near $`I`$.  In [Table 8](#v12-tab-cayley-conditioning), the reference exact-flow
+near <i>I</i>.  In [Table 8](#v12-tab-cayley-conditioning), the reference exact-flow
 gauge is evaluated directly by the Bernoulli series in
 [Equation (74)](#v12-eq-exact-flow-gauge-series).  The ``naive” column instead forms
-$`\exp(hA_N)-I`$ and applies [Equation (71)](#v12-eq-inverse-gauge-cayley).  Its rapidly
+exp (<i>hA</i><sub><i>N</i></sub>)−<i>I</i> and applies [Equation (71)](#v12-eq-inverse-gauge-cayley).  Its rapidly
 growing error is predicted by [Remark 5.5](#v12-rem-cayley-conditioning), while the
 map reconstructed from the direct gauge remains at roundoff.
 
@@ -5145,35 +5145,35 @@ map reconstructed from the direct gauge remains at roundoff.
 
 **Table 8. Stable exact-flow gauge evaluation near the excluded identity.**
 
-| $`h`$ | relative naive gauge error | error$`\,h^3/\epsilon_\mathrm{mach}`$ | stable map error |
+| <i>h</i> | relative naive gauge error | error <i>h</i><sup>3</sup>/<i>ϵ</i><sub>mach</sub> | stable map error |
 | --- | --- | --- | --- |
-| $`10^{-2}`$ | $`2.36\times10^{-10}`$ | 1.062 | $`1.43\times10^{-16}`$ |
-| $`10^{-4}`$ | $`2.60\times10^{-4}`$ | 1.169 | $`1.47\times10^{-16}`$ |
-| $`10^{-6}`$ | $`2.62\times10^{2}`$ | 1.181 | $`1.55\times10^{-16}`$ |
-| $`10^{-8}`$ | $`1.31\times10^{8}`$ | 0.591 | $`1.11\times10^{-16}`$ |
+| 10<sup>−2</sup> | 2.36 × 10<sup>−10</sup> | 1.062 | 1.43 × 10<sup>−16</sup> |
+| 10<sup>−4</sup> | 2.60 × 10<sup>−4</sup> | 1.169 | 1.47 × 10<sup>−16</sup> |
+| 10<sup>−6</sup> | 2.62 × 10<sup>2</sup> | 1.181 | 1.55 × 10<sup>−16</sup> |
+| 10<sup>−8</sup> | 1.31 × 10<sup>8</sup> | 0.591 | 1.11 × 10<sup>−16</sup> |
 
 The same form is lifted to the cylinder by
-[Equation (125)](#v12-eq-mixed-cylinder-lift).  At $`h=0.04`$, the open
+[Equation (125)](#v12-eq-mixed-cylinder-lift).  At <i>h</i>=0.04, the open
 balance is tested for midpoint, the second-order mixed deformation
-$`S_h=h\Theta`$, and the fourth-order deformation
+<i>S</i><sub><i>h</i></sub>=<i>h</i>Θ, and the fourth-order deformation
 [Equation (170)](#v12-eq-mixed-gauss-two-gauge).
 
 <a name="v12-tab-rectangular-line-power"></a>
 
 **Table 9. Direct rectangular transmission-line cap–mantle balance.**
 
-| Gauge | $`\Delta H_N`$ | $`h\,y^\top u`$ | residual |
+| Gauge | Δ<i>H</i><sub><i>N</i></sub> | <i>h</i> <i>y</i><sup>⊤</sup><i>u</i> | residual |
 | --- | --- | --- | --- |
-| midpoint | $`2.67994318\times10^{-2}`$ | $`2.67994318\times10^{-2}`$ | $`5.13\times10^{-16}`$ |
-| mixed, order two | $`2.67401314\times10^{-2}`$ | $`2.67401314\times10^{-2}`$ | $`6.31\times10^{-16}`$ |
-| Gauss–2 plus mixed, order four | $`2.74765368\times10^{-2}`$ | $`2.74765368\times10^{-2}`$ | $`2.71\times10^{-16}`$ |
+| midpoint | 2.67994318 × 10<sup>−2</sup> | 2.67994318 × 10<sup>−2</sup> | 5.13 × 10<sup>−16</sup> |
+| mixed, order two | 2.67401314 × 10<sup>−2</sup> | 2.67401314 × 10<sup>−2</sup> | 6.31 × 10<sup>−16</sup> |
+| Gauss–2 plus mixed, order four | 2.74765368 × 10<sup>−2</sup> | 2.74765368 × 10<sup>−2</sup> | 2.71 × 10<sup>−16</sup> |
 
 For the homogeneous line, the zero-mixed member of
-[Equation (170)](#v12-eq-mixed-gauss-two-gauge) is Gauss–2.  At $`h=0.05`$, its relative
-commutator with $`A_N`$ is $`6.92\times10^{-17}`$.  The mixed deformation
-has energy defect $`1.51\times10^{-15}`$, relative commutator
-$`2.59\times10^{-6}`$, and relative symplectic defect
-$`1.20\times10^{-6}`$.  Refinement gives [Table 10](#v12-tab-mixed-gauss-order);
+[Equation (170)](#v12-eq-mixed-gauss-two-gauge) is Gauss–2.  At <i>h</i>=0.05, its relative
+commutator with <i>A</i><sub><i>N</i></sub> is 6.92 × 10<sup>−17</sup>.  The mixed deformation
+has energy defect 1.51 × 10<sup>−15</sup>, relative commutator
+2.59 × 10<sup>−6</sup>, and relative symplectic defect
+1.20 × 10<sup>−6</sup>.  Refinement gives [Table 10](#v12-tab-mixed-gauss-order);
 the one-step error has the expected fifth-power scaling, while the
 commutator remains decisively above roundoff.
 
@@ -5181,94 +5181,94 @@ commutator remains decisively above roundoff.
 
 **Table 10. Fourth-order mixed deformation of Gauss–2 on the closed line.**
 
-| $`h`$ | relative one-step error | one-step error slope | relative $`\left\lVert [M_{\Theta,h},A_N]\right\rVert_F`$ |
+| <i>h</i> | relative one-step error | one-step error slope | relative ‖&#91;<i>M</i><sub>Θ,<i>h</i></sub>,<i>A</i><sub><i>N</i></sub>&#93;‖<sub><i>F</i></sub> |
 | --- | --- | --- | --- |
-| 0.1000 | $`8.9501\times10^{-3}`$ | --- |$`7.3650\times10^{-5}`$ |
-| 0.0500 | $`3.3624\times10^{-4}`$ | 4.734 | $`2.5947\times10^{-6}`$ |
-| 0.0250 | $`1.1167\times10^{-5}`$ | 4.912 | $`8.3450\times10^{-8}`$ |
-| 0.0125 | $`3.5483\times10^{-7}`$ | 4.976 | $`2.6264\times10^{-9}`$ |
+| 0.1000 | 8.9501 × 10<sup>−3</sup> | --- |7.3650 × 10<sup>−5</sup> |
+| 0.0500 | 3.3624 × 10<sup>−4</sup> | 4.734 | 2.5947 × 10<sup>−6</sup> |
+| 0.0250 | 1.1167 × 10<sup>−5</sup> | 4.912 | 8.3450 × 10<sup>−8</sup> |
+| 0.0125 | 3.5483 × 10<sup>−7</sup> | 4.976 | 2.6264 × 10<sup>−9</sup> |
 
 To distinguish a one-step slope from convergence of the integrator, we
-also fix the final time $`T=0.5`$, compose the map, and compare it with
-$`\exp(TA_N)`$.  For each $`s`$, the mixed coefficient $`\Theta`$ is held
-fixed and the perturbation is exactly $`h^{2s-1}\Theta`$.  The final
+also fix the final time <i>T</i>=0.5, compose the map, and compare it with
+exp (<i>TA</i><sub><i>N</i></sub>).  For each <i>s</i>, the mixed coefficient Θ is held
+fixed and the perturbation is exactly <i>h</i><sup>2<i>s</i>−1</sup>Θ.  The final
 refinement slopes in [Table 11](#v12-tab-gauss-hierarchy-global) approach the proved
-global orders $`2,4,6`$; the largest one-step energy defect over the table
-is $`3.08\times10^{-15}`$.
+global orders 2,4,6; the largest one-step energy defect over the table
+is 3.08 × 10<sup>−15</sup>.
 
 <a name="v12-tab-gauss-hierarchy-global"></a>
 
-**Table 11. Global convergence of the stage-induced, mixed Gauss–$`s`$ hierarchy
-at $`T=0.5`$.  The four error columns correspond to $`4,8,16,32`$ steps.**
+**Table 11. Global convergence of the stage-induced, mixed Gauss–<i>s</i> hierarchy
+at <i>T</i>=0.5.  The four error columns correspond to 4,8,16,32 steps.**
 
-| $`s`$ | expected order | $`n=4`$ | $`n=8`$ | $`n=16`$ | $`n=32`$ | final slope |
+| <i>s</i> | expected order | <i>n</i>=4 | <i>n</i>=8 | <i>n</i>=16 | <i>n</i>=32 | final slope |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 2 | $`6.398\!\times10^{-1}`$ | $`2.870\!\times10^{-1}`$ | $`8.393\!\times10^{-2}`$ | $`2.179\!\times10^{-2}`$ | 1.946 |
-| 2 | 4 | $`9.816\!\times10^{-2}`$ | $`8.058\!\times10^{-3}`$ | $`5.368\!\times10^{-4}`$ | $`3.407\!\times10^{-5}`$ | 3.978 |
-| 3 | 6 | $`4.462\!\times10^{-3}`$ | $`8.240\!\times10^{-5}`$ | $`1.340\!\times10^{-6}`$ | $`2.115\!\times10^{-8}`$ | 5.986 |
+| 1 | 2 | 6.398 × 10<sup>−1</sup> | 2.870 × 10<sup>−1</sup> | 8.393 × 10<sup>−2</sup> | 2.179 × 10<sup>−2</sup> | 1.946 |
+| 2 | 4 | 9.816 × 10<sup>−2</sup> | 8.058 × 10<sup>−3</sup> | 5.368 × 10<sup>−4</sup> | 3.407 × 10<sup>−5</sup> | 3.978 |
+| 3 | 6 | 4.462 × 10<sup>−3</sup> | 8.240 × 10<sup>−5</sup> | 1.340 × 10<sup>−6</sup> | 2.115 × 10<sup>−8</sup> | 5.986 |
 
 The preceding coefficient is noncommuting and therefore cannot equal the
 exceptional value in [Equation (146)](#v12-eq-unique-order-raising-gauge).  The same
-experiment is now repeated with $`\Theta=\Theta_s^\star`$.  The observed
-orders in [Table 12](#v12-tab-order-raising-gauge) are $`4,6,8`$, and the largest
-energy defect is $`3.27\times10^{-15}`$.  For $`s=1`$, the relative
-difference between the raised map and Gauss–2 at $`h=0.1`$ is
-$`2.42\times10^{-16}`$, confirming the exact identity in
+experiment is now repeated with Θ=Θ<sub><i>s</i></sub><sup>⋆</sup>.  The observed
+orders in [Table 12](#v12-tab-order-raising-gauge) are 4,6,8, and the largest
+energy defect is 3.27 × 10<sup>−15</sup>.  For <i>s</i>=1, the relative
+difference between the raised map and Gauss–2 at <i>h</i>=0.1 is
+2.42 × 10<sup>−16</sup>, confirming the exact identity in
 [Theorem 9.14](#v12-thm-unique-order-raising-gauge).
 
 <a name="v12-tab-order-raising-gauge"></a>
 
 **Table 12. Global convergence of the unique order-raising coefficient in
-the fixed one-term ansatz at $`T=0.5`$.  The error columns correspond to
-$`n`$ time steps.**
+the fixed one-term ansatz at <i>T</i>=0.5.  The error columns correspond to
+<i>n</i> time steps.**
 
-| $`s`$ | predicted order | $`n=4`$ | $`n=8`$ | $`n=16`$ | $`n=32`$ | $`n=64`$ | final slope |
+| <i>s</i> | predicted order | <i>n</i>=4 | <i>n</i>=8 | <i>n</i>=16 | <i>n</i>=32 | <i>n</i>=64 | final slope |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 4 | $`9.950\!\times10^{-2}`$ | $`8.184\!\times10^{-3}`$ | $`5.454\!\times10^{-4}`$ | $`3.462\!\times10^{-5}`$ | $`2.172\!\times10^{-6}`$ | 3.994 |
-| 2 | 6 | $`1.335\!\times10^{-2}`$ | $`2.689\!\times10^{-4}`$ | $`4.466\!\times10^{-6}`$ | $`7.084\!\times10^{-8}`$ | $`1.111\!\times10^{-9}`$ | 5.995 |
-| 3 | 8 | $`1.027\!\times10^{-3}`$ | $`4.985\!\times10^{-6}`$ | $`2.053\!\times10^{-8}`$ | $`8.123\!\times10^{-11}`$ | $`3.189\!\times10^{-13}`$ | 7.993 |
+| 1 | 4 | 9.950 × 10<sup>−2</sup> | 8.184 × 10<sup>−3</sup> | 5.454 × 10<sup>−4</sup> | 3.462 × 10<sup>−5</sup> | 2.172 × 10<sup>−6</sup> | 3.994 |
+| 2 | 6 | 1.335 × 10<sup>−2</sup> | 2.689 × 10<sup>−4</sup> | 4.466 × 10<sup>−6</sup> | 7.084 × 10<sup>−8</sup> | 1.111 × 10<sup>−9</sup> | 5.995 |
+| 3 | 8 | 1.027 × 10<sup>−3</sup> | 4.985 × 10<sup>−6</sup> | 2.053 × 10<sup>−8</sup> | 8.123 × 10<sup>−11</sup> | 3.189 × 10<sup>−13</sup> | 7.993 |
 
 The order statement is not inferred from these slopes.  To test the new
 coefficient in [Equation (147)](#v12-eq-raised-branch-leading-error) directly, we use the
-unit harmonic oscillator $`A=J_2`$ and 90-digit arithmetic.  After
-dividing the one-step matrix error by $`h^{2s+3}`$, its component along
-$`J_2`$ must converge to $`(-1)^{s+1}d_s`$.  At $`h=0.025`$ the recovered
+unit harmonic oscillator <i>A</i>=<i>J</i><sub>2</sub> and 90-digit arithmetic.  After
+dividing the one-step matrix error by <i>h</i><sup>2<i>s</i>+3</sup>, its component along
+<i>J</i><sub>2</sub> must converge to (−1)<sup><i>s</i>+1</sup><i>d</i><sub><i>s</i></sub>.  At <i>h</i>=0.025 the recovered
 values in [Table 13](#v12-tab-direct-ds-coefficient) already agree to about
-$`3.5\times10^{-4}`$ relatively.  The full normalized remainder decreases
-linearly with $`h`$, exactly as the $`O(h^{2s+4})`$ term predicts.
+3.5 × 10<sup>−4</sup> relatively.  The full normalized remainder decreases
+linearly with <i>h</i>, exactly as the <i>O</i>(<i>h</i><sup>2<i>s</i>+4</sup>) term predicts.
 
 <a name="v12-tab-direct-ds-coefficient"></a>
 
-**Table 13. Direct local asymptotic test of the exact coefficient $`d_s`$.**
+**Table 13. Direct local asymptotic test of the exact coefficient <i>d</i><sub><i>s</i></sub>.**
 
-| $`s`$ | $`d_s`$ | predicted $`J_2`$ coefficient | recovered coefficient at $`h=0.025`$ |
+| <i>s</i> | <i>d</i><sub><i>s</i></sub> | predicted <i>J</i><sub>2</sub> coefficient | recovered coefficient at <i>h</i>=0.025 |
 | --- | --- | --- | --- |
-| 1 | $`-1/720`$ | $`-1.388888889\times10^{-3}`$ | $`-1.388403230\times10^{-3}`$ |
-| 2 | $`1/30240`$ | $`-3.306878307\times10^{-5}`$ | $`-3.305724437\times10^{-5}`$ |
-| 3 | $`-1/2268000`$ | $`-4.409171076\times10^{-7}`$ | $`-4.407653975\times10^{-7}`$ |
+| 1 | −1/720 | −1.388888889 × 10<sup>−3</sup> | −1.388403230 × 10<sup>−3</sup> |
+| 2 | 1/30240 | −3.306878307 × 10<sup>−5</sup> | −3.305724437 × 10<sup>−5</sup> |
+| 3 | −1/2268000 | −4.409171076 × 10<sup>−7</sup> | −4.407653975 × 10<sup>−7</sup> |
 
-We next retain $`\Theta_s^\star`$ and add the same fixed noncommuting line
-two-form $`h^{2s+1}\Xi`$ for $`s=1,2,3`$.  The global orders remain
-$`4,6,8`$, but the commutators in
+We next retain Θ<sub><i>s</i></sub><sup>⋆</sup> and add the same fixed noncommuting line
+two-form <i>h</i><sup>2<i>s</i>+1</sup>Ξ for <i>s</i>=1,2,3.  The global orders remain
+4,6,8, but the commutators in
 [Table 14](#v12-tab-two-term-noncommuting) are nonzero at resolved step sizes.  This
 is the experimental distinction absent from the one-term exceptional
 branch: high order and departure from scalar functional calculus now
 coexist.  The largest one-step energy defect in the experiment is
-$`3.11\times10^{-15}`$.
+3.11 × 10<sup>−15</sup>.
 
 <a name="v12-tab-two-term-noncommuting"></a>
 
 **Table 14. Two-term high-order noncommuting hierarchy on the transmission
-line.  Errors are global at $`T=0.5`$; commutators are reported at
-$`n=16`$, before the higher-stage values reach roundoff.**
+line.  Errors are global at <i>T</i>=0.5; commutators are reported at
+<i>n</i>=16, before the higher-stage values reach roundoff.**
 
-| $`s`$ | exact order | error, $`n=32`$ | final slope | relative commutator, $`n=16`$ |
+| <i>s</i> | exact order | error, <i>n</i>=32 | final slope | relative commutator, <i>n</i>=16 |
 | --- | --- | --- | --- | --- |
-| 1 | 4 | $`3.407\times10^{-5}`$ | 3.994 | $`2.533\times10^{-7}`$ |
-| 2 | 6 | $`7.071\times10^{-8}`$ | 5.995 | $`2.474\times10^{-10}`$ |
-| 3 | 8 | $`8.120\times10^{-11}`$ | 7.993 | $`2.416\times10^{-13}`$ |
+| 1 | 4 | 3.407 × 10<sup>−5</sup> | 3.994 | 2.533 × 10<sup>−7</sup> |
+| 2 | 6 | 7.071 × 10<sup>−8</sup> | 5.995 | 2.474 × 10<sup>−10</sup> |
+| 3 | 8 | 8.120 × 10<sup>−11</sup> | 7.993 | 2.416 × 10<sup>−13</sup> |
 
-For $`s=3`$, binary64 eventually masks the noncommuting signal.  We
+For <i>s</i>=3, binary64 eventually masks the noncommuting signal.  We
 therefore repeat the one-step calculation in 90-digit decimal arithmetic
 on the following fully specified four-dimensional Hamiltonian test:
 
@@ -5308,35 +5308,35 @@ The theorem predicts
 ```
 
 [Table 15](#v12-tab-decimal-noncommutation) verifies both the exponent and the full
-leading matrix after division by $`h^9`$; this is independent of the
+leading matrix after division by <i>h</i><sup>9</sup>; this is independent of the
 global-order slope above.
 
 <a name="v12-tab-decimal-noncommutation"></a>
 
-**Table 15. Multiprecision resolution of the $`s=3`$ noncommutation law.**
+**Table 15. Multiprecision resolution of the <i>s</i>=3 noncommutation law.**
 
-| $`h`$ | $`\Vert [M_h,A]\Vert _F`$ | observed exponent | relative error in the leading matrix |
+| <i>h</i> | ‖&#91;<i>M</i><sub><i>h</i></sub>,<i>A</i>&#93;‖<sub><i>F</i></sub> | observed exponent | relative error in the leading matrix |
 | --- | --- | --- | --- |
-| 0.050000 | $`4.044\times10^{-11}`$ | -- |$`8.436\times10^{-2}`$ |
-| 0.025000 | $`7.901\times10^{-14}`$ | 8.99967 | $`4.223\times10^{-2}`$ |
-| 0.012500 | $`1.543\times10^{-16}`$ | 8.99992 | $`2.112\times10^{-2}`$ |
-| 0.006250 | $`3.014\times10^{-19}`$ | 8.99998 | $`1.056\times10^{-2}`$ |
+| 0.050000 | 4.044 × 10<sup>−11</sup> | -- |8.436 × 10<sup>−2</sup> |
+| 0.025000 | 7.901 × 10<sup>−14</sup> | 8.99967 | 4.223 × 10<sup>−2</sup> |
+| 0.012500 | 1.543 × 10<sup>−16</sup> | 8.99992 | 2.112 × 10<sup>−2</sup> |
+| 0.006250 | 3.014 × 10<sup>−19</sup> | 8.99998 | 1.056 × 10<sup>−2</sup> |
 
 The reduced-polynomial checks are independent of the small-step order
-tests.  At the $`C_3`$ chart resonance the computed
-$`|\widehat O_3|`$ is $`1.11\times10^{-16}`$, while
-$`|\Pi_{3,1}+5|=4.44\times10^{-16}`$ and the continued map differs from
-one by $`1.78\times10^{-16}`$.  Root computation for
+tests.  At the <i>C</i><sub>3</sub> chart resonance the computed
+$`|\widehat O_3|`$ is 1.11 × 10<sup>−16</sup>, while
+&#124;Π<sub>3,1</sub>+5&#124;=4.44 × 10<sup>−16</sup> and the continued map differs from
+one by 1.78 × 10<sup>−16</sup>.  Root computation for
 [Equation (164)](#v12-eq-pi-21) gives the genuine left-half-plane pole
-$`-10.12751490652`$, with denominator residual
-$`1.78\times10^{-14}`$ and numerator magnitude $`10.1275`$.  On 4001
-points $`\xi\in[-100,100]`$, the largest defect in
-$`|R_{2,1}(i\xi)|=1`$ is $`4.44\times10^{-16}`$.  These three tests
+−10.12751490652, with denominator residual
+1.78 × 10<sup>−14</sup> and numerator magnitude 10.1275.  On 4001
+points <i>ξ</i> ∈ &#91;−100,100&#93;, the largest defect in
+&#124;<i>R</i><sub>2,1</sub>(<i>iξ</i>)&#124;=1 is 4.44 × 10<sup>−16</sup>.  These three tests
 separate a removable coordinate resonance, a true propagator pole, and
 the protected oscillatory axis.
 
 Finally, exact `Fraction` arithmetic evaluates all 156 coefficients
-$`\alpha_{s,j}`$ with $`1\le s\le12`$, $`0\le j\le12`$.  No zero or sign
+<i>α</i><sub><i>s</i>,<i>j</i></sub> with 1 ≤ <i>s</i> ≤ 12, 0 ≤ <i>j</i> ≤ 12.  No zero or sign
 failure relative to [Equation (169)](#v12-eq-alpha-sign-conjecture) occurs.  This is
 reported only as finite evidence for the conjecture, not as its proof.
 
@@ -5344,22 +5344,22 @@ The interior-generation assertions directly target the two new results.
 For a rank-four random alternating cap change in dimension six, the
 four-dimensional construction in
 [Theorem 9.10](#v12-thm-minimal-schur-gauge-generation) has zero skew defect, Schur
-error $`8.02\times10^{-16}`$, and eliminated-response error
-$`1.83\times10^{-15}`$.  For Gauss–3, the one-mode data
+error 8.02 × 10<sup>−16</sup>, and eliminated-response error
+1.83 × 10<sup>−15</sup>.  For Gauss–3, the one-mode data
 
 ```math
 a_3=0,\qquad w_{3,1}=\frac1{12},\qquad
  \lambda_{3,1}=\frac1{60}
 ```
 
-reproduce both $`F_3(u)=5/(u+60)`$ and $`C_3`$ to roundoff on
-$`u\in[0,120]`$.  At $`u=61`$, the corrected value in
-[Equation (168)](#v12-eq-corrected-stieltjes-obstruction) is exactly $`-1/720`$, so the
+reproduce both <i>F</i><sub>3</sub>(<i>u</i>)=5/(<i>u</i>+60) and <i>C</i><sub>3</sub> to roundoff on
+<i>u</i> ∈ &#91;0,120&#93;.  At <i>u</i>=61, the corrected value in
+[Equation (168)](#v12-eq-corrected-stieltjes-obstruction) is exactly −1/720, so the
 positive-realization obstruction is not a floating-point inference.
 
 Choosing the second central corrector
-$`\Xi_s^\star=d_s\Omega_NA_N^{2s+2}`$ gives observed global orders six
-and eight for $`s=1,2`$, respectively; see
+Ξ<sub><i>s</i></sub><sup>⋆</sup>=<i>d</i><sub><i>s</i></sub>Ω<sub><i>N</i></sub><i>A</i><sub><i>N</i></sub><sup>2<i>s</i>+2</sup> gives observed global orders six
+and eight for <i>s</i>=1,2, respectively; see
 [Table 16](#v12-tab-second-central-corrector).  These are the first two nontrivial
 levels of the recursive exact-gauge expansion in
 [Corollary 9.17](#v12-cor-recursive-gauge-hierarchy).
@@ -5368,28 +5368,28 @@ levels of the recursive exact-gauge expansion in
 
 **Table 16. Second central correction on the transmission line.**
 
-| $`s`$ | proved lower bound | error, $`n=32`$ | final slope |
+| <i>s</i> | proved lower bound | error, <i>n</i>=32 | final slope |
 | --- | --- | --- | --- |
-| 1 | 6 | $`7.084\times10^{-8}`$ | 5.995 |
-| 2 | 8 | $`1.522\times10^{-10}`$ | 7.994 |
+| 1 | 6 | 7.084 × 10<sup>−8</sup> | 5.995 |
+| 2 | 8 | 1.522 × 10<sup>−10</sup> | 7.994 |
 
 The affine freedom can also be used as a design space.  We minimize the
 relative root-mean-square error of the eight positive modal frequencies
 within the one-dimensional family
-$`S_{2,h}^{\alpha\Theta}=S^\mathrm{G}_{2,h}+\alpha h^3\Theta`$, using only
-the small reference step $`h_\star=1/80`$.  This gives
-$`\alpha_\star=57.3601`$, which is then frozen.  The tests in
+<i>S</i><sub>2,<i>h</i></sub><sup><i>α</i>Θ</sup>=<i>S</i><sup>G</sup><sub>2,<i>h</i></sub>+<i>αh</i><sup>3</sup>Θ, using only
+the small reference step <i>h</i><sub>⋆</sub>=1/80.  This gives
+<i>α</i><sub>⋆</sub>=57.3601, which is then frozen.  The tests in
 [Table 17](#v12-tab-dispersion-selector) use only unseen, coarser steps.
 
 <a name="v12-tab-dispersion-selector"></a>
 
 **Table 17. Dispersion selection in a fixed one-parameter mixed family.**
 
-| $`h`$ | Gauss RMS phase error | selected error | reduction | $`\kappa_2`$ Gauss | $`\kappa_2`$ selected |
+| <i>h</i> | Gauss RMS phase error | selected error | reduction | <i>κ</i><sub>2</sub> Gauss | <i>κ</i><sub>2</sub> selected |
 | --- | --- | --- | --- | --- | --- |
-| 0.05 | $`3.605\times10^{-4}`$ | $`1.143\times10^{-4}`$ | 68.28% | 1.202 | 1.202 |
-| 0.10 | $`4.864\times10^{-3}`$ | $`1.875\times10^{-3}`$ | 61.45% | 1.448 | 1.443 |
-| 0.15 | $`1.845\times10^{-2}`$ | $`9.589\times10^{-3}`$ | 48.03% | 1.861 | 1.941 |
+| 0.05 | 3.605 × 10<sup>−4</sup> | 1.143 × 10<sup>−4</sup> | 68.28% | 1.202 | 1.202 |
+| 0.10 | 4.864 × 10<sup>−3</sup> | 1.875 × 10<sup>−3</sup> | 61.45% | 1.448 | 1.443 |
+| 0.15 | 1.845 × 10<sup>−2</sup> | 9.589 × 10<sup>−3</sup> | 48.03% | 1.861 | 1.941 |
 
 The selected map remains exactly energy preserving; only its phase is
 optimized.  The improvement persists away from the fitting step and the
@@ -5404,9 +5404,9 @@ sacrificing the exact power identity or the proved temporal order.
 Finally, two degree-eight cells are solved simultaneously with the
 power-preserving interface constraints of
 [Proposition 9.8](#v12-prop-rectangular-line-power), the fourth-order mixed gauge, and
-$`R_N=0.02I`$.  The algebraic solve residual is
-$`5.06\times10^{-16}`$, the computed interface power is
-$`3.33\times10^{-16}`$, and
+<i>R</i><sub><i>N</i></sub>=0.02<i>I</i>.  The algebraic solve residual is
+5.06 × 10<sup>−16</sup>, the computed interface power is
+3.33 × 10<sup>−16</sup>, and
 
 ```math
 \Delta H_{N,1}+\Delta H_{N,2}
@@ -5420,20 +5420,20 @@ while external supply minus dissipation is
  =2.75921723\times10^{-2},
 ```
 
-with residual $`1.78\times10^{-15}`$.  These calculations test exactly
+with residual 1.78 × 10<sup>−15</sup>.  These calculations test exactly
 the structural chain asserted in this paper: the rectangular Stokes
 identity produces the open Dirac chart; active temporal stages generate
 the Gauss cap gauge; the mixed volume form realizes its prescribed
 perturbation; contracted power is unchanged; the hierarchy attains orders
-exactly $`2s`$ away from the unique one-term coefficient
-$`\Theta_s^\star`$, which raises the order to exactly $`2s+2`$; a second
+exactly 2<i>s</i> away from the unique one-term coefficient
+Θ<sub><i>s</i></sub><sup>⋆</sup>, which raises the order to exactly 2<i>s</i>+2; a second
 noncommuting term retains that higher order and leaves the scalar
 functional-calculus subclass; the central series raises the order further;
 a fixed gauge can reduce
 modal phase error; and internal supplies cancel in a solved, dissipative
 two-cell system.  Additional assertions verify a rank-minimal skew Schur
-generator, the positive one-mode realization of $`C_3`$, and the sign
-obstruction $`(C_{2,1}(\sqrt u)-1)/u<0`$ beyond $`u=60`$.
+generator, the positive one-mode realization of <i>C</i><sub>3</sub>, and the sign
+obstruction $`(C_{2,1}(\sqrt u)-1)/u<0`$ beyond <i>u</i>=60.
 
 All values are generated by the accompanying script
 `verify_transmission_line_v12.py`.  Its 28 assertion groups use
@@ -5452,8 +5452,8 @@ Q=\operatorname{diag}(I_2,2I_2),\qquad
  \begin{bmatrix}0&I_2\\-I_2&0\end{bmatrix}.
 ```
 
-Here $`S_{\mathrm{in}}\in\mathcal{L}`$ and
-$`S_{\mathrm{out}}\notin\mathcal{L}`$. At $`h=0.07`$, the Frobenius residuals
+Here <i>S</i><sub>in</sub> ∈ ℒ and
+<i>S</i><sub>out</sub> ∉ ℒ. At <i>h</i>=0.07, the Frobenius residuals
 
 ```math
 \varepsilon_H=\left\lVert M_S^\top QM_S-Q\right\rVert_F,\qquad
@@ -5465,15 +5465,15 @@ whereas the symplectic residual separates the locus.
 
 <a name="v12-tab-residuals"></a>
 
-**Table 18. One-step structural residuals at $`h=0.07`$.**
+**Table 18. One-step structural residuals at <i>h</i>=0.07.**
 
-| Gauge | $`\varepsilon_H`$ | $`\varepsilon_\Omega`$ |
+| Gauge | <i>ε</i><sub><i>H</i></sub> | <i>ε</i><sub>Ω</sub> |
 | --- | --- | --- |
-| $`S=0`$ | $`5.14\times10^{-16}`$ | $`2.94\times10^{-16}`$ |
-| $`S_{\mathrm{in}}`$ | $`2.90\times10^{-16}`$ | $`1.58\times10^{-16}`$ |
-| $`S_{\mathrm{out}}`$ | $`7.19\times10^{-16}`$ | $`9.82\times10^{-3}`$ |
+| <i>S</i>=0 | 5.14 × 10<sup>−16</sup> | 2.94 × 10<sup>−16</sup> |
+| <i>S</i><sub>in</sub> | 2.90 × 10<sup>−16</sup> | 1.58 × 10<sup>−16</sup> |
+| <i>S</i><sub>out</sub> | 7.19 × 10<sup>−16</sup> | 9.82 × 10<sup>−3</sup> |
 
-For the off-locus gauge, decreasing $`h`$ from $`0.1`$ to $`0.0125`$
+For the off-locus gauge, decreasing <i>h</i> from 0.1 to 0.0125
 gives
 
 ```math
@@ -5481,20 +5481,20 @@ gives
  =2.0074,\ 2.0019,\ 2.0005,\ 2.0001,
 ```
 
-confirming [Theorem 6.3](#v12-thm-defect). To test order, we integrate to $`T=1`$ from
-$`x_0=(0.7,-0.2,0.4,0.9)^\top`$ and compare with
-$`\exp(A)x_0`$. The last two mesh refinements in
+confirming [Theorem 6.3](#v12-thm-defect). To test order, we integrate to <i>T</i>=1 from
+<i>x</i><sub>0</sub>=(0.7,−0.2,0.4,0.9)<sup>⊤</sup> and compare with
+exp (<i>A</i>)<i>x</i><sub>0</sub>. The last two mesh refinements in
 [Table 19](#v12-tab-order) show the predicted orders.
 
 <a name="v12-tab-order"></a>
 
-**Table 19. Global error and observed order at $`T=1`$.**
+**Table 19. Global error and observed order at <i>T</i>=1.**
 
-| Gauge | error, $`h=1/80`$ | error, $`h=1/160`$ | observed order |
+| Gauge | error, <i>h</i>=1/80 | error, <i>h</i>=1/160 | observed order |
 | --- | --- | --- | --- |
-| $`S=0`$ | $`1.0302\times10^{-4}`$ | $`2.5757\times10^{-5}`$ | $`1.9999`$ |
-| $`S_{\mathrm{in}}`$ | $`5.7094\times10^{-3}`$ | $`2.8350\times10^{-3}`$ | $`1.0100`$ |
-| $`S_{\mathrm{out}}`$ | $`2.5020\times10^{-2}`$ | $`1.2547\times10^{-2}`$ | $`0.9957`$ |
+| <i>S</i>=0 | 1.0302 × 10<sup>−4</sup> | 2.5757 × 10<sup>−5</sup> | 1.9999 |
+| <i>S</i><sub>in</sub> | 5.7094 × 10<sup>−3</sup> | 2.8350 × 10<sup>−3</sup> | 1.0100 |
+| <i>S</i><sub>out</sub> | 2.5020 × 10<sup>−2</sup> | 1.2547 × 10<sup>−2</sup> | 0.9957 |
 
 These checks are algebraic rather than qualitative long-time plots: any
 contrary result falsifies either the implementation or one of the stated
@@ -5504,28 +5504,28 @@ nondegeneracy assumptions.
 
 The conjectural statements motivating this work are resolved as follows.
 
-1. For an arbitrary linear map $`D:E\to F`$, the unrestricted active
-     gauge is exactly $`\Lambda^2(E/\ker D)^*`$:
+1. For an arbitrary linear map <i>D</i>:<i>E</i> → <i>F</i>, the unrestricted active
+     gauge is exactly Λ<sup>2</sup>(<i>E</i>/ker <i>D</i>)<sup>∗</sup>:
      [Theorem 2.2](#v12-thm-affine-stokes).
 
 1. For the genuine total complex, symmetric doubling gives
-     $`\Lambda^2(U_q\oplus V_q)^*`$; imposing complementary degree reduces
-     this to $`U_q^*\otimes V_q^*`$:
+     Λ<sup>2</sup>(<i>U</i><sub><i>q</i></sub> ⊕ <i>V</i><sub><i>q</i></sub>)<sup>∗</sup>; imposing complementary degree reduces
+     this to <i>U</i><sub><i>q</i></sub><sup>∗</sup> ⊗ <i>V</i><sub><i>q</i></sub><sup>∗</sup>:
      [Theorem 4.3](#v12-thm-graded-affine).  The tensor pairing and both oriented boundary
      terms, including their Koszul signs, are explicit in
      [Equation (16)](#v12-eq-signed-tensor-pairing), [Equation (17)](#v12-eq-signed-product-boundary).  This includes
      cancellations between bidegrees through the actual total-complex kernels.
 
 1. For the distinct stacked tensor-cylinder map,
-     $`\ker D_\mathrm{st}=K_t\otimes K_x`$, the rank is
-     $`n_tn_x-k_tk_x`$, and the gauge decomposes into temporal, spatial, and
+     ker <i>D</i><sub>st</sub>=<i>K</i><sub><i>t</i></sub> ⊗ <i>K</i><sub><i>x</i></sub>, the rank is
+     <i>n</i><sub><i>t</i></sub><i>n</i><sub><i>x</i></sub>−<i>k</i><sub><i>t</i></sub><i>k</i><sub><i>x</i></sub>, and the gauge decomposes into temporal, spatial, and
      mixed sectors through a canonical filtration:
      [Theorem 4.6](#v12-thm-space-time-gauge), [Proposition 4.7](#v12-prop-canonical-sector-sequence), [Corollary 4.8](#v12-cor-gauge-sectors).
 
 1. In every fixed regular reduction chart, the volume-to-cap map is
-     $`L_h^*`$, and its image, kernel, and dimensions are exactly
+     <i>L</i><sub><i>h</i></sub><sup>∗</sup>, and its image, kernel, and dimensions are exactly
      [Equation (40)](#v12-eq-volume-cap-image)–[Equation (44)](#v12-eq-volume-cap-kernel-dimension).  The
-     canonical mixed part reduces through $`(\pi_{tx}L_h)^*`$, with no chosen
+     canonical mixed part reduces through (<i>π</i><sub><i>tx</i></sub><i>L</i><sub><i>h</i></sub>)<sup>∗</sup>, with no chosen
      splitting: [Corollary 4.12](#v12-cor-mixed-visibility).
 
 1. For a surjective trace, the gauge-bearing weak cell
@@ -5537,27 +5537,27 @@ The conjectural statements motivating this work are resolved as follows.
      [Proposition 4.16](#v12-prop-gauge-dependent-tangent).
 
 1. The complete temporal linear gauge is
-     $`\Lambda^2V^*`$; which members arise from a selected volume model is
-     determined by $`\operatorname{im}\mathcal R_{L_h}`$:
+     Λ<sup>2</sup><i>V</i><sup>∗</sup>; which members arise from a selected volume model is
+     determined by imℛ<sub><i>L</i><sub><i>h</i></sub></sub>:
      [Theorem 4.10](#v12-thm-volume-cap-reduction), [Theorem 5.1](#v12-thm-two-point-gauge).
 
-1. For nonsingular $`J,Q`$, the temporal family gives a bijective,
+1. For nonsingular <i>J</i>,<i>Q</i>, the temporal family gives a bijective,
      constitutively shifted Cayley coordinate on
-     $`\{M\in O(Q):M-I\text{ invertible}\}`$.  Its inverse and the exact-flow
+     {<i>M</i> ∈ <i>O</i>(<i>Q</i>):<i>M</i>−<i>I</i> invertible}.  Its inverse and the exact-flow
      gauge are [Equation (71)](#v12-eq-inverse-gauge-cayley), [Equation (73)](#v12-eq-exact-flow-gauge); the
-     inverse coordinate is condition-sensitive near $`I`$, as stated in
+     inverse coordinate is condition-sensitive near <i>I</i>, as stated in
      [Remark 5.5](#v12-rem-cayley-conditioning), and the
-     symplectic subfamily maps to $`O(Q)\cap Sp(\Omega)`$.
+     symplectic subfamily maps to <i>O</i>(<i>Q</i>) ∩ <i>Sp</i>(Ω).
 
 1. The gauge-invariant power balance is exact, including ports and
      dissipation: [Corollary 5.2](#v12-cor-power), [Corollary 9.4](#v12-cor-composition).
 
 1. The midpoint rule is uniquely selected by endpoint symmetry,
-     midpoint localization, and—for nonsingular $`J,Q`$—order two:
+     midpoint localization, and—for nonsingular <i>J</i>,<i>Q</i>—order two:
      [Proposition 5.6](#v12-prop-selectors).
 
 1. Symplecticity does not select the zero gauge. Its exact locus is
-     [Equation (76)](#v12-eq-locus); generically it has dimension $`m`$, and in two
+     [Equation (76)](#v12-eq-locus); generically it has dimension <i>m</i>, and in two
      dimensions it is the entire gauge:
      [Theorem 6.4](#v12-thm-generic-dimension), [Corollary 6.5](#v12-cor-two-dimensional).
 
@@ -5565,7 +5565,7 @@ The conjectural statements motivating this work are resolved as follows.
      segment-measure class: [Theorem 7.2](#v12-thm-avf-unique).
 
 1. For invertible stage matrices, the stage-pairing existence
-     criterion, dimension, and relation to $`R(\infty)`$ are given by
+     criterion, dimension, and relation to <i>R</i>(∞) are given by
      [Theorem 8.2](#v12-thm-p-family); the singular case remains the range problem stated
      in [Remark 8.3](#v12-rem-singular-stage).
 
@@ -5573,8 +5573,8 @@ The conjectural statements motivating this work are resolved as follows.
      to Gauss–Legendre collocation: [Theorem 8.5](#v12-thm-gauss-rigidity).
 
 1. Conversely, the active temporal cell
-     $`\mathcal P_s\to\mathcal P_{s-1}`$ generates the Gauss–$`s`$ cap map
-     by eliminating $`sn`$ interior stage variables; the even–odd Padé
+     𝒫<sub><i>s</i></sub> → 𝒫<sub><i>s</i>−1</sub> generates the Gauss–<i>s</i> cap map
+     by eliminating <i>sn</i> interior stage variables; the even–odd Padé
      factorization gives its two-point gauge directly:
      [Proposition 8.7](#v12-prop-local-stokes-to-stages), [Theorem 8.8](#v12-thm-active-gauss-cell).
 
@@ -5603,10 +5603,10 @@ The conjectural statements motivating this work are resolved as follows.
      is onto and every cap two-form has the explicit pure-mixed lift
      [Equation (125)](#v12-eq-mixed-cylinder-lift).  The hierarchy
      [Equation (139)](#v12-eq-mixed-gauss-gauge) retains exact energy and reversibility.  It
-     has exactly order $`2s`$ for every
-     $`\Theta\ne\Theta_s^\star`$, whereas the unique fixed coefficient in
+     has exactly order 2<i>s</i> for every
+     Θ ≠ Θ<sub><i>s</i></sub><sup>⋆</sup>, whereas the unique fixed coefficient in
      the one-term ansatz [Equation (146)](#v12-eq-unique-order-raising-gauge) raises the order
-     to exactly $`2s+2`$.  The two-term family
+     to exactly 2<i>s</i>+2.  The two-term family
      [Equation (154)](#v12-eq-two-term-gauge) retains that order with an arbitrary next
      coefficient, and the central choice [Equation (156)](#v12-eq-second-central-corrector)
      raises it by two more.  Moreover,
@@ -5614,25 +5614,25 @@ The conjectural statements motivating this work are resolved as follows.
      from the scalar functional calculus of the semidiscrete line.
 
 1. The central truncation has the intrinsic reduced form
-     $`R_{s,r}=\Pi_{s,r}(-z)^{-1}\Pi_{s,r}(z)`$:
-     [Theorem 9.18](#v12-thm-central-rational-hierarchy).  Coordinate poles of $`C_s`$
-     are removable $`+1`$ resonances, the reduced map has no pole on the
-     imaginary axis, but it need not be $`A`$-stable; the explicit
-     $`(s,r)=(2,1)`$ member has a left-half-plane pole:
+     <i>R</i><sub><i>s</i>,<i>r</i></sub>=Π<sub><i>s</i>,<i>r</i></sub>(−<i>z</i>)<sup>−1</sup>Π<sub><i>s</i>,<i>r</i></sub>(<i>z</i>):
+     [Theorem 9.18](#v12-thm-central-rational-hierarchy).  Coordinate poles of <i>C</i><sub><i>s</i></sub>
+     are removable +1 resonances, the reduced map has no pole on the
+     imaginary axis, but it need not be <i>A</i>-stable; the explicit
+     (<i>s</i>,<i>r</i>)=(2,1) member has a left-half-plane pole:
      [Proposition 9.20](#v12-prop-rational-resonance-stability).  The exact coordinate is a
-     Stieltjes function in $`z^2`$, and $`C_s`$ is its stated Padé
+     Stieltjes function in <i>z</i><sup>2</sup>, and <i>C</i><sub><i>s</i></sub> is its stated Padé
      approximant: [Proposition 9.23](#v12-prop-stieltjes-pade-coordinate).  The strict sign
-     law for every $`\alpha_{s,j}`$ remains the explicitly labelled
+     law for every <i>α</i><sub><i>s</i>,<i>j</i></sub> remains the explicitly labelled
      conjecture [Remark 9.26](#v12-rem-alpha-sign-conjecture).
 
-1. At the unrestricted algebraic level, every rank-$`2q`$ change of
-     cap gauge is generated by eliminating exactly $`2q`$ auxiliary
+1. At the unrestricted algebraic level, every rank-2<i>q</i> change of
+     cap gauge is generated by eliminating exactly 2<i>q</i> auxiliary
      alternating modes, and no smaller generator of that block form is
      possible: [Theorem 9.10](#v12-thm-minimal-schur-gauge-generation).  This sharp
      existence-and-dimension statement is distinct from a field-selection
      mechanism.  The stronger positive
      Jacobi-chain mechanism generates every Gauss coordinate, but not the
-     corrected $`(2,1)`$ member:
+     corrected (2,1) member:
      [Theorem 9.24](#v12-thm-stieltjes-interior-generation).  Thus algebraic generation,
      passive generation, and selection by an independent field cell are
      three distinct statements.
@@ -5662,8 +5662,8 @@ Four layers should remain distinct in future extensions.
      itself a proof of maximal isotropy.
 
 1. *Boundary reduction* composes the preceding layers and
-     eliminates interior variables.  Only after a regular reconstruction $`L_h`$
-     has been established is the reduced gauge $`L_h^*\omega`$; singular
+     eliminates interior variables.  Only after a regular reconstruction <i>L</i><sub><i>h</i></sub>
+     has been established is the reduced gauge <i>L</i><sub><i>h</i></sub><sup>∗</sup><i>ω</i>; singular
      interior blocks require a reduction of relations.
 
 Compatible gauges should also be distinguished by their origin.
@@ -5673,7 +5673,7 @@ Compatible gauges should also be distinguished by their origin.
      Gauss stage pairing is of this type.
 
 1. A *constitutively adapted gauge* is obtained only after
-     $`J,Q`$, and $`h`$ are supplied.  The induced Gauss cap gauge
+     <i>J</i>,<i>Q</i>, and <i>h</i> are supplied.  The induced Gauss cap gauge
      [Equation (99)](#v12-eq-stage-induced-gauss-gauge) and the exact-flow gauge
      [Equation (73)](#v12-eq-exact-flow-gauge) belong to this class.
 
@@ -5687,11 +5687,11 @@ first can be attributed to the discrete geometry alone.
 
 The central rational hierarchy is tailored to Hamiltonian generators, not
 to the whole left half-plane.  Its reduced polynomial form removes the
-artificial poles of the $`C_s`$-coordinate and proves unit amplification
+artificial poles of the <i>C</i><sub><i>s</i></sub>-coordinate and proves unit amplification
 on the oscillatory axis, but [Proposition 9.20](#v12-prop-rational-resonance-stability)
 shows that high order and exact quadratic conservation do not imply
-$`A`$-stability.  Consequently dissipative extensions require an
-independent root analysis of $`\Pi_{s,r}`$.  Likewise, the Stieltjes–Padé
+<i>A</i>-stability.  Consequently dissipative extensions require an
+independent root analysis of Π<sub><i>s</i>,<i>r</i></sub>.  Likewise, the Stieltjes–Padé
 identification is proved, whereas the coefficientwise sign and
 non-annulation law [Equation (169)](#v12-eq-alpha-sign-conjecture) is not; all hierarchy
 orders beyond the computed levels retain the stated conditional wording.
@@ -5722,21 +5722,21 @@ Dirac relation, constitutive law, boundary causality, and interior solve
 are fixed; it does not assert that these data are gauge independent.
 [Proposition 4.16](#v12-prop-gauge-dependent-tangent) identifies its precise first variation,
 while [Theorem 4.14](#v12-thm-trace-generated-condensation) proves exact raw realization
-for a gauge already encoded as $`T_h^*S_hT_h`$.  The latter is not a
-derivation of $`S_h`$ from independent volume dynamics.  The missing
+for a gauge already encoded as <i>T</i><sub><i>h</i></sub><sup>∗</sup><i>S</i><sub><i>h</i></sub><i>T</i><sub><i>h</i></sub>.  The latter is not a
+derivation of <i>S</i><sub><i>h</i></sub> from independent volume dynamics.  The missing
 interior mechanism is supplied in one direction by
 [Theorem 8.8](#v12-thm-active-gauss-cell): the polynomial stage block is specified
 before the cap gauge and its Schur elimination produces that gauge.  A
 second direction is now exact at the algebraic level:
-[Theorem 9.10](#v12-thm-minimal-schur-gauge-generation) proves that every rank-$`2q`$
-cap deformation is the Schur reduction of exactly $`2q`$ auxiliary
+[Theorem 9.10](#v12-thm-minimal-schur-gauge-generation) proves that every rank-2<i>q</i>
+cap deformation is the Schur reduction of exactly 2<i>q</i> auxiliary
 alternating modes.  Because that generator is constructed from the target
 deformation, it is not yet a selector.  The positive Stieltjes realization
 in [Theorem 9.24](#v12-thm-stieltjes-interior-generation) is more canonical and produces
 the Gauss sequence, but [Equation (168)](#v12-eq-corrected-stieltjes-obstruction) proves
 that it cannot generate the full Taylor-corrected hierarchy.  A fully
 coupled spatial–temporal cell in which independently specified mixed
-bubble modes select $`\Theta`$, rather than encode it, therefore remains
+bubble modes select Θ, rather than encode it, therefore remains
 open in this sharper form.
 Extending [Equation (42)](#v12-eq-volume-cap-exact-sequence) to singular descriptor cells
 requires composition of linear Dirac relations.  Extending it over a
@@ -5749,8 +5749,8 @@ nonseparability; [Table 17](#v12-tab-dispersion-selector) additionally demonstra
 a concrete, but problem-specific, numerical gain.  Its generic loss of
 symplecticity is quantified by [Equation (141)](#v12-eq-mixed-gauss-symplectic).  A general
 selector balancing dispersion, causality, sparsity, and conditioning
-remains open.  The global convergence table varies $`h`$ at fixed spatial
-degree; it is not a uniform-in-$`N`$ field convergence theorem.  Nor is
+remains open.  The global convergence table varies <i>h</i> at fixed spatial
+degree; it is not a uniform-in-<i>N</i> field convergence theorem.  Nor is
 the scalar cap power identity by itself a local multisymplectic form
 formula on variations; deriving such a law requires an additional tangent
 cell analysis.  Finally,
@@ -5768,14 +5768,14 @@ parts are boundary components of one affine Stokes problem on the
 discrete cylinder.  The genuine total differential and the stacked
 directional differential encode this statement in different linear maps.
 For the former, a degree-respecting symmetric double has gauge
-$`U_q^*\otimes V_q^*`$; for the latter, the intrinsic active freedom is
-$`\Lambda^2(E_\mathrm{st}/\ker D_\mathrm{st})^*`$.  The canonical filtration
+<i>U</i><sub><i>q</i></sub><sup>∗</sup> ⊗ <i>V</i><sub><i>q</i></sub><sup>∗</sup>; for the latter, the intrinsic active freedom is
+Λ<sup>2</sup>(<i>E</i><sub>st</sub>/ker <i>D</i><sub>st</sub>)<sup>∗</sup>.  The canonical filtration
 [Equation (35)](#v12-eq-canonical-sector-sequence) then identifies pure directions and
 the mixed quotient without pretending that a chosen direct-sum splitting
 is intrinsic.
 
 A fixed regular interior solve transports this volume geometry to the
-caps by the exact map $`\omega\mapsto L_h^*\omega`$.
+caps by the exact map <i>ω</i> ↦ <i>L</i><sub><i>h</i></sub><sup>∗</sup><i>ω</i>.
 [Equation (42)](#v12-eq-volume-cap-exact-sequence) determines all visible and invisible
 volume gauges and proves when every temporal gauge possesses a volume
 extension; [Equation (46)](#v12-eq-intrinsic-mixed-pullback) isolates its mixed part
@@ -5786,17 +5786,17 @@ realization theorem, not a hidden selection principle.
 
 Within the finite-dimensional, nonsingular, quadratic setting,
 [Theorem 5.3](#v12-thm-gauge-cayley-chart) identifies alternating gauges bijectively
-with the open subset of $`O(Q)`$ having no eigenvalue $`+1`$.  These are
+with the open subset of <i>O</i>(<i>Q</i>) having no eigenvalue +1.  These are
 constitutively shifted coordinates built from the classical Cayley
 transform; the group identity is excluded and the zero gauge represents
 midpoint.  The exact flow, Padé maps, and mixed deformations are points
 in this cell; the symplectic centralizer is exactly the preimage of
-$`O(Q)\cap Sp(\Omega)`$.  More importantly,
+<i>O</i>(<i>Q</i>) ∩ <i>Sp</i>(Ω).  More importantly,
 [Theorem 8.8](#v12-thm-active-gauss-cell) reverses the direction of construction:
 starting from the geometric Gauss pairing on
-$`\mathcal P_s\to\mathcal P_{s-1}`$, it eliminates $`sn`$ active stage
+𝒫<sub><i>s</i></sub> → 𝒫<sub><i>s</i>−1</sub>, it eliminates <i>sn</i> active stage
 variables and derives both the diagonal Padé map and its constitutively
-adapted cap gauge.  Thus Gauss–$`s`$ is no longer merely encoded in a
+adapted cap gauge.  Thus Gauss–<i>s</i> is no longer merely encoded in a
 minimal two-point cell.
 
 In space, [Theorem 9.2](#v12-thm-rectangular-stokes-dirac) proves that the raw
@@ -5806,41 +5806,41 @@ feedthrough.  Applied to the 2012 transmission line, it combines with the
 active temporal cell and the canonical mixed lift
 $`\mathcal T_N=\widetilde{\mathcal T}_N\pi_{tx}`$.  Boundary power,
 dissipation, and interface cancellation remain exact.  At the
-unrestricted algebraic level, every desired rank-$`2q`$ change of cap
+unrestricted algebraic level, every desired rank-2<i>q</i> change of cap
 gauge can be generated by
-a minimal $`2q`$-dimensional alternating auxiliary block.  This proves
+a minimal 2<i>q</i>-dimensional alternating auxiliary block.  This proves
 finite-dimensional interior generability, but the block still encodes the
-target gauge and therefore does not constitute a field selector.  For every $`s`$,
-the perturbation $`h^{2s-1}\Theta`$ is self-adjoint, energy preserving,
-and has exactly order $`2s`$ unless
-$`\Theta=\Theta_s^\star=c_s\Omega_NA_N^{2s}`$.  This unique fixed
+target gauge and therefore does not constitute a field selector.  For every <i>s</i>,
+the perturbation <i>h</i><sup>2<i>s</i>−1</sup>Θ is self-adjoint, energy preserving,
+and has exactly order 2<i>s</i> unless
+Θ=Θ<sub><i>s</i></sub><sup>⋆</sup>=<i>c</i><sub><i>s</i></sub>Ω<sub><i>N</i></sub><i>A</i><sub><i>N</i></sub><sup>2<i>s</i></sup>.  This unique fixed
 coefficient within the one-term ansatz raises the order to exactly
-$`2s+2`$; at $`s=1`$ it gives exactly Gauss–2.  It is central, but this
+2<i>s</i>+2; at <i>s</i>=1 it gives exactly Gauss–2.  It is central, but this
 is not a high-order obstruction: a second arbitrary alternating term
-retains order $`2s+2`$ and, when noncommuting, separates the map from the
+retains order 2<i>s</i>+2 and, when noncommuting, separates the map from the
 scalar functional calculus of the semidiscrete line.  The central choice
-$`\Xi_s^\star=d_s\Omega_NA_N^{2s+2}`$ raises the order by two more, and
+Ξ<sub><i>s</i></sub><sup>⋆</sup>=<i>d</i><sub><i>s</i></sub>Ω<sub><i>N</i></sub><i>A</i><sub><i>N</i></sub><sup>2<i>s</i>+2</sup> raises the order by two more, and
 successive Taylor coefficients generate the explicit rational hierarchy
 [Theorem 9.18](#v12-thm-central-rational-hierarchy), with global order at least
-$`2s+2r`$ and exactness conditional on $`\alpha_{s,r}\ne0`$, converging
+2<i>s</i>+2<i>r</i> and exactness conditional on <i>α</i><sub><i>s</i>,<i>r</i></sub> ≠ 0, converging
 locally to the exact-flow gauge.  Its reduced form
-$`\Pi_{s,r}(-z)^{-1}\Pi_{s,r}(z)`$ separates removable $`+1`$ chart
+Π<sub><i>s</i>,<i>r</i></sub>(−<i>z</i>)<sup>−1</sup>Π<sub><i>s</i>,<i>r</i></sub>(<i>z</i>) separates removable +1 chart
 resonances from true propagator poles: there are no reduced poles on the
-imaginary axis, but the family is not generally $`A`$-stable.  The
+imaginary axis, but the family is not generally <i>A</i>-stable.  The
 Stieltjes representation of the exact coordinate proves the Padé status
-of $`C_s`$ and gives each Gauss coordinate the sequence
+of <i>C</i><sub><i>s</i></sub> and gives each Gauss coordinate the sequence
 [Equation (1)](#v12-eq-gauss-stieltjes-jacobi-chain), with positivity referring to the
 measure, residues, resolvent, and Jacobi coefficients rather than to the
 complete augmented port-Hamiltonian energy matrix.  The corrected
-$`(2,1)`$ member is negative in the associated
-Stieltjes variable for $`u>60`$, proving that this passive mechanism does
+(2,1) member is negative in the associated
+Stieltjes variable for <i>u</i>&gt;60, proving that this passive mechanism does
 not extend to the whole Taylor-corrected hierarchy.  Strict non-annulation of all remaining coefficients is left as
 a precisely stated conjecture.  The computations independently verify
 rectangular reconstruction, trace-generated realization, active-stage
-generation, stable Cayley evaluation, the coefficient $`d_s`$, the
+generation, stable Cayley evaluation, the coefficient <i>d</i><sub><i>s</i></sub>, the
 one-term dichotomy, the noncommuting high-order branch—including its
-$`s=3`$ multiprecision asymptotics—the reduced-pole distinction, exact
-coefficient-sign evidence through $`s,j\le12`$, and dispersion design.
+<i>s</i>=3 multiprecision asymptotics—the reduced-pole distinction, exact
+coefficient-sign evidence through <i>s</i>,<i>j</i> ≤ 12, and dispersion design.
 All numerical blocks are guarded by executable assertions.  The remaining
 fundamental step is no longer algebraic existence of an interior generator;
 it is a fully coupled field cell whose mixed deformation is selected by
@@ -5882,9 +5882,9 @@ Consider the finite-dimensional PH realization
 \qquad y=B(x)^\top\nabla H(x)+N(x)u(t),
 ```
 
-where $`J^\top=-J`$, $`R^\top=R\succeq0`$ and $`N^\top=-N`$. The matrices may depend smoothly on the state. A resistive feedthrough can be treated separately by adding its symmetric part to the boundary dissipation.
+where <i>J</i><sup>⊤</sup>=−<i>J</i>, <i>R</i><sup>⊤</sup>=<i>R</i> ⪰ 0 and <i>N</i><sup>⊤</sup>=−<i>N</i>. The matrices may depend smoothly on the state. A resistive feedthrough can be treated separately by adding its symmetric part to the boundary dissipation.
 
-On a time interval of length $`h>0`$, let $`c_i,b_i`$ be the $`s`$ Gauss nodes and positive weights on $`[0,1]`$, with $`\sum_i b_i=1`$. Let $`\ell_i`$ be their cardinal polynomials and set
+On a time interval of length <i>h</i>&gt;0, let <i>c</i><sub><i>i</i></sub>,<i>b</i><sub><i>i</i></sub> be the <i>s</i> Gauss nodes and positive weights on &#91;0,1&#93;, with $`\sum_i b_i=1`$. Let ℓ<sub><i>i</i></sub> be their cardinal polynomials and set
 
 ```math
 a_i(\tau)=\int_0^\tau\ell_i(\sigma)\,d\sigma,
@@ -5892,33 +5892,33 @@ a_i(\tau)=\int_0^\tau\ell_i(\sigma)\,d\sigma,
 X(\tau)=x_0+h\sum_{i=1}^s a_i(\tau)F_i.
 ```
 
-Here $`F_i`$ are physical time derivatives, not increments. Define the projected gradient
+Here <i>F</i><sub><i>i</i></sub> are physical time derivatives, not increments. Define the projected gradient
 
 ```math
 G_i=\frac1{b_i}\int_0^1\ell_i(\tau)\nabla H(X(\tau))\,d\tau.
 ```
 
-Write $`F,G,E`$ for the stage-stacked vectors and $`W=\operatorname{diag}(b_1,\ldots,b_s)\otimes I_n`$. The exact chain rule is
+Write <i>F</i>,<i>G</i>,<i>E</i> for the stage-stacked vectors and <i>W</i>=diag(<i>b</i><sub>1</sub>,…,<i>b</i><sub><i>s</i></sub>) ⊗ <i>I</i><sub><i>n</i></sub>. The exact chain rule is
 
 ```math
 H(X(1))-H(x_0)=hF^\top WG.
 ```
 
-The independent temporal quadrature must integrate this constitutive projection accurately. For a polynomial Hamiltonian of degree $`\nu`$, the integrand defining $`G_i`$ has degree at most $`\nu s-1`$; $`q`$-point Gauss quadrature is exact if $`2q\geq\nu s`$. This requirement is distinct from the number $`s`$ of active stages. In particular, $`s=2,q=4`$ handles quartic energy exactly in exact arithmetic. Finite quadrature generally leaves a nonzero chain defect for nonpolynomial energy.
+The independent temporal quadrature must integrate this constitutive projection accurately. For a polynomial Hamiltonian of degree <i>ν</i>, the integrand defining <i>G</i><sub><i>i</i></sub> has degree at most <i>νs</i>−1; <i>q</i>-point Gauss quadrature is exact if 2<i>q</i> ≥ <i>νs</i>. This requirement is distinct from the number <i>s</i> of active stages. In particular, <i>s</i>=2,<i>q</i>=4 handles quartic energy exactly in exact arithmetic. Finite quadrature generally leaves a nonzero chain defect for nonpolynomial energy.
 
 ### Proposition T1 — Complete linear stage-gauge family
 
-For a correction linear in $`F`$ and required to preserve the chain pairing for **every** stage vector, the admissible efforts are exactly
+For a correction linear in <i>F</i> and required to preserve the chain pairing for **every** stage vector, the admissible efforts are exactly
 
 ```math
 E=G-W^{-1}K_hF,\qquad K_h^\top=-K_h.
 ```
 
-For fixed cell data the family has dimension $`sn(sn-1)/2`$.
+For fixed cell data the family has dimension <i>sn</i>(<i>sn</i>−1)/2.
 
-**Proof.** Write $`E-G=CF`$. The required identity is $`F^\top WCF=0`$ for all $`F`$. Polarization gives $`WC+C^\top W=0`$. Thus $`K_h=-WC`$ is alternating, and the converse follows immediately. This classifies linear corrections on the full stage space; it does not assert that every nonlinear correction has one fixed matrix representation. At a nonzero particular $`F`$, nonlinear corrections instead belong to the annihilator of $`F`$ under the weighted pairing. ∎
+**Proof.** Write <i>E</i>−<i>G</i>=<i>CF</i>. The required identity is <i>F</i><sup>⊤</sup><i>WCF</i>=0 for all <i>F</i>. Polarization gives <i>WC</i>+<i>C</i><sup>⊤</sup><i>W</i>=0. Thus <i>K</i><sub><i>h</i></sub>=−<i>WC</i> is alternating, and the converse follows immediately. This classifies linear corrections on the full stage space; it does not assert that every nonlinear correction has one fixed matrix representation. At a nonzero particular <i>F</i>, nonlinear corrections instead belong to the annihilator of <i>F</i> under the weighted pairing. ∎
 
-A state-dependent matrix $`K_h(F,X)`$ still gives exact power pointwise if it is alternating at every evaluation. Its regularity, step-size scaling and reversal properties must be checked separately.
+A state-dependent matrix <i>K</i><sub><i>h</i></sub>(<i>F</i>,<i>X</i>) still gives exact power pointwise if it is alternating at every evaluation. Its regularity, step-size scaling and reversal properties must be checked separately.
 
 <a name="extension-section-15"></a>
 
@@ -5932,7 +5932,7 @@ F_i=(J(X_i)-R(X_i))E_i+B(X_i)U_i,
 Y_i=B(X_i)^\top E_i+N(X_i)U_i,
 ```
 
-where $`X_i=X(c_i)`$ and $`U_i=u(t_0+c_i h)`$. The updated state is $`x_1=x_0+h\sum_i b_iF_i`$.
+where <i>X</i><sub><i>i</i></sub>=<i>X</i>(<i>c</i><sub><i>i</i></sub>) and <i>U</i><sub><i>i</i></sub>=<i>u</i>(<i>t</i><sub>0</sub>+<i>c</i><sub><i>i</i></sub><i>h</i>). The updated state is $`x_1=x_0+h\sum_i b_iF_i`$.
 
 ### Theorem T2 — Gauged PH power law
 
@@ -5943,19 +5943,19 @@ H(x_1)-H(x_0)
 =h\sum_i b_iU_i^\top Y_i-h\sum_i b_iE_i^\top R(X_i)E_i.
 ```
 
-**Proof.** Alternation gives $`F^\top WG=F^\top WE+F^\top K_hF=F^\top WE`$. Substitute the stage equations; the terms with $`J`$ and $`N`$ vanish. ∎
+**Proof.** Alternation gives <i>F</i><sup>⊤</sup><i>WG</i>=<i>F</i><sup>⊤</sup><i>WE</i>+<i>F</i><sup>⊤</sup><i>K</i><sub><i>h</i></sub><i>F</i>=<i>F</i><sup>⊤</sup><i>WE</i>. Substitute the stage equations; the terms with <i>J</i> and <i>N</i> vanish. ∎
 
-Consequently closed conservative systems preserve $`H`$, and unforced dissipative systems have nonincreasing $`H`$. This is an identity for the computed stage efforts. Substituting $`\nabla H(X_i)`$ for $`E_i`$ in the output generally destroys it.
+Consequently closed conservative systems preserve <i>H</i>, and unforced dissipative systems have nonincreasing <i>H</i>. This is an identity for the computed stage efforts. Substituting ∇<i>H</i>(<i>X</i><sub><i>i</i></sub>) for <i>E</i><sub><i>i</i></sub> in the output generally destroys it.
 
 ### Computable certificate
 
-Let $`r_i=F_i-[(J_i-R_i)E_i+B_iU_i]`$ and
+Let <i>r</i><sub><i>i</i></sub>=<i>F</i><sub><i>i</i></sub>−&#91;(<i>J</i><sub><i>i</i></sub>−<i>R</i><sub><i>i</i></sub>)<i>E</i><sub><i>i</i></sub>+<i>B</i><sub><i>i</i></sub><i>U</i><sub><i>i</i></sub>&#93; and
 
 ```math
 \delta_{\rm chain}=H(x_1)-H(x_0)-hF^\top WG.
 ```
 
-For symmetric $`R`$ and skew feedthrough, direct algebra gives
+For symmetric <i>R</i> and skew feedthrough, direct algebra gives
 
 ```math
 \Delta H-\mathcal W+\mathcal D
@@ -5987,22 +5987,22 @@ E_i=G_i-h^{2s}\Theta v,
 
 ### Theorem T3 — Active-stage extension of the mixed Gauss cap map
 
-Suppose $`H(x)=x^\top Qx/2`$, $`J,Q`$ are constant and nonsingular, and $`R=0`$, $`u=0`$. Wherever the cap chart is regular, eliminating the active stages gives exactly the version-12 cap gauge
+Suppose <i>H</i>(<i>x</i>)=<i>x</i><sup>⊤</sup><i>Qx</i>/2, <i>J</i>,<i>Q</i> are constant and nonsingular, and <i>R</i>=0, <i>u</i>=0. Wherever the cap chart is regular, eliminating the active stages gives exactly the version-12 cap gauge
 
 ```math
 S_{s,h}=S^{\rm G}_{s,h}+h^{2s-1}\Theta.
 ```
 
-The equality holds for arbitrary alternating $`\Theta`$, including coefficients that do not commute with the conservative generator.
+The equality holds for arbitrary alternating Θ, including coefficients that do not commute with the conservative generator.
 
-**Proof.** Gaussian exactness gives $`G_i=QX_i`$: the projection integrand has degree at most $`2s-1`$. Put $`A=JQ`$ and let $`R_s(z)`$ be the diagonal Padé stability function of Gauss–$`s`$. Define
+**Proof.** Gaussian exactness gives <i>G</i><sub><i>i</i></sub>=<i>QX</i><sub><i>i</i></sub>: the projection integrand has degree at most 2<i>s</i>−1. Put <i>A</i>=<i>JQ</i> and let <i>R</i><sub><i>s</i></sub>(<i>z</i>) be the diagonal Padé stability function of Gauss–<i>s</i>. Define
 
 ```math
 \varphi_s(z)=\frac{R_s(z)-1}{z},
 \qquad \varphi_s(0)=1.
 ```
 
-For the constant stage source $`-h^{2s}J\Theta v`$, elimination of the Gauss stage equations gives
+For the constant stage source −<i>h</i><sup>2<i>s</i></sup><i>J</i>Θ<i>v</i>, elimination of the Gauss stage equations gives
 
 ```math
 \Delta x=(R_s(hA)-I)x_0-h^{2s}\varphi_s(hA)J\Theta\Delta x.
@@ -6028,7 +6028,7 @@ M_h=(B_-^{\rm G}+h^{2s}J\Theta)^{-1}
      (B_+^{\rm G}+h^{2s}J\Theta),
 ```
 
-which is precisely the version-12 mixed deformation. No commutation of $`\Theta`$ with $`A`$ was used. ∎
+which is precisely the version-12 mixed deformation. No commutation of Θ with <i>A</i> was used. ∎
 
 The theorem supplies the exact bridge to the original family. For general nonlinear energy or nonzero dissipation, the active-stage equations remain the definition of the extension. Replacing all stage efforts by a single effective effort would lose information, as the next section proves.
 
@@ -6038,14 +6038,14 @@ The theorem supplies the exact bridge to the original family. For general nonlin
 
 ### Theorem T4 — Temporal effort variance obstructs order above two
 
-Consider a closed smooth PH system $`\dot x=L\nabla H(x)`$, with constant invertible $`L=J-R`$, $`J^\top=-J`$ and $`R^\top=R\succeq0`$. A method constrained to satisfy simultaneously
+Consider a closed smooth PH system $`\dot x=L\nabla H(x)`$, with constant invertible <i>L</i>=<i>J</i>−<i>R</i>, <i>J</i><sup>⊤</sup>=−<i>J</i> and <i>R</i><sup>⊤</sup>=<i>R</i> ⪰ 0. A method constrained to satisfy simultaneously
 
 ```math
 \Delta x=hLE,\qquad
 H(x_1)-H(x_0)=-hE^\top RE
 ```
 
-with one effort $`E`$ cannot have order at least three at a state for which
+with one effort <i>E</i> cannot have order at least three at a state for which
 
 ```math
 \dot e(0)^\top R\dot e(0)>0,\qquad e(t)=\nabla H(x(t)).
@@ -6067,30 +6067,30 @@ H(x(h))-H(x(0))
 -\int_0^h(e(t)-\bar e)^\top R(e(t)-\bar e)\,dt.
 ```
 
-For $`e\in C^2`$, the last integral equals
+For <i>e</i> ∈ <i>C</i><sup>2</sup>, the last integral equals
 
 ```math
 \frac{h^3}{12}\dot e(0)^\top R\dot e(0)+O(h^4).
 ```
 
-An order-$`p`$ method with $`p\geq3`$ changes the exact endpoint by $`O(h^{p+1})`$ and its forced effort by $`O(h^p)`$. Both corresponding changes to the energy balance are $`O(h^{p+1})=O(h^4)`$, which cannot cancel the nonzero cubic variance term. ∎
+An order-<i>p</i> method with <i>p</i> ≥ 3 changes the exact endpoint by <i>O</i>(<i>h</i><sup><i>p</i>+1</sup>) and its forced effort by <i>O</i>(<i>h</i><sup><i>p</i></sup>). Both corresponding changes to the energy balance are <i>O</i>(<i>h</i><sup><i>p</i>+1</sup>)=<i>O</i>(<i>h</i><sup>4</sup>), which cannot cancel the nonzero cubic variance term. ∎
 
 This is a restriction on an unmodified physical one-effort closure, not an impossibility theorem for high-order dissipative discrete-gradient methods. Such methods exist, including approaches that modify and complete the dissipative operator [T7].
 
 ### Quadratic coefficient check
 
-For $`H=\|x\|^2/2`$, $`L=J-R`$, and a cap effort $`E=\bar x-S_h\Delta x`$ with $`S_h=hS_1+O(h^3)`$, expansion gives
+For <i>H</i>=‖<i>x</i>‖<sup>2</sup>/2, <i>L</i>=<i>J</i>−<i>R</i>, and a cap effort $`E=\bar x-S_h\Delta x`$ with <i>S</i><sub><i>h</i></sub>=<i>hS</i><sub>1</sub>+<i>O</i>(<i>h</i><sup>3</sup>), expansion gives
 
 ```math
 M_h-e^{hL}
 =h^3\left(\frac{L^3}{12}-LS_1L\right)+O(h^4).
 ```
 
-If $`L`$ is invertible, cancellation requires $`S_1=L/12`$, whose symmetric part is $`-R/12`$. It cannot be alternating when $`R\ne0`$. This reproduces the obstruction without a trajectory argument.
+If <i>L</i> is invertible, cancellation requires <i>S</i><sub>1</sub>=<i>L</i>/12, whose symmetric part is −<i>R</i>/12. It cannot be alternating when <i>R</i> ≠ 0. This reproduces the obstruction without a trajectory argument.
 
 ### Proposition T5 — Minimal information in stage dissipation
 
-For constant $`R`$, the stage mean $`\bar E=\sum_i b_iE_i`$ satisfies
+For constant <i>R</i>, the stage mean $`\bar E=\sum_i b_iE_i`$ satisfies
 
 ```math
 \sum_i b_i E_i^\top RE_i
@@ -6105,15 +6105,15 @@ V=(\operatorname{diag}(b)-bb^\top)\otimes R,
 \qquad \operatorname{rank}V=(s-1)\operatorname{rank}R.
 ```
 
-**Proof.** Expand the right-hand side and use $`\sum_i b_i=1`$. The temporal matrix is congruent to $`I-\sqrt b\,\sqrt b^\top`$, a rank-$`(s-1)`$ orthogonal projector. The rank formula follows from the Kronecker product. ∎
+**Proof.** Expand the right-hand side and use $`\sum_i b_i=1`$. The temporal matrix is congruent to $`I-\sqrt b\,\sqrt b^\top`$, a rank-(<i>s</i>−1) orthogonal projector. The rank formula follows from the Kronecker product. ∎
 
-Any exact representation of this variance by a sum of squares of linear scalar channels needs at least $`\operatorname{rank}V`$ channels, since a factorization $`V=C^\top C`$ has $`\operatorname{rank}C\leq`$ number of rows. An alternating gauge cannot restore this missing symmetric quadratic form.
+Any exact representation of this variance by a sum of squares of linear scalar channels needs at least rank<i>V</i> channels, since a factorization <i>V</i>=<i>C</i><sup>⊤</sup><i>C</i> has rank<i>C</i> ≤  number of rows. An alternating gauge cannot restore this missing symmetric quadratic form.
 
 <a name="extension-section-18"></a>
 
 ## 18. Elimination preserves passivity, including the ports
 
-Normalize the weighted variables by $`\widehat F=W^{1/2}F`$, $`\widehat E=W^{1/2}E`$, $`\widehat G=W^{1/2}G`$ and $`\widehat K=W^{-1/2}K_hW^{-1/2}`$. Port variables use the corresponding weights with the port dimension. Let the block-diagonal stage matrices be denoted by $`\mathcal J,\mathcal R,\mathcal B,\mathcal N`$.
+Normalize the weighted variables by $`\widehat F=W^{1/2}F`$, $`\widehat E=W^{1/2}E`$, $`\widehat G=W^{1/2}G`$ and $`\widehat K=W^{-1/2}K_hW^{-1/2}`$. Port variables use the corresponding weights with the port dimension. Let the block-diagonal stage matrices be denoted by 𝒥,ℛ,ℬ,𝒩.
 
 Define the full flow and effort vectors and their structure matrices by
 
@@ -6127,7 +6127,7 @@ Z=\begin{bmatrix}\mathcal J-\mathcal R&\mathcal B\\-\mathcal B^\top&-\mathcal N\
 D=\begin{bmatrix}\widehat K&0\\0&0\end{bmatrix}.
 ```
 
-The gauged closure is $`f=Z(g-Df)`$. Whenever $`T=I+ZD`$ is invertible,
+The gauged closure is <i>f</i>=<i>Z</i>(<i>g</i>−<i>Df</i>). Whenever <i>T</i>=<i>I</i>+<i>ZD</i> is invertible,
 
 ```math
 f=Z_{\rm eff}g,\qquad Z_{\rm eff}=T^{-1}Z.
@@ -6143,13 +6143,13 @@ f=Z_{\rm eff}g,\qquad Z_{\rm eff}=T^{-1}Z.
 T^{-\top}\preceq0.
 ```
 
-**Proof.** Multiply $`Z_{\rm eff}+Z_{\rm eff}^\top`$ by $`T`$ and $`T^\top`$. The additional terms cancel because $`D^\top=-D`$. ∎
+**Proof.** Multiply $`Z_{\rm eff}+Z_{\rm eff}^\top`$ by <i>T</i> and <i>T</i><sup>⊤</sup>. The additional terms cancel because <i>D</i><sup>⊤</sup>=−<i>D</i>. ∎
 
-For $`\mathcal R=0`$ the eliminated structure is skew. Its graph is isotropic for the split power pairing and has half the ambient dimension, so it is maximally isotropic. Thus the conservative algebraic reduction gives an open Dirac structure; the nonlinear Hamiltonian enters through a separate constitutive closure.
+For ℛ=0 the eliminated structure is skew. Its graph is isotropic for the split power pairing and has half the ambient dimension, so it is maximally isotropic. Thus the conservative algebraic reduction gives an open Dirac structure; the nonlinear Hamiltonian enters through a separate constitutive closure.
 
 The elimination generally changes input, output and feedthrough blocks together. Keeping only a modified state matrix and retaining the old output is not the same PH system.
 
-For fixed matrices, strictly positive $`\mathcal R`$ ensures invertibility of the state block for every alternating $`\widehat K`$. Indeed, a nonzero null vector would give $`\widehat E=-\widehat K\widehat F`$, $`\widehat F=(\mathcal J-\mathcal R)\widehat E`$, hence $`0=\widehat E^\top\widehat F=-\widehat E^\top\mathcal R\widehat E`$. Semidefinite resistance does not give this guarantee: with no resistance and $`\mathcal J=\widehat K`$ equal to the canonical $`2\times2`$ skew matrix, $`I+\mathcal J\widehat K=0`$. This algebraic fact is not a global existence or uniqueness theorem for the nonlinear stage solve.
+For fixed matrices, strictly positive ℛ ensures invertibility of the state block for every alternating $`\widehat K`$. Indeed, a nonzero null vector would give $`\widehat E=-\widehat K\widehat F`$, $`\widehat F=(\mathcal J-\mathcal R)\widehat E`$, hence $`0=\widehat E^\top\widehat F=-\widehat E^\top\mathcal R\widehat E`$. Semidefinite resistance does not give this guarantee: with no resistance and $`\mathcal J=\widehat K`$ equal to the canonical 2 × 2 skew matrix, $`I+\mathcal J\widehat K=0`$. This algebraic fact is not a global existence or uniqueness theorem for the nonlinear stage solve.
 
 <a name="extension-section-19"></a>
 
@@ -6157,29 +6157,29 @@ For fixed matrices, strictly positive $`\mathcal R`$ ensures invertibility of th
 
 ### Proposition T7 — Order inherited by a sufficiently small stage gauge
 
-Assume the zero-gauge scheme has local error $`O(h^{p+1})`$. Assume the stage residual, coefficients and gauge are sufficiently smooth jointly in $`(h,x_0,F)`$ near $`h=0`$, with uniform derivative bounds on the neighborhood considered, and the zero-gauge stage Jacobian has a uniformly bounded inverse near the consistent branch. If $`K_h=O(h^p)`$ uniformly there, the gauged scheme has local error $`O(h^{p+1})`$ and global order at least $`p`$ on a fixed smooth finite-time problem.
+Assume the zero-gauge scheme has local error <i>O</i>(<i>h</i><sup><i>p</i>+1</sup>). Assume the stage residual, coefficients and gauge are sufficiently smooth jointly in (<i>h</i>,<i>x</i><sub>0</sub>,<i>F</i>) near <i>h</i>=0, with uniform derivative bounds on the neighborhood considered, and the zero-gauge stage Jacobian has a uniformly bounded inverse near the consistent branch. If <i>K</i><sub><i>h</i></sub>=<i>O</i>(<i>h</i><sup><i>p</i></sup>) uniformly there, the gauged scheme has local error <i>O</i>(<i>h</i><sup><i>p</i>+1</sup>) and global order at least <i>p</i> on a fixed smooth finite-time problem.
 
-**Proof.** Substituting the zero-gauge stages into the gauged equations leaves residual $`O(h^p)`$. The local implicit-function estimate gives a stage change $`O(h^p)`$. The endpoint multiplies this change by $`h`$. Standard local Lipschitz stability and discrete Gronwall then give the global estimate. For a smooth vanishing gauge, local solvability follows directly at $`h=0`$: the residual Jacobian with respect to the derivative stages is the identity. ∎
+**Proof.** Substituting the zero-gauge stages into the gauged equations leaves residual <i>O</i>(<i>h</i><sup><i>p</i></sup>). The local implicit-function estimate gives a stage change <i>O</i>(<i>h</i><sup><i>p</i></sup>). The endpoint multiplies this change by <i>h</i>. Standard local Lipschitz stability and discrete Gronwall then give the global estimate. For a smooth vanishing gauge, local solvability follows directly at <i>h</i>=0: the residual Jacobian with respect to the derivative stages is the identity. ∎
 
-For the known Gauss projected-gradient base of order $`2s`$ under its smoothness and quadrature assumptions, the sufficient choice is $`K_h=O(h^{2s})`$. The common-stage gauge uses exactly this scaling. This proposition inherits an order; it does not prove automatic order elevation for dissipative or nonlinear systems from the conservative coefficients of version 12.
+For the known Gauss projected-gradient base of order 2<i>s</i> under its smoothness and quadrature assumptions, the sufficient choice is <i>K</i><sub><i>h</i></sub>=<i>O</i>(<i>h</i><sup>2<i>s</i></sup>). The common-stage gauge uses exactly this scaling. This proposition inherits an order; it does not prove automatic order elevation for dissipative or nonlinear systems from the conservative coefficients of version 12.
 
-Antisymmetry alone is insufficient. For example, Gauss–2 with $`H=\|x\|^2/2`$, $`J^2=-I`$, and $`K_h=h^2(\operatorname{diag}(b)\otimes J)`$ yields the map $`R_2(hJ/(1-h^2))`$. It preserves energy and is reversible, but is only second order.
+Antisymmetry alone is insufficient. For example, Gauss–2 with <i>H</i>=‖<i>x</i>‖<sup>2</sup>/2, <i>J</i><sup>2</sup>=−<i>I</i>, and <i>K</i><sub><i>h</i></sub>=<i>h</i><sup>2</sup>(diag(<i>b</i>) ⊗ <i>J</i>) yields the map <i>R</i><sub>2</sub>(<i>hJ</i>/(1−<i>h</i><sup>2</sup>)). It preserves energy and is reversible, but is only second order.
 
 ### Reversal
 
-Let $`P`$ reverse the order of Gauss stages and leave state coordinates unchanged. For an autonomous model, a state-independent gauge gives a self-adjoint method if
+Let <i>P</i> reverse the order of Gauss stages and leave state coordinates unchanged. For an autonomous model, a state-independent gauge gives a self-adjoint method if
 
 ```math
 K_{-h}=PK_hP^\top.
 ```
 
-The stage derivatives are physical derivatives; they are permuted, not negated, when the interval is traversed with negative $`h`$. The common-stage gauge satisfies the condition because $`Pb=b`$ and $`h^{2s}`$ is even. For state-dependent gauges, the equality must hold with the full reversed path and exchanged endpoints. Dissipation does not prevent algebraic self-adjointness; the backward step is not a forward dissipative evolution.
+The stage derivatives are physical derivatives; they are permuted, not negated, when the interval is traversed with negative <i>h</i>. The common-stage gauge satisfies the condition because <i>Pb</i>=<i>b</i> and <i>h</i><sup>2<i>s</i></sup> is even. For state-dependent gauges, the equality must hold with the full reversed path and exchanged endpoints. Dissipation does not prevent algebraic self-adjointness; the backward step is not a forward dissipative evolution.
 
-For even powers of $`h`$, admissible alternating matrices preserve the two eigenspaces of $`P`$. Their dimension is $`n_+(n_+-1)/2+n_-(n_--1)/2`$, where $`n_+=n\lceil s/2\rceil`$ and $`n_-=n\lfloor s/2\rfloor`$. Odd powers exchange those eigenspaces and have dimension $`n_+n_-`$.
+For even powers of <i>h</i>, admissible alternating matrices preserve the two eigenspaces of <i>P</i>. Their dimension is <i>n</i><sub>+</sub>(<i>n</i><sub>+</sub>−1)/2+<i>n</i><sub>−</sub>(<i>n</i><sub>−</sub>−1)/2, where <i>n</i><sub>+</sub>=<i>n</i>⌈<i>s</i>/2⌉ and <i>n</i><sub>−</sub>=<i>n</i>⌊<i>s</i>/2⌋. Odd powers exchange those eigenspaces and have dimension <i>n</i><sub>+</sub><i>n</i><sub>−</sub>.
 
 ### Linear coordinates
 
-For $`z=Tx`$, $`T`$ nonsingular, use
+For <i>z</i>=<i>Tx</i>, <i>T</i> nonsingular, use
 
 ```math
 \widetilde H(z)=H(T^{-1}z),\quad
@@ -6200,7 +6200,7 @@ Substitution shows that every exact stage solution transforms accordingly. The m
 
 ## 20. The spatial reduction and a geometrically specified test gauge
 
-The experiments import the unchanged version-12 rectangular transmission-line construction. Efforts lie in $`\mathcal P_N`$, flow/state coefficients in $`\mathcal P_{N-1}`$, and the reconstruction fixes the same two physical boundary inputs. The rectangular identity implies the reduced skew $`J_N`$, dual input/output matrices and skew feedthrough $`N_N`$. No antisymmetrization is applied to repair these raw spatial blocks.
+The experiments import the unchanged version-12 rectangular transmission-line construction. Efforts lie in 𝒫<sub><i>N</i></sub>, flow/state coefficients in 𝒫<sub><i>N</i>−1</sub>, and the reconstruction fixes the same two physical boundary inputs. The rectangular identity implies the reduced skew <i>J</i><sub><i>N</i></sub>, dual input/output matrices and skew feedthrough <i>N</i><sub><i>N</i></sub>. No antisymmetrization is applied to repair these raw spatial blocks.
 
 In the orthonormal Legendre state coordinates, write $`D_{\rm a}=DM`$, the derivative restricted to the active polynomial coefficients. The test gauge is a normalized version of
 
@@ -6218,14 +6218,14 @@ This is a concrete geometric choice within the admissible family. It is not a pr
 
 On a common time grid, impose opposing stage port interconnections. The two terms $`h\sum_i b_iU_i^\top Y_i`$ then cancel exactly when adding the cell balances, regardless of their internal alternating gauges.
 
-For different grids, let $`W_A,W_B`$ be the time-weight matrices including local step lengths, and let $`C`$ contain the common-refinement integrals of the two temporal port bases. The adjoint transfers
+For different grids, let <i>W</i><sub><i>A</i></sub>,<i>W</i><sub><i>B</i></sub> be the time-weight matrices including local step lengths, and let <i>C</i> contain the common-refinement integrals of the two temporal port bases. The adjoint transfers
 
 ```math
 U_A=-W_A^{-1}CY_B,\qquad
 U_B=W_B^{-1}C^\top Y_A
 ```
 
-give $`U_A^\top W_AY_A+U_B^\top W_BY_B=0`$. The stage-gauge power law is therefore compatible with this interface construction. This is an algebraic extension; the current validation campaign does not claim a new multirate convergence theorem or a computational speedup.
+give <i>U</i><sub><i>A</i></sub><sup>⊤</sup><i>W</i><sub><i>A</i></sub><i>Y</i><sub><i>A</i></sub>+<i>U</i><sub><i>B</i></sub><sup>⊤</sup><i>W</i><sub><i>B</i></sub><i>Y</i><sub><i>B</i></sub>=0. The stage-gauge power law is therefore compatible with this interface construction. This is an algebraic extension; the current validation campaign does not claim a new multirate convergence theorem or a computational speedup.
 
 <a name="extension-section-22"></a>
 
@@ -6243,29 +6243,29 @@ The three programs respectively check the implementation, the independent algebr
 
 ### Nonlinear transmission line
 
-The Hamiltonian is the spatial integral of $`(q^2+p^2)/2+\alpha q^4/4`$ on the unit interval, with $`\alpha=2`$. The constitutive spatial Gauss rule has at least $`2N+2`$ points, sufficient for exact integration of this polynomial energy. All trajectory errors below are against an independently integrated, fixed-$`N`$ DOP853 solution (`rtol=2.5e-13`, `atol=2.5e-15`). A second reference with looser tolerances checks reference sensitivity. These are temporal, not spatial-refinement, measurements.
+The Hamiltonian is the spatial integral of (<i>q</i><sup>2</sup>+<i>p</i><sup>2</sup>)/2+<i>αq</i><sup>4</sup>/4 on the unit interval, with <i>α</i>=2. The constitutive spatial Gauss rule has at least 2<i>N</i>+2 points, sufficient for exact integration of this polynomial energy. All trajectory errors below are against an independently integrated, fixed-<i>N</i> DOP853 solution (`rtol=2.5e-13`, `atol=2.5e-15`). A second reference with looser tolerances checks reference sensitivity. These are temporal, not spatial-refinement, measurements.
 
-For the closed nonlinear case, $`N=6`$, $`T=1`$, the initial field is the projection of $`q(z)=0.35\sin(\pi z/2)`$ with $`p=0`$. The last refinement is $`h=0.0125`$ to $`0.00625`$.
+For the closed nonlinear case, <i>N</i>=6, <i>T</i>=1, the initial field is the projection of <i>q</i>(<i>z</i>)=0.35sin (<i>πz</i>/2) with <i>p</i>=0. The last refinement is <i>h</i>=0.0125 to 0.00625.
 
-| Scheme | Active stages / constitutive quadrature | Last observed order | Final spatial $`L^2`$ error |
+| Scheme | Active stages / constitutive quadrature | Last observed order | Final spatial <i>L</i><sup>2</sup> error |
 |---|---:|---:|---:|
-| Projected-gradient base | 1 / 2 | 1.9395 | $`9.1594\times10^{-6}`$ |
-| Same base with spatial gauge | 1 / 2 | 1.8759 | $`1.0986\times10^{-5}`$ |
-| Projected-gradient base | 2 / 4 | 3.9684 | $`8.8556\times10^{-9}`$ |
-| Same base with spatial gauge | 2 / 4 | 3.9685 | $`8.8944\times10^{-9}`$ |
+| Projected-gradient base | 1 / 2 | 1.9395 | 9.1594 × 10<sup>−6</sup> |
+| Same base with spatial gauge | 1 / 2 | 1.8759 | 1.0986 × 10<sup>−5</sup> |
+| Projected-gradient base | 2 / 4 | 3.9684 | 8.8556 × 10<sup>−9</sup> |
+| Same base with spatial gauge | 2 / 4 | 3.9685 | 8.8944 × 10<sup>−9</sup> |
 
-The gauge has unit Frobenius norm in the specified orthonormal spatial chart and the prescribed $`h^{2s}`$ scaling. It is not tuned to lower the trajectory error; indeed, these results do not show an accuracy improvement over the base scheme. Both gauged and ungauged runs retain the energy to floating-point accuracy with sufficiently accurate constitutive quadrature.
+The gauge has unit Frobenius norm in the specified orthonormal spatial chart and the prescribed <i>h</i><sup>2<i>s</i></sup> scaling. It is not tuned to lower the trajectory error; indeed, these results do not show an accuracy improvement over the base scheme. Both gauged and ungauged runs retain the energy to floating-point accuracy with sufficiently accurate constitutive quadrature.
 
 ![Nonlinear temporal convergence](../results/figures/ph_extension_order.svg)
 
-For the open dissipative case, $`N=8`$, $`R=0.12I`$, $`T=4`$, the initial amplitude is $`0.12`$, and the physical boundary inputs are $`(0.06\sin(1.7t),0.04\sin(2.3t))`$. The tested steps are $`0.04,0.02,0.01,0.005,0.0025`$.
+For the open dissipative case, <i>N</i>=8, <i>R</i>=0.12<i>I</i>, <i>T</i>=4, the initial amplitude is 0.12, and the physical boundary inputs are (0.06sin (1.7<i>t</i>),0.04sin (2.3<i>t</i>)). The tested steps are 0.04,0.02,0.01,0.005,0.0025.
 
-| Scheme | Last observed order | Final spatial $`L^2`$ error at $`h=0.0025`$ |
+| Scheme | Last observed order | Final spatial <i>L</i><sup>2</sup> error at <i>h</i>=0.0025 |
 |---|---:|---:|
-| Two-stage projected-gradient base | 3.98584 | $`1.57420\times10^{-7}`$ |
-| Same base with spatial gauge | 3.98584 | $`1.57437\times10^{-7}`$ |
+| Two-stage projected-gradient base | 3.98584 | 1.57420 × 10<sup>−7</sup> |
+| Same base with spatial gauge | 3.98584 | 1.57437 × 10<sup>−7</sup> |
 
-The two reference solutions differ by $`7.97\times10^{-12}`$ at the endpoint. Over all forced runs, the maximum cumulative power defect is $`1.29\times10^{-16}`$, the maximum one-step balance defect is $`2.85\times10^{-17}`$, and reconstruction of the physical boundary outputs differs by at most $`2.23\times10^{-16}`$. The integrated density equations have maximum residual $`6.66\times10^{-14}`$. The unforced dissipative run has no positive energy increment and loses $`0.0179689`$ units of energy, equal to the accumulated discrete dissipation to roundoff.
+The two reference solutions differ by 7.97 × 10<sup>−12</sup> at the endpoint. Over all forced runs, the maximum cumulative power defect is 1.29 × 10<sup>−16</sup>, the maximum one-step balance defect is 2.85 × 10<sup>−17</sup>, and reconstruction of the physical boundary outputs differs by at most 2.23 × 10<sup>−16</sup>. The integrated density equations have maximum residual 6.66 × 10<sup>−14</sup>. The unforced dissipative run has no positive energy increment and loses 0.0179689 units of energy, equal to the accumulated discrete dissipation to roundoff.
 
 The coarse forced steps initially show rates below two; refinement resolves the expected fourth-order regime. Their small power defects alone would not have revealed this trajectory error.
 
@@ -6273,18 +6273,18 @@ The coarse forced steps initially show rates below two; refinement resolves the 
 
 ### Independent geometry checks and expected counterexamples
 
-All 14 engine self-checks pass. Direct comparison with the unchanged version-12 cap implementation at one, two and three active stages gives map errors below $`4.03\times10^{-16}`$ for a noncommuting gauge. Nonlinear reversal has error $`1.08\times10^{-15}`$; covariance under a nonorthogonal coordinate change, including state-dependent structure and physical outputs, has errors below $`5.4\times10^{-16}`$.
+All 14 engine self-checks pass. Direct comparison with the unchanged version-12 cap implementation at one, two and three active stages gives map errors below 4.03 × 10<sup>−16</sup> for a noncommuting gauge. Nonlinear reversal has error 1.08 × 10<sup>−15</sup>; covariance under a nonorthogonal coordinate change, including state-dependent structure and physical outputs, has errors below 5.4 × 10<sup>−16</sup>.
 
-All 18 checks in `verify_stage_geometry.py` pass. The full state/port elimination satisfies the dissipative congruence to $`4.68\times10^{-15}`$; keeping the old output after elimination instead produces a power error of $`1.73`$ in the same test. The variance form has the predicted rank four for three stages and rank-two resistance.
+All 18 checks in `verify_stage_geometry.py` pass. The full state/port elimination satisfies the dissipative congruence to 4.68 × 10<sup>−15</sup>; keeping the old output after elimination instead produces a power error of 1.73 in the same test. The variance form has the predicted rank four for three stages and rank-two resistance.
 
-For the damped oscillator with $`J^2=-I`$, $`Q=I`$ and $`R=0.2I`$, the conservative fourth-order cap correction drops to observed order $`1.99999`$ under single-effort physical dissipation. The active two-stage scheme with a nonzero common gauge gives $`3.99995`$. Both still have one-step power defects below $`2\times10^{-16}`$: energy balance does not distinguish their orders.
+For the damped oscillator with <i>J</i><sup>2</sup>=−<i>I</i>, <i>Q</i>=<i>I</i> and <i>R</i>=0.2<i>I</i>, the conservative fourth-order cap correction drops to observed order 1.99999 under single-effort physical dissipation. The active two-stage scheme with a nonzero common gauge gives 3.99995. Both still have one-step power defects below 2 × 10<sup>−16</sup>: energy balance does not distinguish their orders.
 
 Two further negative controls prevent overinterpreting preservation:
 
-- Using one instead of two constitutive quadrature points on a quartic one-stage trajectory produces a maximum relative energy drift $`2.98\times10^{-3}`$; sufficient quadrature reduces it to $`2.64\times10^{-15}`$.
-- An unresolved linear spatial mode with $`\omega h=2.301`$ has a final phase lag $`1.274`$ radians despite relative energy drift below $`3\times10^{-15}`$.
+- Using one instead of two constitutive quadrature points on a quartic one-stage trajectory produces a maximum relative energy drift 2.98 × 10<sup>−3</sup>; sufficient quadrature reduces it to 2.64 × 10<sup>−15</sup>.
+- An unresolved linear spatial mode with <i>ωh</i>=2.301 has a final phase lag 1.274 radians despite relative energy drift below 3 × 10<sup>−15</sup>.
 
-The deliberately underscaled alternating gauge from Section 19 has observed order $`2.00068`$, while the $`h^4`$ gauge gives $`4.00000`$. The noncommuting spatial gauges preserve the quadratic energy but have nonzero symplectic defects, consistent with the distinction already made in version 12.
+The deliberately underscaled alternating gauge from Section 19 has observed order 2.00068, while the <i>h</i><sup>4</sup> gauge gives 4.00000. The noncommuting spatial gauges preserve the quadratic energy but have nonzero symplectic defects, consistent with the distinction already made in version 12.
 
 ### Machine-readable evidence
 
@@ -6693,4 +6693,4 @@ Citations marked T refer to the following entries.
 
 **[T10]** T. Kemmochi, *Higher order discrete gradient method by the discontinuous Galerkin time-stepping method* (2023). [arXiv:2308.02334](https://arxiv.org/abs/2308.02334).
 
-For comparison with [T5], the exact-flow cap gauge of version 12 rewrites the closed quadratic step as $`\Delta x/h=J_hQ\bar x`$, where $`J_h=(J^{-1}+hS_h)^{-1}=\operatorname{tanhc}(hJQ/2)J`$. In canonical coordinates this is the specialization of [T5, equation (5.1)]. The present result concerns the placement of such gauges in the active-stage and space-time construction; it does not claim a new exact linear propagator.
+For comparison with [T5], the exact-flow cap gauge of version 12 rewrites the closed quadratic step as $`\Delta x/h=J_hQ\bar x`$, where <i>J</i><sub><i>h</i></sub>=(<i>J</i><sup>−1</sup>+<i>hS</i><sub><i>h</i></sub>)<sup>−1</sup>=tanhc(<i>hJQ</i>/2)<i>J</i>. In canonical coordinates this is the specialization of [T5, equation (5.1)]. The present result concerns the placement of such gauges in the active-stage and space-time construction; it does not claim a new exact linear propagator.
